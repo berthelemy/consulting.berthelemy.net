@@ -3,7 +3,7 @@ title: Project management
 description: Helping you deliver your knowledge and learning systems using either waterfall or agile methods
 order: 5
 
-img: m-dog-sled-1000984.jpg
+img: m-dog-sled-1000984-white.jpg
 img-alt: Dog sled team on a snowy landscape
 img-credit: Mark Berthelemy
 img-credit-url: 
