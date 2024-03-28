@@ -4,8 +4,8 @@ description: Your learning technology implementation projects depend on someone 
 order: 2
 img: m-pulley-1000895.jpg
 img-alt: Old pulley with steel cable around it
-img-credit: Faouët Informatique
-img-credit-url: https://faouetinformatique.net
+img-credit: Mark Berthelemy
+img-credit-url: 
 ---
 I can help you:
 

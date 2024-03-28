@@ -4,8 +4,8 @@ description: Finding the right supplier is about connecting multiple dots, such 
 order: 1
 img: m-skidoo-1000878.jpg
 img-alt: A line of parked skidoos on snow
-img-credit: Faouët Informatique
-img-credit-url: https://faouetinformatique.net
+img-credit: Mark Berthelemy
+img-credit-url: 
 ---
 I can help you:
 

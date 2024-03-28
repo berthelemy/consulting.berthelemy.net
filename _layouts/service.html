@@ -3,7 +3,11 @@ layout: simple_default
 ---
 <div class="banner">
   <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.img-alt }}">
-  <p class="img-credit">Image credit: <a href="{{ page.img-credit-url }}" target="_blank">{{ page.img-credit }}</a></p>
+  <p class="img-credit">Image credit: 
+    {%- if service.img-credit-url -%}<a href="{{ service.img-credit-url }}" target="_blank">{{ service.img-credit }}</a>
+    {%- else -%}
+    {{ service.img-credit }}
+    {%- endif -%}
 </div>
 <nav aria-label="breadcrumb">
     <ul>

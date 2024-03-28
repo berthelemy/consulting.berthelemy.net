@@ -4,8 +4,8 @@ description: Helping you deliver your knowledge and learning systems using eithe
 order: 5
 img: m-sunrise-IMG20231016082735.jpg
 img-alt: Sunrise over a field
-img-credit: Faouët Informatique
-img-credit-url: https://faouetinformatique.net
+img-credit: Mark Berthelemy
+img-credit-url: 
 ---
 A project manager's role is primarily about people, supported by appropriate processes and technology.
 

@@ -4,8 +4,8 @@ description: Helping you to break down problems and design workable solutions
 order: 3
 img: m-mountains-IMG_20190402_121936-small.jpg
 img-alt: Panorama of mountains and a valley
-img-credit: Faouët Informatique
-img-credit-url: https://faouetinformatique.net
+img-credit: Mark Berthelemy
+img-credit-url: 
 ---
 I can help you:
 
