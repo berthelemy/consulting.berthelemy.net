@@ -53,4 +53,6 @@ If you have already agreed to share your information with me, feel free to conta
 
 I will not lease, sell or distribute your personal information to any third parties, unless I have your permission. I might do so if the law forces me. Your personal information will be used when I need to send you promotional materials if you agree to this privacy policy. 
 
+<div id='ppms_cm_privacy_settings' class='ppms_cm_privacy_settings_widget' data-editor-centralize='true' data-main-container='true' data-root='true'><div class='ppms_cm_privacy_settings_widget_content' data-disable-select='true'><h1 class='ppms_cm_privacy_settings_form_link_header' id='ppms_cm_privacy_settings_form_link_header_id'>Privacy settings</h1><p class='ppms_cm_privacy_settings_form_link_text' id='ppms_cm_privacy_settings_form_link_text_id'>We collect and process your data on this site to better understand how it is used. We always ask you for consent to do that. You can change your privacy settings here.</p><button class='ppms_cm_privacy_settings_button_show' id='ppms_cm_privacy_settings_button'>Manage settings</button></div></div>
+
 Source: <a href="https://www.websitepolicies.com/website/sample-privacy-policy-template" target="_blank">Web site policies</a>
