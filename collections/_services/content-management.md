@@ -2,8 +2,8 @@
 title: Content management
 description: Mixing effective writing, single source publishing, media asset management and the publishing lifecycle
 order: 4
-img: m-dog-sled-1000984.jpg
-img-alt: Dog sled team on a snowy landscape
+img: m-footpath-P1010564.JPG
+img-alt: Three footpath signs
 img-credit: Mark Berthelemy
 img-credit-url: 
 ---

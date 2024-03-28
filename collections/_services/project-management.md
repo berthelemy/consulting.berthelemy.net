@@ -2,8 +2,9 @@
 title: Project management
 description: Helping you deliver your knowledge and learning systems using either waterfall or agile methods
 order: 5
-img: m-sunrise-IMG20231016082735.jpg
-img-alt: Sunrise over a field
+
+img: m-dog-sled-1000984.jpg
+img-alt: Dog sled team on a snowy landscape
 img-credit: Mark Berthelemy
 img-credit-url: 
 ---
