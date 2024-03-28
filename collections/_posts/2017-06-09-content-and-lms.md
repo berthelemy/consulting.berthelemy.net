@@ -8,6 +8,7 @@ permalink: /2017/06/09/content-and-lms/
 tags:
   - Content management
   - Information architecture
+  - Solutions architecture
 thumb: /post-images/2017/05/workplace-1245776_thumb.jpg
 banner: /post-images/2017/05/workplace-1245776_banner.jpg
 alt: People in a workshop

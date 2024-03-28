@@ -9,6 +9,7 @@ imgcredit: <a href="https://pixabay.com/users/mysticsartdesign-322497/?utm_sourc
 imgalt: Clouds with cats eyes superimposed
 tags:
   - Coaching
+  - Solutions architecture
 
 ---
 If you've watched Ramsey's Kitchen Nightmares you'll know that the standard approach is:

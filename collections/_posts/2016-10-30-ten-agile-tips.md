@@ -7,6 +7,7 @@ layout: post
 permalink: /2016/10/30/ten-agile-tips/
 tags:
   - System implementation
+  - Project management
 thumb: /post-images/2016/10/agile-logo-thumb.png
 banner: /post-images/2016/10/agile-logo-banner.png
 alt: Agile iterations flow

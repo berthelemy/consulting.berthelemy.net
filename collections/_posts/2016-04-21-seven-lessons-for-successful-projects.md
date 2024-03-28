@@ -7,6 +7,7 @@ layout: post
 permalink: /2016/04/21/seven-lessons-for-successful-projects
 tags:
   - System implementation
+  - Project management
 thumb: /post-images/2016/04/successful-projects-thumb.png
 banner: /post-images/2016/04/successful-projects-banner.png
 alt: Simple Kanban board

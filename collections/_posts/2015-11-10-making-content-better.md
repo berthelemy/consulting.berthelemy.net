@@ -2,7 +2,7 @@
 title: 'Making content better'
 author: Mark Berthelemy
 excerpt:
- The processes I use in creating content has as much potential to trip me up as the content itself!
+ The processes I use in creating content have as much potential to trip me up as the content itself!
 layout: post
 permalink: /2015/11/10/making-content-better
 tags:

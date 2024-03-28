@@ -8,6 +8,7 @@ permalink: /2016/04/13/introduction-to-lean-learning
 tags:
   - Coaching
   - Learning design
+  - Solutions architecture
 
 thumb: /post-images/2016/04/lean-learning-logo-thumb.png
 banner: /post-images/2016/04/lean-learning-logo.png

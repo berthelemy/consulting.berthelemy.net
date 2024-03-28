@@ -6,6 +6,7 @@ permalink: /services
 ---
 {%- assign count = 0 -%}
 {%- for service in site.services -%}
+{%- if service.published != false -%}
 {%- if count == 0 -%}
 <div class="grid">
 {%- endif -%}
@@ -26,6 +27,7 @@ permalink: /services
 {%- if count == 3 -%}
 </div><!-- end grid container -->
 {%- assign count = 0 -%}
+{%- endif -%}
 {%- endif -%}
 {%- endfor -%}
 </div>
