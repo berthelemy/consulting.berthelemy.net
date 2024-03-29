@@ -18,7 +18,7 @@ collections:
   toolkit:
     output: true
     permalink: /:collection/:path
-  services:
+  expertises:
     output: true
     sort_by: order
     permalink: /:collection/:path
