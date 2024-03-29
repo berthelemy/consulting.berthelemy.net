@@ -134,17 +134,17 @@ aside.floating-menu {
   padding-inline-start: var(--pico-spacing);
 }
 
-article.services {
+article.expertise {
   height: 97%;
 }
 
-article.services header {
+article.expertise header {
   height: 40vh;
   position: relative;
   padding: 0;
 }
 
-article.services header img {
+article.expertise header img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -239,7 +239,7 @@ details summary h2 {
         border-right: none;
         padding-right: inherit;
     }
-    article.services {
+    article.expertise {
       height: auto;
     }
     

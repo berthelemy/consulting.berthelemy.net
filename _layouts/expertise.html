@@ -4,14 +4,14 @@ layout: simple_default
 <div class="banner">
   <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.img-alt }}">
   <p class="img-credit">Image credit:&nbsp;
-    {%- if service.img-credit-url -%}<a href="{{ service.img-credit-url }}" target="_blank">{{ service.img-credit }}</a>
+    {%- if expertise.img-credit-url -%}<a href="{{ expertise.img-credit-url }}" target="_blank">{{ expertise.img-credit }}</a>
     {%- else -%}
-    {{ service.img-credit }}
+    {{ expertise.img-credit }}
     {%- endif -%}
 </div>
 <nav aria-label="breadcrumb">
     <ul>
-      <li><a href="/services">Services</a></li>
+      <li><a href="/expertise">Expertise</a></li>
       <li>{{ page.title }}</li>
     </ul>
   </nav>
@@ -55,10 +55,10 @@ layout: simple_default
 <h3>Other services</h3>
 
 <ul>
-{%- for service in site.services -%}
-{%- if service.url != page.url -%}
+{%- for expertise in site.expertises -%}
+{%- if expertise.url != page.url -%}
 
-<li><a href="{{ service.url }}">{{ service.title }}</a></li>
+<li><a href="{{ expertise.url }}">{{ expertise.title }}</a></li>
 
 {%- endif -%}
 {%- endfor -%}

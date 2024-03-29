@@ -1,0 +1,39 @@
+---
+title: Expertise
+active: true
+layout: simple_default
+permalink: /expertise
+---
+{%- assign count = 0 -%}
+{%- for expertise in site.expertises -%}
+{%- if expertise.published != false -%}
+{%- if count == 0 -%}
+<div class="grid">
+{%- endif -%}
+
+    <div>
+        <article class="expertise">
+            <header>
+            
+            <img src="/assets/img/page-images/{{ expertise.img }}" alt="{{ expertise.img-alt }}">
+            <p class="img-credit">Image credit:&nbsp;
+                {%- if expertise.img-credit-url -%}<a href="{{ expertise.img-credit-url }}" target="_blank">{{ expertise.img-credit }}</a>
+                {%- else -%}
+                {{ expertise.img-credit }}
+                {%- endif -%}
+            </p>
+            </header>
+            <h2><a href="{{ expertise.url }}">{{ expertise.title }}</a></h2>
+            <p class="description">{{ expertise.description }}</p>
+        </article>
+    </div>
+
+{%- assign count = count | plus: 1 -%}
+{%- if count == 2 -%}
+</div><!-- end grid container -->
+{%- assign count = 0 -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+</div>
+

@@ -4,36 +4,4 @@ active: true
 layout: simple_default
 permalink: /services
 ---
-{%- assign count = 0 -%}
-{%- for service in site.services -%}
-{%- if service.published != false -%}
-{%- if count == 0 -%}
-<div class="grid">
-{%- endif -%}
-
-    <div>
-        <article class="services">
-            <header>
-            
-            <img src="/assets/img/page-images/{{ service.img }}" alt="{{ service.img-alt }}">
-            <p class="img-credit">Image credit:&nbsp;
-                {%- if service.img-credit-url -%}<a href="{{ service.img-credit-url }}" target="_blank">{{ service.img-credit }}</a>
-                {%- else -%}
-                {{ service.img-credit }}
-                {%- endif -%}
-            </p>
-            </header>
-            <h2><a href="{{ service.url }}">{{ service.title }}</a></h2>
-            <p class="description">{{ service.description }}</p>
-        </article>
-    </div>
-
-{%- assign count = count | plus: 1 -%}
-{%- if count == 2 -%}
-</div><!-- end grid container -->
-{%- assign count = 0 -%}
-{%- endif -%}
-{%- endif -%}
-{%- endfor -%}
-</div>
-
+Please refer to my [Expertise page](/expertise)
