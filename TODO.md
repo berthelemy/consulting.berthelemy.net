@@ -4,8 +4,6 @@ sitemap: false
 
 # TODO
 
-- Add Trunk to site
-- Add code to default.html for page wrappers
-- Put contact form on separate page
-- Create blog posts list
-- Move blog posts from Wyver site
+- Remove lessons etc from sitemap - see: https://github.com/jekyll/jekyll-sitemap
+- Add post-images (floated right)
+- Add post-images to opengraph
