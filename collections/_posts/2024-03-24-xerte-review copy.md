@@ -8,8 +8,8 @@ tablePagination: false
 order: 1
 tableRowgroup: 1
 permalink: /2024/03/24/xerte-review
-img: 
-imgalt: 
+img: 2024/xerte-screenshot.png
+imgalt: Xerte screenshot
 imgcredit: Mark Berthelemy
 tags:
   - Open source
