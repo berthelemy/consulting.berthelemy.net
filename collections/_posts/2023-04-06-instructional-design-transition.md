@@ -8,7 +8,7 @@ tablePagination: true
 order: 1
 tableRowgroup: 1
 permalink: /2023/04/06/instructional-design-skills
-img: universe-1566159_1280.jpg
+img: 2023/universe-1566159_1280.jpg
 imgalt: Stars
 imgcredit: <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
 tags:
