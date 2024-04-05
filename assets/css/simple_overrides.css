@@ -213,6 +213,11 @@ details summary h2 {
         /*height: 2rem;*/
         padding: 1rem;
     }
+    aside {
+      float:none;
+      width: 100%;
+      margin: var(--pico-spacing) 0 var(--pico-spacing) 0;
+    }
     div.container-75 {
         width: 100%;
     }
