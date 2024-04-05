@@ -7,8 +7,9 @@ layout: simple_default
     <li>{{ page.title }}</li>
   </ul>
 </nav>
-
+{%- if page.img -%}
 <aside><img src="/post-images/{{ page.img }}" alt="{{ page.imgalt }}"></aside>
+{%- endif -%}
 {{ content }}
 <hr />
 <p><strong>Posted:</strong> {{ page.date | date_to_long_string }}</p>
