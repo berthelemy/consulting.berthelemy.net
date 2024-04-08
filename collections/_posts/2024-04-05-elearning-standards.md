@@ -8,7 +8,7 @@ tablePagination: false
 order: 1
 tableRowgroup: 1
 permalink: /2024/04/05/elearning-standards
-img: 2024/p-usb-1281034_1280
+img: 2024/p-usb-1281034_1280.jpg
 imgalt: USB C plug
 imgcredit: Pixabay
 imgurl: https://pixabay.com/photos/usb-type-c-cable-guy-two-1281034/
