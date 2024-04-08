@@ -17,6 +17,7 @@ layout: simple_default
 {%- else -%}
 <p>Image credit: {{ page.imgcredit }}</p>
 {%- endif -%}
+{%- endif -%}
 <hr />
 <p><strong>Posted:</strong> {{ page.date | date_to_long_string }}</p>
 <p>Tags: {% for tag in page.tags %}
