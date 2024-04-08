@@ -1,6 +1,6 @@
 
     <head>
-        <title>{{ site.title }} | {{ page.title }}</title>
+        <title>{{ page.title }} | {{ site.title }}</title>
         <meta name="description" content="{{ site.long-description }}">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,7 +9,7 @@
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
   <meta property="og:description" content="{{ site.long-description }}">
   {%- if page.img -%}
   <meta property="og:image" content="https://mark.berthelemy.net/post-images/{{ page.img }}">
@@ -21,7 +21,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:domain" content="{{ site.domain }}">
   <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
-  <meta name="twitter:title" content="{{ site.title }} | {{ page.title }}">
+  <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}">
   <meta name="twitter:description" content="{{ site.long-description }}">
   {%- if page.img -%}
   <meta name="twitter:image" content="https://mark.berthelemy.net/post-images/{{ page.img }}">
