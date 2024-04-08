@@ -31,7 +31,9 @@ See: [Standards and specifications - what exactly are they? (USGS.gov)](https://
 
 Just as there are different versions of USB plugs (USB A, USB C etc), the same is true of software standards. Often newer versions are "backwards compatible" with earlier versions. But not always. Sometimes things are changed so much the newer versions become incompatible. So, whenever you're talking to multiple vendors and want to rely on standards, make sure the versions they're using are compatible with each other.
 
-The key standards and specifications you might come across within the elearning world are an alphabet soup:
+## Alphabet soup
+
+The key standards and specifications you might come across within the elearning world are listed below. In most cases the branding could be better...
 
 AICC, CMI5, CSS, HTML, LDAP, LTI, Oauth, Open badges, Open Graph, RSD, QTI, SAML, SCORM, xAPI, XLIFF
 
