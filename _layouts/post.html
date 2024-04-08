@@ -12,6 +12,7 @@ layout: simple_default
 {%- endif -%}
 {{ content }}
 {%- if page.imgcredit -%}
+<hr>
 {%- if page.imgurl -%}
 <p>Image credit: <a href="{{ page.imgurl }}" target="_blank">{{ page.imgcredit }}</p>
 {%- else -%}
