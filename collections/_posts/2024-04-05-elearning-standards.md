@@ -81,7 +81,7 @@ In reality, xAPI has, to date, only gained traction in organisations with mature
 
 [xAPI solved and explained (xapi.com from Rustici)](https://xapi.com/){:target="_blank"}
 
-[xAPI profiles (statement templates and patterns )](https://profiles.adlnet.gov/){:target="_blank"}
+[xAPI profiles (statement templates and patterns)](https://profiles.adlnet.gov/){:target="_blank"}
 
 ### cmi5 (Computer Managed Instruction)
 
