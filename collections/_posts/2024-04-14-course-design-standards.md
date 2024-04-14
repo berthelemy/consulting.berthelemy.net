@@ -1,7 +1,7 @@
 ---
 title: 'Standards based learning content'
 author: Mark Berthelemy
-excerpt: 
+excerpt: Can the industry gather around a common language to describe learning content? 
 layout: post
 datatable: false
 tablePagination: false
