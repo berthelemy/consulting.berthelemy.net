@@ -1,5 +1,5 @@
 ---
-title: 'Introduction to elearning standards'
+title: 'Standards based learning content'
 author: Mark Berthelemy
 excerpt: 
 layout: post
