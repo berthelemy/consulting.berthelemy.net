@@ -36,7 +36,21 @@ Scroll forward to 2024, with media and learning platforms such as TikTok, Youtub
 
 Rather than putting **everything** into the package, I propose that we treat content more like data than a print-ready design.
 
-In this case, a content package would comprise simple text files, along with associated graphics. The text files would be structured data describing the content. For example (using a DITA XML file for illustration - [DITA Tutorial](https://www.xmlmind.com/tutorials/DITA/index.html){:target="_blank"}):
+Let's take a simple set of instructions, like how to make a cup of tea:
+
+> ### How to make a cup of tea
+> 
+> Follow these steps to brew a delicious cup of tea.
+>
+> 1. Boil fresh, cold water in a kettle.
+> 2. Place a tea bag or loose tea leaves in a mug.
+> 3. Pour the boiling water over the tea.
+> 4. Steep the tea for 3-5 minutes, depending on the type of tea.
+> 5. Remove the tea bag or strain out the loose leaves.
+> 6. Add any desired sweeteners or milk.
+> 7. Enjoy your freshly brewed cup of tea!
+
+These would be described in a simple text file like that shown below:
 
 ```
 <task id="make-tea">
@@ -72,21 +86,11 @@ In this case, a content package would comprise simple text files, along with ass
 </task>
 ```
 
-Created by Perplexity.ai ([link to Perplexity prompt and response](https://www.perplexity.ai/search/Please-create-instructions-ALOk.EFcQPSveDApTiQmLA#1){:target="_blank"})
+Created by Perplexity.ai ([link to Perplexity prompt and response](https://www.perplexity.ai/search/Please-create-instructions-ALOk.EFcQPSveDApTiQmLA#1){:target="_blank"}) using the DITA specification.
 
-The host system would then **parse** the file to display the data in its own way. For example, in this website, the data might end up looking like:
+The text file contains just structured data that describes the content.
 
-> ### How to make a cup of tea
-> 
-> Follow these steps to brew a delicious cup of tea.
->
-> 1. Boil fresh, cold water in a kettle.
-> 2. Place a tea bag or loose tea leaves in a mug.
-> 3. Pour the boiling water over the tea.
-> 4. Steep the tea for 3-5 minutes, depending on the type of tea.
-> 5. Remove the tea bag or strain out the loose leaves.
-> 6. Add any desired sweeteners or milk.
-> 7. Enjoy your freshly brewed cup of tea!
+The host system would then **parse** the file to display the data in its own way, like shown above.
 
 Of course, the data structure would be way more complex for things like branching scenarios, and multiple choice questions. But hopefully you can imagine what I'm getting at.
 
@@ -112,6 +116,8 @@ You can already see this happening in parts of the learning technology world:
 DITA is a specification for creating structured technical documentation. It's well established in many industries, and includes a "[learning and training specialization](https://www.oxygenxml.com/dita/1.3/specs/archSpec/learningTraining/learning-and-training-specializations.html){:target="_blank"}" with support for a small number of interactions, like multiple choice questions.
 
 Unfortunately, the available tools to create structured content like this are generally complex to use, often requiring good knowledge of XML or the DITA specification. And the support for DITA files is sadly lacking across the majority of software seen in the learning technology space.
+
+More information on DITA:  [DITA Tutorial](https://www.xmlmind.com/tutorials/DITA/index.html){:target="_blank"})
 
 ### H5P
 
