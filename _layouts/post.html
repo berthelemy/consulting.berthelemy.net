@@ -12,9 +12,9 @@ layout: simple_default
   <img src="/post-images/{{ page.img }}" alt="{{ page.imgalt }}">
   {%- if page.imgcredit -%}
   {%- if page.imgurl -%}
-  <p>Image credit: <a href="{{ page.imgurl }}" target="_blank">{{ page.imgcredit }}</a></p>
+  <p><small>Image credit: <a href="{{ page.imgurl }}" target="_blank">{{ page.imgcredit }}</a></small></p>
   {%- else -%}
-  <p>Image credit: {{ page.imgcredit }}</p>
+  <p><small>Image credit: {{ page.imgcredit }}</small></p>
   {%- endif -%}
   {%- endif -%}
 </aside>
