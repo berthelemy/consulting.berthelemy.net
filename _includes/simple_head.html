@@ -10,7 +10,11 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+  {%- if page.excerpt -%}
+  <meta property="og:description" content="{{ page.excerpt }}">
+  {%- else -%}
   <meta property="og:description" content="{{ site.long-description }}">
+  {%- endif -%}
   {%- if page.img -%}
   <meta property="og:image" content="https://mark.berthelemy.net/post-images/{{ page.img }}">
   {%- else -%}
@@ -22,7 +26,11 @@
   <meta property="twitter:domain" content="{{ site.domain }}">
   <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
   <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}">
+  {%- if page.excerpt -%}
+  <meta name="twitter:description" content="{{ page.exerpt }}">
+  {%- else -%}
   <meta name="twitter:description" content="{{ site.long-description }}">
+  {%- endif -%}
   {%- if page.img -%}
   <meta name="twitter:image" content="https://mark.berthelemy.net/post-images/{{ page.img }}">
   {%- else -%}
