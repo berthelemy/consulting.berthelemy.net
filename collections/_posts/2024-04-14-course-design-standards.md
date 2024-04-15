@@ -123,7 +123,7 @@ Adapt is also open source, with its authoring tool used by several companies wit
 
 When Adapt was first launched, I had great hopes that its JSON-based description of learning content would become the standard by which we describe and share such materials. Unfortunately this has not proved to be the case. The [Adapt specification documentation](https://github.com/adaptlearning/documentation/tree/master/01_cross_workstream/content_specification){:target="_blank"} seems to have not been updated for 11 years.
 
-Rather than improving and promoting the standard, the focus seems to be on a core toolset which is then extended into proprietary formats for each company involved. The standard then becomes as useful as a four pin plug on a toaster.
+Rather than improving and promoting the specification, the focus seems to be on a core toolset which is then extended into proprietary formats for each company involved. The specification then becomes as useful as a four pin plug on a toaster.
 
 ### Moodle
 
