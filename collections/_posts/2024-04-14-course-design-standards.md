@@ -109,7 +109,9 @@ You can already see this happening in parts of the learning technology world:
 
 ### DITA
 
-DITA is a specification for creating structured technical documentation. It's well established in many industries, and includes a "[learning and training specialization](https://www.oxygenxml.com/dita/1.3/specs/archSpec/learningTraining/learning-and-training-specializations.html){:target="_blank"}" with support for a small number of interactions, like multiple choice questions. Unfortunately, the available tools to create structured content like this are generally complex to use, often requiring good knowledge of XML or the DITA specification. And the support for DITA files is sadly lacking across the majority of software seen in the learning technology space.
+DITA is a specification for creating structured technical documentation. It's well established in many industries, and includes a "[learning and training specialization](https://www.oxygenxml.com/dita/1.3/specs/archSpec/learningTraining/learning-and-training-specializations.html){:target="_blank"}" with support for a small number of interactions, like multiple choice questions.
+
+Unfortunately, the available tools to create structured content like this are generally complex to use, often requiring good knowledge of XML or the DITA specification. And the support for DITA files is sadly lacking across the majority of software seen in the learning technology space.
 
 ### H5P
 
