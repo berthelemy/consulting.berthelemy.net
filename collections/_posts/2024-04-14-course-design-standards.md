@@ -16,6 +16,7 @@ tags:
   - Standards
   - Content management
   - Solutions architecture
+  - Open source
 ---
 Elearning content has, since 1993, been distributed in "packages", whether AICC, SCORM or CMI5 (see [previous article introducing elearning standards](/2024/04/05/elearning-standards)).
 
@@ -35,7 +36,7 @@ Scroll forward to 2024, with media and learning platforms such as TikTok, Youtub
 
 Rather than putting **everything** into the package, I propose that we treat content more like data than a print-ready design.
 
-In this case, a content package would comprise simple text files, along with associated graphics. The text files would be structured data describing the content. For example (using a DITA XML file for illustration [DITA Tutorial](https://www.xmlmind.com/tutorials/DITA/index.html){:target="_blank"}):
+In this case, a content package would comprise simple text files, along with associated graphics. The text files would be structured data describing the content. For example (using a DITA XML file for illustration - [DITA Tutorial](https://www.xmlmind.com/tutorials/DITA/index.html){:target="_blank"}):
 
 ```
 <task id="make-tea">
