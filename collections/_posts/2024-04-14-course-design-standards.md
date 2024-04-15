@@ -26,9 +26,9 @@ It's similar, in a way, to PDF files. These were designed for graphic designers 
 
 Unlike a PDF file, the elearning package model has some serious disadvantages:
 
-- The host platform's view of the content is only what the learning designer has provided in the package metadata
-- It cannot be searched in a way that users can be sent directly to the part they need
-- It cannot be repurposed and contextualised without the original source file
+- The host platform's view of the content is only what the learning designer has provided in the package metadata - other than that it doesn't know anything about what is inside the package
+- It cannot be searched from outside the package - in that users can't be sent directly to the part they need
+- It cannot be repurposed and contextualised without the original source file, in its proprietary format
 
 Scroll forward to 2024, with media and learning platforms such as TikTok, Youtube etc. Video files can be edited, repurposed and searched. Looking for content on how to use XLOOKUP in Excel or Google Sheets? You'll be directed to the specific point in the video which tells you.
 
