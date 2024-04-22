@@ -93,7 +93,7 @@ Middleware is a piece of software that acts as a "go-between". It speaks the lan
 
 For popular software, with published API documentation, there are a number of off-the-shelf middleware solutions, such as [IFTTT](https://ifttt.com/){:target="_blank"} and [Zapier](https://zapier.com/){:target="_blank"} and Microsoft's [Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate){:target="_blank"}.
 
-If you want an open-source middleware system, you should look at [Myddleware]https://www.myddleware.com/){:target="_blank"} - it's highly capable and adaptable.
+If you want an open-source middleware system, you should look at [Myddleware](https://www.myddleware.com/){:target="_blank"} - it's highly capable and adaptable.
 
 At the high (and very complex) end, you might look at [Boomi](https://boomi.com/platform/integration/){:target="_blank"} and [IBM Websphere](https://www.ibm.com/products/websphere-application-server){:target="_blank"}
 
