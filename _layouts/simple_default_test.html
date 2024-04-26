@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    {% include simple_head.html %}
+    <body>
+        
+            {% include simple_nav.html %}
+        
+        <header id="main-header" class="container">
+            <h1>{{ page.title }}</h1>
+        </header>
+        <main class="container">
+            <!--<nav aria-label="breadcrumb">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li>Design</li>
+                </ul>
+              </nav>-->
+            
+                     
+            {{ content }}
+            
+        </main>      
+        <footer class="container">
+            {% include simple_footer.html %}
+        </footer>
+    
+        
+        
+
+
+        {% include piwik.html %}
+        {% include scripts.html %}
+        <!--ZC Popup Code Starts-->
+<script type="text/javascript" id="ZC_Forms_Popup" src="https://campaigns.zoho.eu/js/optin.min.js" ></script> <script type="text/javascript">window.onload=function(){loadZCPopup('3z9f98e5b39ddfd88a06540ed8dd40a07d35417239d511b75c4c9a897c9d2c0fd1','ZCFORMVIEW','3z4840a6bf4f89c16f44060a51089ff082')}</script>
+<!--ZC Popup Code Ends-->
+
+    </body>
+</html>
