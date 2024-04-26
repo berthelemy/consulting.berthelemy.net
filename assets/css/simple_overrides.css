@@ -144,6 +144,12 @@ aside.floating-menu {
   padding-inline-start: var(--pico-spacing);
 }
 
+footer aside {
+  float:none;
+  width: inherit;
+  margin: inherit;
+}
+
 article.expertise {
   height: 97%;
 }
@@ -218,6 +224,8 @@ details summary h2 {
       width: 100%;
       margin: var(--pico-spacing) 0 var(--pico-spacing) 0;
     }
+
+
     div.container-75 {
         width: 100%;
     }
