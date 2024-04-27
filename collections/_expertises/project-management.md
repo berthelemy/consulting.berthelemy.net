@@ -1,6 +1,6 @@
 ---
 title: Project management
-description: Helping you deliver your knowledge and learning systems using either waterfall or agile methods
+description: Ensuring that everyone is heading in the same direction to deliver your technology projects
 order: 5
 
 img: m-dog-sled-1000984-white.jpg
