@@ -1,5 +1,4 @@
-<!--Zoho Campaigns Web-Optin Form's Header Code Starts Here-->
-
+<!--Zoho Campaigns Web-Optin Form Starts Here-->
 <script type="text/javascript" src="https://zcv2-zcmp.maillist-manage.eu/js/optin.min.js" onload="setupSF('sf3z65bae69c8327adf1b805b462dbe3e3b26cf82b0433658cef341a033421099d45','ZCFORMVIEW',false,'light',false,'0')"></script>
 <script type="text/javascript">
 	function runOnFormSubmit_sf3z65bae69c8327adf1b805b462dbe3e3b26cf82b0433658cef341a033421099d45(th){
@@ -7,17 +6,13 @@
 	};
 </script>
 
-<style>.quick_form_7_css * { -webkit-box-sizing: border-box !important; -moz-box-sizing: border-box !important; box-sizing: border-box !important; overflow-wrap: break-word }input[type="text"]::placeholder { color: rgb(165, 165, 165) }@media only screen and (max-width: 600px) {.quick_form_7_css[name="SIGNUP_BODY"] { width: 100% !important; min-width: 100% !important; margin: 0px auto !important; padding: 0px !important } .SIGNUP_FLD { width: 90% !important; margin: 10px 5% !important; padding: 0px !important } .SIGNUP_FLD input { margin: 0 !important } }</style>
-
-<!--Zoho Campaigns Web-Optin Form's Header Code Ends Here--><!--Zoho Campaigns Web-Optin Form Starts Here-->
-
-<div id="sf3z65bae69c8327adf1b805b462dbe3e3b26cf82b0433658cef341a033421099d45" data-type="signupform" style="opacity: 1;">
+<div id="sf3z65bae69c8327adf1b805b462dbe3e3b26cf82b0433658cef341a033421099d45" data-type="signupform">
 	<div id="customForm">
-		<div class="quick_form_7_css" style="background-color: rgb(119, 34, 143); width: 400px; z-index: 2; font-family: Arial; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); overflow: hidden" name="SIGNUP_BODY">
+		<div class="quick_form_7_css" name="SIGNUP_BODY">
 			<div>
-				<div style="font-size: 14px; font-family: &quot;Arial&quot;; font-weight: bold; color: rgb(255, 255, 255); text-align: left; padding: 10px 30px 5px; width: 100%; display: block" id="SIGNUP_HEADING">Learning Technology Connections newsletter</div>
+				<div id="SIGNUP_HEADING">Learning Technology Connections newsletter</div>
 				<div style="position:relative;">
-					<div id="Zc_SignupSuccess" style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px;word-break:break-all">
+					<div id="Zc_SignupSuccess" style="display:none;position:absolute;margin-left:4%;width:90%;background-color: white; padding: 3px; border: 3px solid rgb(194, 225, 154);  margin-top: 10px;margin-bottom:10px;word-break:break-all ">
 						<table width="100%" cellpadding="0" cellspacing="0" border="0">
 							<tbody>
 								<tr>
@@ -32,13 +27,13 @@
 						</table>
 					</div>
 				</div>
-				<form method="POST" id="zcampaignOptinForm" style="margin: 0px; width: 100%; padding: 0 25px" action="https://zcv2-zcmp.maillist-manage.eu/weboptin.zc" target="_zcSignup">
-					<div style="background-color: rgb(255, 235, 232); padding: 10px; color: rgb(210, 0, 0); font-size: 11px; margin: 20px 0px 0px; border: 1px solid rgb(255, 217, 211); opacity: 1; display: none" id="errorMsgDiv">Please correct the marked field(s) below.</div>
-					<div style="position: relative; margin: 10px 0 15px; width: 220px; height: 30px; display: inline-block" class="SIGNUP_FLD">
-						<input type="text" style="font-size: 14px; border: 0; border-radius: 0; width: 100%; height: 100%; z-index: 4; outline: none; padding: 5px 10px; color: rgb(136, 136, 136); text-align: left; font-family: &quot;Arial&quot;; background-color: transparent; border: 0; background-color: rgb(255, 255, 255); box-sizing: border-box" placeholder="Email" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
+				<form method="POST" id="zcampaignOptinForm" action="https://zcv2-zcmp.maillist-manage.eu/weboptin.zc" target="_zcSignup">
+					<!--<div id="errorMsgDiv">Please correct the marked field(s) below.</div>-->
+					<div class="SIGNUP_FLD">
+						<input type="text" placeholder="Email" changeitem="SIGNUP_FORM_FIELD" name="CONTACT_EMAIL" id="EMBED_FORM_EMAIL_LABEL">
 					</div>
-					<div style="position: relative; width: 100px; height: 30px; text-align: left; display: inline-block" class="SIGNUP_FLD">
-						<input type="button" style="text-align: center; width: 100%; height: 100%; z-index: 5; border: 0px; color: rgb(255, 255, 255); cursor: pointer; outline: none; font-size: 14px; background-color: rgb(82, 95, 122); margin: 0px 0px 0px -5px" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Sign up now">
+					<div class="SIGNUP_FLD">
+						<input type="button" name="SIGNUP_SUBMIT_BUTTON" id="zcWebOptin" value="Sign up now">
 					</div>
 					<input type="hidden" id="fieldBorder" value="">
 					<input type="hidden" id="submitType" name="submitType" value="optinCustomView">
@@ -62,7 +57,7 @@
 			</div>
 		</div>
 	</div>
-	<img src="https://zcv2-zcmp.maillist-manage.eu/images/spacer.gif" id="refImage" onload="referenceSetter(this)" style="display:none;">
+	<img src="https://zcv2-zcmp.maillist-manage.eu/images/spacer.gif" id="refImage" onload="referenceSetter(this)">
 </div>
 <input type="hidden" id="signupFormType" value="QuickForm_Horizontal">
 <div id="zcOptinOverLay" oncontextmenu="return false" style="display:none;text-align: center; background-color: rgb(0, 0, 0); opacity: 0.5; z-index: 100; position: fixed; width: 100%; top: 0px; left: 0px; height: 988px;"></div>
