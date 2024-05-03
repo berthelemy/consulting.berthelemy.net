@@ -7,7 +7,7 @@ datatable: false
 tablePagination: false
 order: 1
 tableRowgroup: 1
-permalink: /2024/0/how5/02-powerbi-moodle-lessons-learned
+permalink: /2024/05/02-powerbi-moodle-lessons-learned
 img: 2024/moodle-powerbi.png
 imgalt: PowerBI generated ribbon chart - edited to remove labels
 imgcredit: CABI
