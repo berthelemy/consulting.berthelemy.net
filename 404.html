@@ -7,18 +7,28 @@ layout: simple_default
     <div>
         <p>I'm afraid this page doesn't exist.</p> 
         <p>If you're looking for a recent post, here they are:</p>
-        <aside class="list">
-        <nav>
-        <ul>
-        {%- for post in site.posts | limit: 10 -%}
-        
-        
-         <li><a href="{{ post.url }}">{{ post.title }}</a></li>   
-    
+
+        {%- assign count = 0 -%}
+        {%- for post in site.posts | limit: 8 -%}
+        {%- if count == 0 -%}
+        <div class="grid">
+        {%- endif -%}
+
+        <div>
+        <article class="posts">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p class="description">{{ post.excerpt }}</p>
+        </article>
+        </div>
+
+        {%- assign count = count | plus: 1 -%}
+        {%- if count == 4 -%}
+        </div><!-- end grid container -->
+        {%- assign count = 0 -%}
+        {%- endif -%}
         {%- endfor -%}
-        </ul>
-        </nav>
-    </aside>
+
+        
     </div>
 </div>
 
