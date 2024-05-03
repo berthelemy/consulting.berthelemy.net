@@ -7,14 +7,16 @@ layout: simple_default
     <div>
         <p>I'm afraid this page doesn't exist.</p> 
         <p>If you're looking for a recent post, here they are:</p>
-        {%- for post in site.posts | limit: 10 -%}
-        <ul>
         <nav>
-         <li><a href="{{ post.url }}">{{ post.title }}</a></li>   
+        <ul>
+        {%- for post in site.posts | limit: 10 -%}
         
-        </nav>
-    </ul>
+        
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>   
+    
         {%- endfor -%}
+        </ul>
+        </nav>
     </div>
 </div>
 
