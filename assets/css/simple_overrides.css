@@ -144,7 +144,7 @@ aside.floating-menu {
   padding-inline-start: var(--pico-spacing);
 }
 
-footer aside {
+footer aside, aside.list {
   float:none;
   width: inherit;
   margin: inherit;
