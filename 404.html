@@ -9,7 +9,7 @@ layout: simple_default
         <p>If you're looking for a recent post, here they are:</p>
 
         {%- assign count = 0 -%}
-        {%- for post in site.posts | limit: 8 -%}
+        {%- for post in site.posts | limit: 9 -%}
         {%- if count == 0 -%}
         <div class="grid">
         {%- endif -%}
@@ -17,12 +17,13 @@ layout: simple_default
         <div>
         <article class="posts">
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p><img src="{{ post.img }}" alt="{{ post.imgalt }}"></p>
             <p class="description">{{ post.excerpt }}</p>
         </article>
         </div>
 
         {%- assign count = count | plus: 1 -%}
-        {%- if count == 4 -%}
+        {%- if count == 3 -%}
         </div><!-- end grid container -->
         {%- assign count = 0 -%}
         {%- endif -%}
