@@ -54,7 +54,7 @@ defaults:
       style: style1
       sitemap: false
   - scope:
-      path: "toolkit"
+      type: "toolkit"
     values:
       layout: tool
       sitemap: false
