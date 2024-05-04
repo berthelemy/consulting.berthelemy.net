@@ -37,34 +37,33 @@ plugins:
 author: Mark Berthelemy
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       sitemap: false
-    scope:
+  - scope:
       path: ""
       type: "drafts"
     values:
       sitemap: false
-    scope:
+  - scope:
       path: "lessons"
     values:
       layout: lesson
       style: style1
       sitemap: false
-    scope:
+  - scope:
       path: "toolkit"
     values:
       layout: tool
       sitemap: false
-    scope:
+  - scope:
       path: ""
       type: "expertises"
     values:
       layout: expertise
-    scope:
+  - scope:
       path: "/google*"
     values:
       sitemap: false
