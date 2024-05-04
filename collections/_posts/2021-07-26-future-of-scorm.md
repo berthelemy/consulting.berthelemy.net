@@ -4,6 +4,10 @@ author: Mark Berthelemy
 excerpt: Does SCORM even have a future in modern learning architectures?
 layout: post
 permalink: /2021/07/26/future-of-scorm
+img: 2021/gift-4663231_1280.jpg
+imgalt: Box covered in wrapping paper
+imgcredit: Bellahu123 on Pixabay
+imgurl: https://pixabay.com/photos/gift-christmas-birthday-4663231/
 tags:
   - Standards
   - Moodle
