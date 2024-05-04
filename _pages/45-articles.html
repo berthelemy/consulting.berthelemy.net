@@ -52,6 +52,7 @@ permalink: /articles
 <div>
   <article class="posts">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p><img src="/post-images/{{ post.img }}" alt="{{ post.imgalt }}"></p>
       <p class="description">{{ post.excerpt }}</p>
   </article>
 </div>
@@ -62,7 +63,3 @@ permalink: /articles
 {%- assign count = 0 -%}
 {%- endif -%}
 {%- endfor -%}
-
-<div id="cta" class="grid">  
-  <a href="/contact"><button class="secondary">Get in touch</button></a>
-</div>
