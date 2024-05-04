@@ -4,6 +4,7 @@ display-title: false
 active: false
 ref: about
 style: style2
+sitemap: false
 front-page: true
 layout: simple_default
 permalink: /testimonials
