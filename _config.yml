@@ -61,3 +61,11 @@ defaults:
       type: "expertises"
     values:
       layout: expertise
+    scope:
+      path: "/projects/*"
+    values:
+      sitemap: false
+    scope:
+      path: "/google*"
+    values
+      sitemap: false
