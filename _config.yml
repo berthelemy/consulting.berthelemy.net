@@ -45,6 +45,11 @@ defaults:
       sitemap: false
     scope:
       path: ""
+      type: "drafts"
+    values:
+      sitemap: false
+    scope:
+      path: ""
       type: "lessons"
     values:
       layout: lesson
