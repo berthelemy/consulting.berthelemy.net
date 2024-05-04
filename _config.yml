@@ -48,7 +48,7 @@ defaults:
     values:
       sitemap: false
   - scope:
-      path: "lessons"
+      type: "lessons"
     values:
       layout: lesson
       style: style1
