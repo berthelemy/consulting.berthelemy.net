@@ -11,13 +11,21 @@ permalink: /
 <div class="grid">
   <div>
     <!--<h2>{{ site.description }}</h2>-->
-    <p>Helping you...</p>
+    <p>I can help you:</p>
     <ul>
       <li>find the right suppliers quickly</li>
       <li>minimise risk</li>
       <li>create more efficient ways of working</li>
       <li>build capacity in learning and knowledge management</li>
+      <li>Deliver high quality learning and knowledge systems</li>
     </ul>
+    <p>I have expertise in:</p>
+    <ul>
+      {%- for expertise in site.expertises -%}
+      <li><a href="{{ expertise.url }}">{{ expertise.title }}</a></li>
+      {%- endfor -%}
+    </ul>
+
     <p><a href="/contact"><button class="secondary">Get in touch</button></a>&nbsp;<a href="/expertise"><button class="outline">Find out more</button></a></p>
   </div>
   <div>
