@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to elearning standards'
 author: Mark Berthelemy
-excerpt: 
+excerpt: Standards help customers switch suppliers more easily - in theory
 layout: post
 datatable: false
 tablePagination: false
