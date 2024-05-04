@@ -49,11 +49,13 @@ defaults:
     values:
       layout: lesson
       style: style1
+      sitemap: false
     scope:
       path: ""
       type: "toolkit"
     values:
       layout: tool
+      sitemap: false
     scope:
       path: ""
       type: "expertises"
