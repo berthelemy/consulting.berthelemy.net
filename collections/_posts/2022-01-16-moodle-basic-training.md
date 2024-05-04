@@ -5,7 +5,7 @@ excerpt: You've got your Moodle site setup and configured to meet your organisat
 layout: post
 datatable: curriculum-table
 permalink: /2022/01/16/moodle-basic-training
-img: 2024/universe-1566159_1280.jpg
+img: 2023/universe-1566159_1280.jpg
 imgalt: Stars
 imgcredit: <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
 tags:
