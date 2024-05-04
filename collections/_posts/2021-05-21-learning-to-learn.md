@@ -5,7 +5,6 @@ excerpt:
 layout: post
 permalink: /2021/05/21/learning-to-learn
 tags:
-  - Learning design
   - Coaching
 ---
 Three things which have made the greatest contribution to my personal professional development:

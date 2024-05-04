@@ -1,37 +1,38 @@
 ---
 title: Coaching
-published: false
-description: In moments of change it often helps to have an independent, external person to talk things through, provide some guidance and ask the right questions.
+published: true
+description: Building capabilities in groups and individuals
 order: 5
 img: m-sunrise-IMG20231016082735.jpg
 img-alt: Sunrise over a field
 img-credit: Mark Berthelemy
 img-credit-url: 
 ---
-You might be new in your role, or trying something new in your organisation. If it involves learning, technology or projects or any combination of these, then <a href="/contact">give me a call</a>.
+I've been a teacher of one sort or other for my whole career. I also know, from experience, the importance of continual learning to maintain interest and to ensure I remain relevant.
 
-We'll work out a plan, and also be able to respond to things as they come up.
+Working with teams or individuals, I will help you:
 
-You can choose for your sessions to be just for you, or to include your team, or a mixture of the two.
+1. Identify your skills gaps
+2. Put together proactive development plans
+3. Respond to immediate challenges
+4. Reflect on what and how you're learning
 
-They're an opportunity to think through different approaches, to test out ideas, and to clarify thinking.
+If it involves learning, technology or projects or any combination of these, then I can help.
 
-<div class="grid">
-    <div>
-        <h3>Bronze</h3>
-        <p class="category-tag">£1,400</p>
-        <p>8 x 50 minute online sessions</p>
-    </div>
-    <div>
-        <h3>Silver</h3>
-        <p class="category-tag">£2,700</p>
-        <p>8 x 50 minute online sessions</p>
-        <p>Unlimited email support for the duration of the sessions</p>    
-    </div>
-    <div>
-        <h3>Gold</h3>
-        <p class="category-tag">£3,900</p>
-        <p>8 x 50 minute sessions</p>
-        <p>Unlimited email support for one year</p>
-    </div>
-</div>
+Each session will be an opportunity to think through different approaches, to test out ideas, and to clarify thinking.
+
+The exact contents of each session depends on the composition of the group and needs of the individuals. For some they will be facilitated action learning sets. Others may require more structure and direction. We will decide the approach during the first session together.
+
+## Costs
+
+10 online, 50 minute sessions, with unlimited email support for one year:
+
+| Group size | Price per person |
+|---|---|
+| 1 | £999 |
+| 2 | £849 |
+| 3 | £722 |
+| 4 | £614 |
+| 5 | £521 |
+
+20% discount for charities, NHS and small companies (under 50 employees)

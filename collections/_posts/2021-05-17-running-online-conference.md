@@ -6,7 +6,6 @@ layout: post
 permalink: /2021/05/14/running-online-conference
 tags:
   - Coaching
-  - Learning design
 ---
 The following is a summary of advice taken from a number of sources (links below) on how to run an online conference.
 

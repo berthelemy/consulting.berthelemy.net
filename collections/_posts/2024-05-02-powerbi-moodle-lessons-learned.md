@@ -14,7 +14,7 @@ imgcredit: CABI
 imgurl: https://cabi.org
 tags:
   - Solutions architecture
-  - Open source
+  - Moodle
   - Information architecture
 ---
 I've spent much of the last couple of years building reports and dashboards in PowerBI against the [CABI Academy](https://academy.cabi.org){:target="_blank"} Moodle database. It's a site with over 27,000 users and a plethora of courses of different types. So the data is complex to say the least...

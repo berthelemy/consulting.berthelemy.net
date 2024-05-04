@@ -6,8 +6,6 @@ layout: post
 permalink: /2017/06/20/lti-missed-opportunity
 tags:
   - Supplier selection
-  - System implementation
-  - Opinion
   - Content management
   - Solutions architecture
 thumb: /post-images/2017/06/computer-2148713_thumb.jpg

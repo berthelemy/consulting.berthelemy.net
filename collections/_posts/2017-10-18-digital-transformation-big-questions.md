@@ -1,5 +1,5 @@
 ---
-title: 'Digital transformation&rsquo;s big questions'
+title: 'Digital transformation's big questions'
 author: Mark Berthelemy
 excerpt: |
    At the heart of digital transformation are a series of big questions that all organisations need to answer up front.

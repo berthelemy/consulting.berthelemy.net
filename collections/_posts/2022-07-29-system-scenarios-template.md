@@ -11,6 +11,7 @@ imgcredit: <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attri
 tags:
   - Resources
   - Supplier selection
+  - Solutions architecture
 ---
 When purchasing a new software system, it's often really helpful to create some scenarios describing how it will be used.
 
