@@ -6,10 +6,26 @@ ref: intro
 style: style1 fullscreen
 front-page: true
 layout: simple_default
+img: web.svg
+imgalt: Connected web of various ideas
+imgcredit: Juliet MacDowell
+imgurl: https://www.linkedin.com/in/julietmacdowell
 permalink: /
 ---
-<div class="grid">
-  <div>
+{%- if page.img -%}
+<aside>
+  <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.imgalt }}">
+  {%- if page.imgcredit -%}
+  {%- if page.imgurl -%}
+  <p><small>Image credit: <a href="{{ page.imgurl }}" target="_blank">{{ page.imgcredit }}</a></small></p>
+  {%- else -%}
+  <p><small>Image credit: {{ page.imgcredit }}</small></p>
+  {%- endif -%}
+  {%- endif -%}
+</aside>
+{%- endif -%}
+<!--<div class="grid">
+  <div>-->
     <!--<h2>{{ site.description }}</h2>-->
     <p>I can help you:</p>
     <ul>
@@ -27,12 +43,12 @@ permalink: /
     </ul>
 
     <p><a href="/contact"><button class="secondary">Get in touch</button></a>&nbsp;<a href="/expertise"><button class="outline">Find out more</button></a></p>
-  </div>
+  <!--</div>
   <div>
     <img class="home-image" src="assets/img/page-images/web.svg" alt="Connected web of various ideas" />
     <p class="centred"><small>Image credit: <a href="https://www.linkedin.com/in/julietmacdowell" target="_blank">Juliet MacDowell</a></small></p>
   </div>
-</div>
+</div>-->
 
 <h2>Recent articles</h2>
 
