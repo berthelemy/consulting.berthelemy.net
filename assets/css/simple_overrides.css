@@ -201,7 +201,7 @@ div.banner img {
   width: 100%;
 }
 
-details summary h2 {
+details summary h2, details summary h3 {
   display:inline;
 }
 

@@ -11,6 +11,31 @@ front-page: true
 layout: simple_default
 permalink: /articles
 ---
+<h2>Recent articles</h2>
+
+{%- assign count = 0 -%}
+{%- for post in site.posts | limit: 9 -%}
+{%- if count == 0 -%}
+<div class="grid">
+{%- endif -%}
+
+<div>
+  <article class="posts">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="description">{{ post.excerpt }}</p>
+  </article>
+</div>
+
+{%- assign count = count | plus: 1 -%}
+{%- if count == 3 -%}
+</div><!-- end grid container -->
+{%- assign count = 0 -%}
+{%- endif -%}
+{%- endfor -%}
+
+
+<h2>Categories</h2>
+
 {% assign tags = site.tags | sort %}
 {% assign tagnumber = site.tags | size %}
 {% assign count = 0 %}
@@ -22,7 +47,7 @@ permalink: /articles
   <div>
 {%- endif -%}
   <details>
-  <summary><h2>{{ tag[0] }}  ({{ tag[1] | size }})</h2></summary>
+  <summary><h3>{{ tag[0] }}  ({{ tag[1] | size }})</h3></summary>
   {%- assign taglist = tag[1] -%}
   {%- for p in taglist -%}
   {%- if p.published != false -%}
@@ -40,26 +65,3 @@ permalink: /articles
   </div>
 {%- endif -%}
 </div>
-
-<h2>Recent articles</h2>
-
-{%- assign count = 0 -%}
-{%- for post in site.posts | limit: 9 -%}
-{%- if count == 0 -%}
-<div class="grid">
-{%- endif -%}
-
-<div>
-  <article class="posts">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p><img src="/post-images/{{ post.img }}" alt="{{ post.imgalt }}"></p>
-      <p class="description">{{ post.excerpt }}</p>
-  </article>
-</div>
-
-{%- assign count = count | plus: 1 -%}
-{%- if count == 3 -%}
-</div><!-- end grid container -->
-{%- assign count = 0 -%}
-{%- endif -%}
-{%- endfor -%}
