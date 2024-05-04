@@ -5,9 +5,10 @@ excerpt: Some guidance to help create scenarios when buying a system
 layout: post
 datatable:
 permalink: /2022/07/29/system-scenarios-template
-img: 2023/universe-1566159_1280.jpg
-imgalt: Stars
-imgcredit: <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
+img: 2022/meeting-4784909_1280.jpg
+imgalt: People talking in a business meeting
+imgcredit: 14995841 on Pixabay
+imgurl: https://pixabay.com/photos/meeting-adults-business-people-4784909/
 tags:
   - Resources
   - Supplier selection
