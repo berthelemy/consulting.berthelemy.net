@@ -67,5 +67,5 @@ defaults:
       sitemap: false
     scope:
       path: "/google*"
-    values
+    values:
       sitemap: false
