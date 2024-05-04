@@ -25,7 +25,7 @@ layout: simple_default
 
 {% include cta.html %}
 
-<h3>Related articles</h3>
+<h2>Related articles</h2>
 
 {%- assign filtered_posts = site.posts | where_exp:"item",
 "item.tags contains page.title" -%}
