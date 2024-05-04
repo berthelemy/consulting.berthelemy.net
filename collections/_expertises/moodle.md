@@ -1,7 +1,7 @@
 ---
 title: Moodle
 published: true
-description: Hands on support to configure your Moodle platform
+excerpt: Hands on support to configure your Moodle platform
 order: 2
 img: m-pulley-1000895.jpg
 img-alt: Old pulley with steel cable around it

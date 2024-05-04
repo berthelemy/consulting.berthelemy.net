@@ -1,6 +1,6 @@
 ---
 title: Project management
-description: Ensuring that everyone is heading in the same direction to deliver your technology projects
+excerpt: Ensuring that everyone is heading in the same direction to deliver your technology projects
 order: 5
 
 img: m-dog-sled-1000984-white.jpg

@@ -1,6 +1,6 @@
 ---
 title: Supplier selection
-description: Helping you reduce risk by choosing the right technology for your needs
+excerpt: Helping you reduce risk by choosing the right technology for your needs
 order: 1
 img: m-skidoo-1000878.jpg
 img-alt: A line of parked skidoos on snow

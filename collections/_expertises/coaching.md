@@ -1,7 +1,7 @@
 ---
 title: Coaching
 published: true
-description: Building capabilities in groups and individuals
+excerpt: Building capabilities in groups and individuals
 order: 5
 img: m-sunrise-IMG20231016082735.jpg
 img-alt: Sunrise over a field

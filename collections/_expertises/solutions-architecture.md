@@ -1,6 +1,6 @@
 ---
 title: Solutions architecture
-description: Finding and designing a learning technology solution that fits your existing landscape
+excerpt: Finding and designing a learning technology solution that fits your existing landscape
 order: 3
 img: m-mountains-IMG_20190402_121936-small.jpg
 img-alt: Panorama of mountains and a valley
