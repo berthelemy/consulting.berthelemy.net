@@ -67,7 +67,7 @@ defaults:
     values:
       layout: expertise
     scope:
-      path: "/projects/*"
+      path: "projects"
     values:
       sitemap: false
     scope:
