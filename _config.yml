@@ -49,15 +49,13 @@ defaults:
     values:
       sitemap: false
     scope:
-      path: ""
-      type: "lessons"
+      path: "lessons"
     values:
       layout: lesson
       style: style1
       sitemap: false
     scope:
-      path: ""
-      type: "toolkit"
+      path: "toolkit"
     values:
       layout: tool
       sitemap: false
@@ -66,10 +64,6 @@ defaults:
       type: "expertises"
     values:
       layout: expertise
-    scope:
-      path: "projects"
-    values:
-      sitemap: false
     scope:
       path: "/google*"
     values:
