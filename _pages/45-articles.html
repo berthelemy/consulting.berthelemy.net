@@ -41,6 +41,28 @@ permalink: /articles
 {%- endif -%}
 </div>
 
+<h2>Recent articles</h2>
+
+{%- assign count = 0 -%}
+{%- for post in site.posts | limit: 9 -%}
+{%- if count == 0 -%}
+<div class="grid">
+{%- endif -%}
+
+<div>
+  <article class="posts">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="description">{{ post.excerpt }}</p>
+  </article>
+</div>
+
+{%- assign count = count | plus: 1 -%}
+{%- if count == 3 -%}
+</div><!-- end grid container -->
+{%- assign count = 0 -%}
+{%- endif -%}
+{%- endfor -%}
+
 <div id="cta" class="grid">  
   <a href="/contact"><button class="secondary">Get in touch</button></a>
 </div>
