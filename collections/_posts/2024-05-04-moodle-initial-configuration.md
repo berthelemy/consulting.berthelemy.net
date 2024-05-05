@@ -33,9 +33,9 @@ Out of the box, Moodle works OK, but there are some things I nearly always do as
 
 As the administrator, you have a duty of care towards your users to keep the site safe, secure and as easy to use as possible.
 
-Note: Since Moodle 4.0, the [Admin Presets plugin](https://moodle.org/plugins/block_admin_presets){:target="blank"} has been integrated into the core Moodle code. This allows you to take a copy of your current configuration and import it into another Moodle site. This is such a time-saver if you're setting up multiple Moodle installations. If you're new to Moodle, you might just want to use the provided <mark>Starter</mark> preset and then take a look at the rest of this article.
+<blockquote><p>Note: Since Moodle 4.0, the [Admin Presets plugin](https://moodle.org/plugins/block_admin_presets){:target="blank"} has been integrated into the core Moodle code. This allows you to take a copy of your current configuration and import it into another Moodle site. This is such a time-saver if you're setting up multiple Moodle installations. If you're new to Moodle, you might just want to use the provided <mark>Starter</mark> preset and then take a look at the rest of this article.</p>
 
-I'd advise against using Admin presets you've downloaded from elsewhere, unless you really trust the source. 
+<p>I'd advise against using Admin presets you've downloaded from elsewhere, unless you really trust the source.</p></blockquote>
 
 ## Changing the default settings
 
