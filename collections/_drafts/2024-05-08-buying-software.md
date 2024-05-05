@@ -50,16 +50,32 @@ Consider these questions to help in your thinking and your future conversations 
 - What are your competitors or partners doing in this space? How are they solving similar problems?
 - What does your current "landscape" look like? In terms of other software, your IT infrastructure, current regulations and standards, your culture, your finances, and your organisation's existing capabilities. What will your new solution need to fit into?
 - What **types** of solutions seem to fit your problem? Is there a specific genre of off-the-shelf software that you're looking for? Can you filter that genre into sub-groups. For example: You might want a system to help manage learning experiences, but you're working for a training company. That immediately narrows the field.
-- What is your vision for the future? Consider society, technology, your organisation, your customers etc.   
-- How agile can you be? Are you able to manage change well? Do you want something that works out-of-the-box? Or do you need something that is highly configurable or even bespoke? Or do you want software you can customise with your own code?
+- What is your vision for the future? Consider changes that may be happening in society, technology, your organisation, your customers etc.   
+- How agile can you be? Are you able to manage change well? Do you want something that works out-of-the-box? Or do you need something that is highly configurable or even bespoke? Or do you want software you can customise?
+- Do you want an all-in-one solution, or a combination of different best-of-breed providers? Do you have the skills to join them together?
 
 ## Step 3: Make a long list
 
-Look at what's on offer. Where to start? G2, Capterra, Analysts. Think wider than standard solutions. Consider whether you need an all-in-one solution, or best of breed. Look at what the suppliers are offering in terms of features, pricing models, support and training, scalability, usability, accessibility. Look at reviews. What do they look for?
+Now you have an idea of the sort of thing you're looking for. So you can start looking for potential suppliers.
 
-If they don't provide pricing, then they're looking at an enterprise deal. Are you big enough?
+Where to look:
 
-Don't just ask for a list on LinkedIn.
+- **Search engine adverts**: Type in the name of one, major supplier and you'll be given adverts for a whole host of competitors
+- **Search engine generic search**: Type in the genre of software you're looking for. Don't forget to also include <mark>"open source"</mark> if you're looking for free or customizable software. They don't have the marketing budget to compete with the commercial vendors.
+- **Comparison sites**: Places like [G2](https://www.g2.com/){:target="_blank"}, [Capterra](https://www.capterra.com/){:target="_blank"} and [Alternative To](https://alternativeto.net/){:target="_blank"} can be useful starting points
+- **Analysts**: Different industries have their own specialist analysts. For learning technology, you could look at [Fosway's 9 grids](https://www.fosway.com/9-grid-2/){:target="_blank"} or [Craig Weiss' Find An LMS](https://www.findanlms.com/){:target="_blank"}
+- **Blog posts**: If you're looking for something with mass appeal (like project management software), you'll find dozen of blog posts comparing different systems. Be warned, many are written by suppliers trying to make their software sound the best...
+
+Start to identify the key differences between the suppliers. It's like looking for a house - you'll gradually start to pick out the things that are important to you.
+
+Consider:
+
+- Features - does it do what you think you're looking for?
+- Pricing models - are they even available? If not, then are you big enough for that supplier to deal with?
+- Support & training - can you see any documentation? Is there free training available online to give you a feel for what's on offer?
+- Usability - can you get a feel for how easy the software is to use?
+- Accessibility - do the suppliers even mention this?
+- User reviews - what do they look for?
 
 ## Step 4: Create user scenarios
 
