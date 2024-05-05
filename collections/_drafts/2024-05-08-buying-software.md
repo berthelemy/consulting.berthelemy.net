@@ -17,6 +17,19 @@ tags:
   - Supplier selection
   - Project management
 ---
+<aside>
+<h2>Contents</h2>
+<nav>
+<ul>
+<li><a href="step-1--identify-the-problem">Step 1: Identify the problem</a></li>
+<li><a href="step-2--identify-possible-solutions">Step 2: Identify possible solutions</a></li>
+<li><a href="step-3--make-a-long-list">Step 3: Make a long list</a></li>
+
+</ul>
+</nav>
+
+</aside>
+
 This guide is designed for those who buy software for organisations.
 
 Not for procurement experts, but instead those who are just trying to make things work better for their teams.
@@ -64,7 +77,7 @@ Where to look:
 - **Search engine generic search**: Type in the genre of software you're looking for. Don't forget to also include <mark>"open source"</mark> if you're looking for free or customizable software. They don't have the marketing budget to compete with the commercial vendors.
 - **Comparison sites**: Places like [G2](https://www.g2.com/){:target="_blank"}, [Capterra](https://www.capterra.com/){:target="_blank"} and [Alternative To](https://alternativeto.net/){:target="_blank"} can be useful starting points
 - **Analysts**: Different industries have their own specialist analysts. For learning technology, you could look at [Fosway's 9 grids](https://www.fosway.com/9-grid-2/){:target="_blank"} or [Craig Weiss' Find An LMS](https://www.findanlms.com/){:target="_blank"}
-- **Blog posts**: If you're looking for something with mass appeal (like project management software), you'll find dozen of blog posts comparing different systems. Be warned, many are written by suppliers trying to make their software sound the best...
+- **Blog posts**: If you're looking for something with mass appeal (like project management software), you'll find dozen of blog posts comparing different systems. Look at the comparison factors that they identify. Be warned, many are written by suppliers trying to make their software sound the best...
 
 Start to identify the key differences between the suppliers. It's like looking for a house - you'll gradually start to pick out the things that are important to you.
 
@@ -75,7 +88,6 @@ Consider:
 - Support & training - can you see any documentation? Is there free training available online to give you a feel for what's on offer?
 - Usability - can you get a feel for how easy the software is to use?
 - Accessibility - do the suppliers even mention this?
-- User reviews - what do they look for?
 
 ## Step 4: Create user scenarios
 
