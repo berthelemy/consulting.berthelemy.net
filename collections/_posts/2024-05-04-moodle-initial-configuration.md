@@ -45,18 +45,18 @@ For privacy and simplicity at first, I tend to change the following settings fro
 
 Turn these on when you understand what they do and how they work, and you know that you really need them. 
 
-- Comments: off
-- Tags: off
-- Notes: off
-- Blogs: off
-- Badges: off
-- Competencies: off
-- Messaging: off
-- Moodlenet: off
+- Comments: Off
+- Tags: Off
+- Notes: Off
+- Blogs: Off
+- Badges: Off
+- Competencies: Off
+- Messaging: Off
+- Moodlenet: Off
 
 ### Admin > General > Security > Site security settings
 
-- Force users to login to view user pictures: off
+- Force users to login to view user pictures: Off
 - Maximum uploaded file size: Set this to less than 10MB, to avoid the site becoming bloated
 - Cron password for remote access: Set a password
 - Password policy: change to your organisation's policy (or see the current guidance from the [National Cyber Security Centre](https://www.ncsc.gov.uk/collection/passwords){:target="blank"}
@@ -75,7 +75,7 @@ Turn these on when you understand what they do and how they work, and you know t
 
 ### Admin > Plugins > Text editors > Manage editors
 
-- Make sure the TinyMCE editor is on, and Atto and the TinyMCE legacy editors are off. Atto creates really dirty HTML.
+- Make sure the TinyMCE editor is on, and Atto and the TinyMCE legacy editors are off. Atto creates unnecessarily dirty HTML.
 
 Once you've done all that, then you can get on with configuring the rest of the site - things like the theme pack, custom css, and category/course structure. 
 
