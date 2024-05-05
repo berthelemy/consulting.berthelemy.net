@@ -36,7 +36,7 @@ Not for procurement experts, but instead those who are just trying to make thing
 
 If you **are** a procurement expert, then welcome! You might find that I've simplified some things a fair bit, or even left things out that you consider important. Please [let me know](/contact) and I'll make some changes.
 
-Some of the steps below may not be relevant to your particular situation, but I'll make clear when you might be able to take some short cuts for simpler projects.
+For smaller projects, if you're the only person involved, you might be able to merge some of these steps together. For example, steps 1-5.
 
 ## Step 1: Identify the problem
 
