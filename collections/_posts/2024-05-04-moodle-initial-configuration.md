@@ -15,7 +15,6 @@ imgurl: https://pixabay.com/photos/man-writing-laptop-computer-write-2562325/
 tags:
   - Solutions architecture
   - Moodle
-  - Information architecture
 ---
 I'm assuming you've got a Moodle site installed.
 
