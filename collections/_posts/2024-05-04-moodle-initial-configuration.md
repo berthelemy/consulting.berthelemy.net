@@ -77,7 +77,7 @@ Turn these on when you understand what they do and how they work, and you know t
 
 - Make sure the TinyMCE editor is on, and Atto and the TinyMCE legacy editors are off. Atto creates unnecessarily dirty HTML.
 
-Once you've done all that, then you can get on with configuring the rest of the site - things like the theme pack, custom css, and category/course structure. 
+Once you've done all that, then you can get on with configuring the rest of the site - things like the theme pack, custom css, reports and category/course structure. 
 
 ## Additional resources
 
