@@ -24,6 +24,9 @@ tags:
 <li><a href="step-1--identify-the-problem">Step 1: Identify the problem</a></li>
 <li><a href="step-2--identify-possible-solutions">Step 2: Identify possible solutions</a></li>
 <li><a href="step-3--make-a-long-list">Step 3: Make a long list</a></li>
+<li><a href="step-4--create-user-scenarios">Step 4: Create user scenarios</a></li>
+
+
 
 </ul>
 </nav>
@@ -36,7 +39,7 @@ Not for procurement experts, but instead those who are just trying to make thing
 
 If you **are** a procurement expert, then welcome! You might find that I've simplified some things a fair bit, or even left things out that you consider important. Please [let me know](/contact) and I'll make some changes.
 
-For smaller projects, if you're the only person involved, you might be able to merge some of these steps together. For example, steps 1-5.
+For smaller projects, if you're the only person involved, you might be able to merge some of these steps together. For example, steps 1-5
 
 ## Step 1: Identify the problem
 
@@ -91,9 +94,107 @@ Consider:
 
 ## Step 4: Create user scenarios
 
-Who will be the key user groups? What do they need to be able to do? How often will they want to do it? List the key tasks. Now write at least three scenarios that you will use to test the software. Tell the story that you want to see happen.
+As part of your selection process, you'll need to test out the software. Scenarios will help ensure a fair test across multiple products. They'll also help the suppliers to quickly assess whether their software will meet your needs.
+
+The scenarios should describe the experience you expect for your users. Pick 3 or 4 key areas that you want to test out. Try to pick some that are key to your particular context and needs.
+
+Consider the following:
+
+### Users and organisations
+
+- Who will be the key user groups? Eg. End user, Client administrator, Client managers, Site Administrator. You might want to do a scenario for each type of user.
+- Are all the users going to be from one organisation? If not, will you need to keep the data for each organisation separate?
+- Will you need to break down the users into further sub-groups? For what reasons?
+
+### User onboarding
+
+- How will your users be brought into the system?
+- How will they receive their login details?
+- Will you be connecting into one or more Identity Providers (like Microsoft, Google, Facebook etc)?
+- Will users self-register?
+- Will users pay for their own access? How?
+- Will users pay on behalf of other users? How?
+
+### Access control
+
+- Will some users have access to some parts of the system, whilst other users have access to other parts?
+- Who will need to see data about users from the organisation(s)?
+
+### User tasks
+
+- What will prompt users to login? How will they receive that prompt?
+- Once a user is logged in, what do you expect them to be able to see and do?
+- How they will know what they need to do?
+- How will they see what they’ve done?
+- Will their journeys be linear (following a standard path)?
+- Will users be able to choose their route? How will they be guided?
+- Will all users follow the same route?
+
+### Reports
+
+- What reports do you need to be able to see?
+- What reports do your users need to be able to see?
+
+Now turn all that into a set of short narratives.
 
 ## Step 5: List the requirements
+
+Now that you've examined what software is available, and have developed your scenarios, you can come up with your list of requirements. Try to be as specific and descriptive as possible. A list of features on its own can be pretty meaningless. They gain more meaning when you say how you expect the feature to work for you.
+
+You might want to separate your requirements using these categories:
+
+### Non-functional requirements
+
+#### Performance
+
+- What is the maximum expected response time (eg. pages should load within 3 seconds on a 4g connection)
+- How many concurrent* users the application support? (eg. support at least 2,000 concurrent users)
+
+*concurrent = the number of people actively using the system at the same time
+
+#### Scalability
+
+- How will the application respond to unforeseen peak demands? (Give examples of what might happen to cause these)
+
+#### Availability
+
+- What is your expected minimum uptime percentage (eg. 99.99% availability)
+- How quickly do you need to recover the system should something fail? (Recovery Time Objective)
+- How much data can you afford to lose should the system fail? (Recovery Point Objective)
+- What mean time between failures do you expect?
+
+#### Security
+
+- How will the application keep your data private?
+- How frequently should the application be tested for vulnerabilities?
+- How will the supplier and its suppliers (eg. data centres) keep your data private?
+- What are you data encryption expectations - at rest and in transit?
+- Do you require compliance with standards like PCI-DSS, ISO 27001 or Cyber Essentials
+
+#### Usability
+
+- Do you require a responsive interface for both end users and administrators?
+- What level of accessibility standards do you expect?
+- Do you require the application to work in multiple languages? Which?
+- Do you need the application to be able to handle content that you enter in multiple languages?
+
+## Maintainability
+
+- Requirements for updates, extensions, configurability
+- Coding standards and technical debt limits
+
+## Portability
+- Support for multiple hardware/software platforms
+- Backward and forward compatibility[1][3]
+
+Other common non-functional categories include recoverability, robustness, environmental factors, regulatory compliance, and more. These requirements ensure the system meets expectations for quality attributes beyond just functionality.[2][4]
+
+Citations:
+[1] https://www.jamasoftware.com/requirements-management-guide/writing-requirements/how-non-functional-requirements-impact-product-development
+[2] https://www.perforce.com/blog/alm/what-are-non-functional-requirements-examples
+[3] https://en.wikipedia.org/wiki/Non-functional_requirement
+[4] https://www.browserstack.com/guide/non-functional-requirements-examples
+[5] https://www.altexsoft.com/blog/functional-and-non-functional-requirements-specification-and-types/
 
 Non-functional requirements. Functional requirements. Integration requirements. Reporting requirements. Prioritisation.
 
