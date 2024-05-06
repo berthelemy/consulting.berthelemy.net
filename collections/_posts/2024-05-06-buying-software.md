@@ -17,6 +17,12 @@ tags:
   - Supplier selection
   - Project management
 ---
+This guide is designed for those who buy software, particularly multi-user SaaS* products, for organisations.
+
+* <mark>SaaS</mark> = Software as a Service, usually accessed through a browser over the internet.
+
+For smaller projects, if you're the only person involved in the buying process, you might be able to merge some of these steps together. For example, steps 1-5 can work well as an iterative process - but you'll still need to cover all the bases described here, even if it's just in your head.
+
 <aside>
 <h2>Contents</h2>
 <nav>
@@ -33,12 +39,6 @@ tags:
 </nav>
 
 </aside>
-
-This guide is designed for those who buy software, particularly multi-user SaaS* products, for organisations.
-
-* <mark>SaaS</mark> = Software as a Service, usually accessed through a browser over the internet.
-
-For smaller projects, if you're the only person involved in the buying process, you might be able to merge some of these steps together. For example, steps 1-5 can work well as an iterative process - but you'll still need to cover all the bases described here, even if it's just in your head.
 
 ## Step 1: Identify the problem
 
