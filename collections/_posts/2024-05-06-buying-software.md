@@ -1,13 +1,13 @@
 ---
 title: 'How to buy software'
 author: Mark Berthelemy
-excerpt:   
+excerpt: Eight step process to reduce the risk of buying software that doesn't work
 layout: post
 datatable: false
 tablePagination: false
 order: 1
 tableRowgroup: 1
-permalink: /2024/05/04/moodle-initial-configuration
+permalink: /2024/05/06/buying-software
 img: 2024/mockup-654585_1280.jpg
 imgalt: Mockup of software on an ipad
 imgcredit: Firmbee on Pixabay
@@ -27,9 +27,8 @@ tags:
 <li><a href="step-4--create-user-scenarios">Step 4: Create user scenarios</a></li>
 <li><a href="step-5--list-the-requirements---first-draft">Step 5: List the requirements - first draft</a></li>
 <li><a href="step-6--make-the-short-list">Step 6: Make the short list</a></li>
-
-
-
+<li><a href="step-7--competitive-dialogue">Step 7: Competitive dialogue</a></li>
+<li><a href="step-8--negotiation">Step 8: Negotiation</a></li>
 </ul>
 </nav>
 
@@ -39,7 +38,7 @@ This guide is designed for those who buy software, particularly multi-user SaaS*
 
 * <mark>SaaS</mark> = Software as a Service, usually accessed through a browser over the internet.
 
-For smaller projects, if you're the only person involved in the buying process, you might be able to merge some of these steps together. For example, steps 1-5 can work well as an iterative process - but you'll still need to cover all the bases described here.
+For smaller projects, if you're the only person involved in the buying process, you might be able to merge some of these steps together. For example, steps 1-5 can work well as an iterative process - but you'll still need to cover all the bases described here, even if it's just in your head.
 
 ## Step 1: Identify the problem
 
@@ -305,10 +304,10 @@ Aim to whittle the suppliers down to a list of three at most.
 
 ### Final iteration
 
-This is when you do things:
+This is when you do two things:
 
 1. Send out the Request for Proposal (RFP). This is a formal, legal document, that will need to comply with your IT procurement policies. The suppliers will be expected to provide a formal response, including their prices.
-2. Begin a 4 week deep dive into the software, to try to give it a real-life test. You're unlikely to cover everything, but try to make it do the end-to-end process (eg. planning and reporting on a project portfolio, or creating a training programme that leads to a certificate)
+2. Begin a 4 week deep dive into the software, to try to give it a real-life test. You're unlikely to cover everything, but try to make it do the end-to-end process (eg. planning, collaborating and reporting on a project portfolio, or creating a training programme that leads to a certificate)
 
 The RFP should contain, at a minimum:
 
@@ -320,21 +319,24 @@ The RFP should contain, at a minimum:
 - A security and data protection questionnaire (speak to your IT security specialist)
 - How the proposals will be evaluated
 
+Be realistic in your timescales - for yourselves and for the suppliers.
 
+Once the proposals are in, you should be able to evaluate them against your criteria and then narrow the field to one, preferred supplier.
 
-The more important this software is, the more iterations you should do.
+### Step 8: Negotiation
 
--- Initial conversation
--- Slim down the list
--- Model the scenarios 
--- Present the models  (is it just sales, or do they have a solutions architect?)
--- Slim down the list
-Define your evaluation criteria & matrix
--- Refine the requirements (send out RFP)
--- Deep dive
--- Due diligence
--- Provide pricing
--- Final proposal
--- Last two
--- Negotiations
+Then it's a matter of coming to a deal. There are whole books written on this by far more qualified people than me. So I won't go into detail.
+
+The aim is to get to a point where both parties feel like they're getting value from each other, and neither feels hard done by.
+
+You might find points of negotiation, such as:
+
+- Numbers of users
+- Whether licenses can be recycled, or whether they are tied to individuals
+- When the users will start to use the licenses
+- Sweeteners like additional functionality, professional services or access to content (if applicable)
+- The length of the contract
+- Break clauses, allowing both parties to walk away without penalties mid-contract
+
+When you're at a point where you can both sign the contract then it's time to have a party, and get ready for the implementation. Hopefully with no surprises waiting for you around the corner!
 
