@@ -144,10 +144,10 @@ This is the first pass. It will change when you've tested the requirements again
 
 I recommend marking each requirement with a priority, perhaps using the MoSCoW model:
 
-- M = Must have when you first launch
-- S = Should have when you first launch, but can defer to the next iteration if necessary
-- C = Could have when you first launch. They will add value, but are not essential
-- W = Won't have when you first launch, but it would be good to see it on the roadmap
+- M = **Must have** when you first launch
+- S = **Should have** when you first launch, but can defer to the next iteration if necessary
+- C = **Could have** when you first launch. They will add value, but are not essential
+- W = **Won't have** when you first launch, but it would be good to see it on the roadmap
 
 Each of the categories below contains a series of questions to help your thinking. Some may not be relevant to your needs, so use with at your discretion.
 
