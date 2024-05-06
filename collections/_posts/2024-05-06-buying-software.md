@@ -27,14 +27,14 @@ For smaller projects, if you're the only person involved in the buying process, 
 <h2>Contents</h2>
 <nav>
 <ul>
-<li><a href="#step-1--identify-the-problem">Step 1: Identify the problem</a></li>
-<li><a href="#step-2--identify-possible-solutions">Step 2: Identify possible solutions</a></li>
-<li><a href="#step-3--make-a-long-list">Step 3: Make a long list</a></li>
-<li><a href="#step-4--create-user-scenarios">Step 4: Create user scenarios</a></li>
-<li><a href="#step-5--list-the-requirements---first-draft">Step 5: List the requirements - first draft</a></li>
-<li><a href="#step-6--make-the-short-list">Step 6: Make the short list</a></li>
-<li><a href="#step-7--competitive-dialogue">Step 7: Competitive dialogue</a></li>
-<li><a href="#step-8--negotiation">Step 8: Negotiation</a></li>
+<li><a href="#step-1-identify-the-problem">Step 1: Identify the problem</a></li>
+<li><a href="#step-2-identify-possible-solutions">Step 2: Identify possible solutions</a></li>
+<li><a href="#step-3-make-a-long-list">Step 3: Make a long list</a></li>
+<li><a href="#step-4-create-user-scenarios">Step 4: Create user scenarios</a></li>
+<li><a href="#step-5-list-the-requirements---first-draft">Step 5: List the requirements - first draft</a></li>
+<li><a href="#step-6-make-the-short-list">Step 6: Make the short list</a></li>
+<li><a href="#step-7-competitive-dialogue">Step 7: Competitive dialogue</a></li>
+<li><a href="#step-8-negotiation">Step 8: Negotiation</a></li>
 </ul>
 </nav>
 
