@@ -26,6 +26,8 @@ tags:
 <li><a href="step-3--make-a-long-list">Step 3: Make a long list</a></li>
 <li><a href="step-4--create-user-scenarios">Step 4: Create user scenarios</a></li>
 <li><a href="step-5--list-the-requirements---first-draft">Step 5: List the requirements - first draft</a></li>
+<li><a href="step-6--make-the-short-list">Step 6: Make the short list</a></li>
+
 
 
 </ul>
@@ -233,6 +235,11 @@ Integration means different things in different contexts:
 - What reports will users need to see? For themselves, for their teams, about their customers, about their organisation?
 - Consider the key metrics you identified earlier. Do you expect the new software to help you generate those?
 
+### Pricing model
+
+- Are you looking for a supplier with a transparent pricing model? Or do you have enough potential users that you're OK to go with an "enterprise" supplier, with whom you'll negotiate a price?
+- Does your budget look like it will be enough to cover the costs?
+
 ### Functional requirements
 
 This is where you need to list out the most important things for you, along with why you need them, and how you expect them to work.
@@ -251,15 +258,69 @@ For each one of those describe your expectations.
 
 ## Step 6: Make the short list
 
-How will you whittle it down?
+Now you're going to need to go through your long list and assess each supplier against your requirements.
 
-Solutions that meet all the Must haves, most of the Should haves, some of the Could haves.
+Go through the Must haves first and remove the suppliers that fail on any one of these.
+
+With those that are left, then go through the Should haves and remove the suppliers that fail on the higher priority items.
+
+Then do the same with the Could haves, until you end up with about 5-7 potential suppliers.
+
+It's not always quite as scientific as the previous statements might lead you to believe... If you really understand the requirements then you'll be able to do a lot of this on gut feel - based on what you can see from the suppliers' websites. If you're involving more people in the process, then you'll need the more rigorous and formal approach. 
 
 ## Step 7: Competitive dialogue
 
-Write down the process. Key dates. Your needs. Initial set of requirements. The scenarios.
+Now comes the point at which you start to engage with the suppliers. Take your shortlist and arrange an initial meeting with the sales representative. During this call they should be asking you questions. If they simply do a presentation or demonstration then you might want to consider dropping them, unless they're already near the top of the list.
 
-Process:
+Ideally, during the initial call, you'll have a chance to explain what you're looking for, and what's got you to this point. That's steps 1 and 2 of the process you've followed so far.
+
+You'll also need to set out to them what will happen next. This is the process of <mark>competitive dialogue</mark>. There are people that will do a procurement exercise based on a single Request for Proposal (RFP) and the suppliers' responses. I've always found that to be less than satisfactory. Both parties are making guesses and huge assumptions that will only be uncovered once implementation begins. Competitive dialogue allows you to tease out those assumptions beforehand. Yes, it takes longer, and may, therefore, be more expensive. But the end results are more reliable.
+
+The competitive dialogue takes the form of at least two iterations. The higher the stakes, the more iterations you'll need. At the end of each iteration, you'll disqualify at least one of the suppliers. As the process goes on, the remaining suppliers become more invested, and you can ask them to contribute more effort.
+
+### Iteration A
+
+Provide the suppliers with a document containing:
+
+- The problem defined in step 1
+- The types solutions you've considered in step 2
+- The scenarios developed in step 4
+- A description of the competitive dialogue process, including stages, key dates and what will be required from the suppliers at each stage
+
+Provide a separate document containing the draft non-functional and functional requirements, listed with their rationale and prioritizations. Note that this may change before they receive the final list.
+
+Ask the suppliers to prepare a demonstration of their software addressing each of the scenarios you've described. Maybe give them a week or two to get this ready. A good sales team will ask for a pre-meet to go through any questions they have about the scenarios.
+
+Use the demonstrations as an opportunity to dig into assumptions you're making. Hopefully the suppliers will be doing the same! 
+
+You'll probably find you can easily remove a couple of suppliers from the list pretty quickly at this point. Especially those that just give a standard demonstration without addressing your scenarios...
+
+### Iteration B, C, D etc
+
+You might want to ask for more demonstrations on specific functionality or conversations about the non-functional requirements where you or the suppliers have questions.
+
+Don't be afraid to edit the requirements as you work through the process and understand more about what you need.
+
+Aim to whittle the suppliers down to a list of three at most.
+
+### Final iteration
+
+This is when you do things:
+
+1. Send out the Request for Proposal (RFP). This is a formal, legal document, that will need to comply with your IT procurement policies. The suppliers will be expected to provide a formal response, including their prices.
+2. Begin a 4 week deep dive into the software, to try to give it a real-life test. You're unlikely to cover everything, but try to make it do the end-to-end process (eg. planning and reporting on a project portfolio, or creating a training programme that leads to a certificate)
+
+The RFP should contain, at a minimum:
+
+- A formal invitation for a proposal
+- Instructions to the bidders - about the process, the timeline, and any conditions and how you need the proposal submitted
+- A description of the problem you're trying to solve
+- The final functional and non-functional requirements
+- A pricing template, so you can compare like with like
+- A security and data protection questionnaire (speak to your IT security specialist)
+- How the proposals will be evaluated
+
+
 
 The more important this software is, the more iterations you should do.
 
