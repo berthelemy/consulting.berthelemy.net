@@ -19,7 +19,7 @@ tags:
 ---
 This guide is designed for those who buy software, particularly multi-user SaaS* products, for organisations.
 
-> * <mark>SaaS</mark> = Software as a Service, usually accessed through a browser over the internet.
+> *<mark>SaaS</mark> = Software as a Service, usually accessed through a browser over the internet.
 
 For smaller projects, if you're the only person involved in the buying process, you might be able to merge some of these steps together. For example, steps 1-5 can work well as an iterative process - but you'll still need to cover all the bases described here, even if it's just in your head.
 
@@ -158,7 +158,7 @@ Each of the categories below contains a series of questions to help your thinkin
 - What is the maximum expected response time (eg. pages should load within 7 seconds on a 4g connection)
 - How many concurrent* users will the application need to support? (eg. support at least 2,000 concurrent users). For many types of system under voluntary use, this would average out at less than 10% of the total number of users. When usage is compulsory and there are deadlines in place, this concurrency level will increase sharply.
 
-> * <mark>concurrent</mark> = the number of people actively using the system at the same time
+> *<mark>concurrent</mark> = the number of people actively using the system at the same time
 
 #### Scalability
 
