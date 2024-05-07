@@ -162,7 +162,7 @@ Each of the categories below contains a series of questions to help your thinkin
 
 #### Scalability
 
-- How do you need the application respond to unforeseen peak demands? Are you happy for it to gradually stop working? Should it put users in a queue? Should it scale automatically to allow everyone to access with no degradation of service? (Give examples of what might happen to cause peaks in usage - such as deadlines or marketing campaigns.)
+- How do you need the application to respond to unforeseen peak demands? Are you happy for it to gradually stop working? Should it put users in a queue? Should it scale automatically to allow everyone to access with no degradation of service? (Give examples of what might happen to cause peaks in usage - such as deadlines or marketing campaigns.)
 
 #### Availability
 
@@ -187,11 +187,13 @@ See the Due Diligence questionnaire below for more detailed questions to ask the
 
 #### Maintainability
 
-- Will you want to see evidence that the software is continuously maintained and kept secure? What sort of evidence would you accept? Consider things like issue reporting mechanisms, security announcements, git commit history, software roadmaps, and live system status reports.
+- Will you want to see evidence that the software is continuously maintained and kept secure?
+- What sort of evidence would you accept? Consider things like issue reporting mechanisms, security announcements, git commit history, software roadmaps, and live system status reports.
 
 ### Environmental impact
 
-- Will you need suppliers to provide evidence that they are minimising their environment impact? What types of evidence would you accept? Consider things like travel policies, and datacentre Power Usage Effectiveness (PUE) and Data Center infrastructure Efficiency (DCiE) measurements.
+- Will you need suppliers to provide evidence that they are minimising their environment impact?
+- What types of evidence would you accept? Consider things like travel policies, and datacentre Power Usage Effectiveness (PUE) and Data Center infrastructure Efficiency (DCiE) measurements.
 
 #### Regulatory compliance
 
@@ -273,7 +275,11 @@ Now comes the point at which you start to engage with the suppliers. Take your s
 
 Ideally, during the initial call, you'll have a chance to explain what you're looking for, and what's got you to this point. That's steps 1 and 2 of the process you've followed so far.
 
-You'll also need to set out to them what will happen next. This is the process of <mark>competitive dialogue</mark>. There are people that will do a procurement exercise based on a single Request for Proposal (RFP) and the suppliers' responses. I've always found that to be less than satisfactory. Both parties are making guesses and huge assumptions that will only be uncovered once implementation begins. Competitive dialogue allows you to tease out those assumptions beforehand. Yes, it takes longer, and may, therefore, be more expensive. But the end results are more reliable.
+You'll also need to set out to them what will happen next. This is the process of <mark>competitive dialogue</mark>.
+
+There are people that will do a procurement exercise based on a single <mark>Request for Proposal (RFP)</mark> and the suppliers' responses. I've always found that to be less than satisfactory. Both parties are making guesses and huge assumptions that will only be uncovered once implementation begins.
+
+Competitive dialogue allows you to tease out those assumptions beforehand. Yes, it takes longer, and may, therefore, be more expensive. But the end results are more reliable.
 
 The competitive dialogue takes the form of at least two iterations. The higher the stakes, the more iterations you'll need. At the end of each iteration, you'll disqualify at least one of the suppliers. As the process goes on, the remaining suppliers become more invested, and you can ask them to contribute more effort.
 
@@ -282,7 +288,7 @@ The competitive dialogue takes the form of at least two iterations. The higher t
 Provide the suppliers with a document containing:
 
 - The problem defined in step 1
-- The types solutions you've considered in step 2
+- The types of solutions you've considered in step 2
 - The scenarios developed in step 4
 - A description of the competitive dialogue process, including stages, key dates and what will be required from the suppliers at each stage
 
