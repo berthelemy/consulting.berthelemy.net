@@ -18,7 +18,7 @@ collections:
   toolkit:
     output: true
     permalink: /:collection/:path
-  expertises:
+  expertise:
     output: true
     sort_by: order
     permalink: /:collection/:path
@@ -60,7 +60,7 @@ defaults:
       sitemap: false
   - scope:
       path: ""
-      type: "expertises"
+      type: "expertise"
     values:
       layout: expertise
   - scope:
