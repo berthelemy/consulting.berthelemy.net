@@ -329,7 +329,7 @@ Be realistic in your timescales - for yourselves and for the suppliers.
 
 Once the proposals are in, you should be able to evaluate them against your criteria and then narrow the field to one, preferred supplier.
 
-### Step 8: Negotiation
+## Step 8: Negotiation
 
 Then it's a matter of coming to a deal. There are whole books written on this by far more qualified people than me. So I won't go into detail.
 
