@@ -254,3 +254,13 @@ function hideAll(exceptThis) {
 <script type="text/javascript" id="ZC_Forms_Popup" src="https://campaigns.zoho.eu/js/optin.min.js" ></script> <script type="text/javascript">window.onload=function(){loadZCPopup('3z9f98e5b39ddfd88a06540ed8dd40a07d35417239d511b75c4c9a897c9d2c0fd1','ZCFORMVIEW','3z4840a6bf4f89c16f44060a51089ff082')}</script>
 <!--ZC Popup Code Ends-->
 
+<!-- Cal floating-popup embed code begins -->
+<script type="text/javascript">
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init",  {origin:"https://cal.com"});
+
+  Cal("floatingButton", {"calLink":"markberthelemy/25-minute-call","config":{"layout":"week_view"}});
+  Cal("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"week_view"});
+  </script>
+  <!-- Cal floating-popup embed code ends -->
+
