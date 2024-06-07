@@ -6,7 +6,7 @@ ref: intro
 style: style1 fullscreen
 front-page: true
 layout: simple_default
-img: web.svg
+img-bak: web.svg
 imgalt: Connected web of various ideas
 imgcredit: Juliet MacDowell
 imgurl: https://www.linkedin.com/in/julietmacdowell
@@ -23,53 +23,41 @@ permalink: /
   {%- endif -%}
   {%- endif -%}
 </aside>
+
 {%- endif -%}
-<!--<div class="grid">
-  <div>-->
-    <!--<h2>{{ site.description }}</h2>-->
-    <h2>Helping you:</h2>
-    <ul>
-      <li>Find the right suppliers</li>
-      <li>Minimise risk</li>
-      <li>Increase efficiency</li>
-      <li>Build capacity</li>
-      <li>Improve quality</li>
-    </ul>
-    <h2>Expertise</h2>
-    <ul>
-      {%- for expertise in site.expertise -%}
-      <li><a href="{{ expertise.url }}">{{ expertise.title }}</a></li>
-      {%- endfor -%}
-    </ul>
+   
 
-    <p><a href="/contact"><button class="secondary">Get in touch</button></a>&nbsp;<a href="/about"><button class="outline">Find out more</button></a></p>
-  <!--</div>
-  <div>
-    <img class="home-image" src="assets/img/page-images/web.svg" alt="Connected web of various ideas" />
-    <p class="centred"><small>Image credit: <a href="https://www.linkedin.com/in/julietmacdowell" target="_blank">Juliet MacDowell</a></small></p>
-  </div>
-</div>-->
+    <p>I help organisations translate between the languages of business, learning and technology - reducing risk, improving efficiency, and delivering more quickly.</p>
+    
+    <h2>Recent articles</h2>
 
-<h2>Recent articles</h2>
+    {%- assign count = 0 -%}
+    {%- for post in site.posts | limit: 6 -%}
+    {%- if count == 0 -%}
+    <div class="grid">
+    {%- endif -%}
+    
+    <div>
+      <article class="posts">
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p><img src="/post-images/{{ post.img }}" alt="{{ post.imgalt }}"></p>
+          <p class="description">{{ post.excerpt }}</p>
+      </article>
+    </div>
+    
+    {%- assign count = count | plus: 1 -%}
+    {%- if count == 3 -%}
+    </div><!-- end grid container -->
+    {%- assign count = 0 -%}
+    {%- endif -%}
+    {%- endfor -%}
+    </div>
 
-{%- assign count = 0 -%}
-{%- for post in site.posts | limit: 6 -%}
-{%- if count == 0 -%}
-<div class="grid">
-{%- endif -%}
-
-<div>
-  <article class="posts">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p><img src="/post-images/{{ post.img }}" alt="{{ post.imgalt }}"></p>
-      <p class="description">{{ post.excerpt }}</p>
-  </article>
+<h2>Published books</h2>
+<div class="book-cover"><a href="https://leanpub.com/howtobuysoftware" target="_blank"><img class="book-cover" src="/assets/img/page-images/book-covers/how-to-buy-software-cover-400.svg.png" alt="How to buy software book cover with line drawing of two people talking by a laptop"></a>
+<a href="https://leanpub.com/howtobuysoftware" target="_blank">Buy on LeanPub</a>
 </div>
 
-{%- assign count = count | plus: 1 -%}
-{%- if count == 3 -%}
-</div><!-- end grid container -->
-{%- assign count = 0 -%}
-{%- endif -%}
-{%- endfor -%}
-</div>
+
+
+

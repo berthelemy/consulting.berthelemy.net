@@ -35,6 +35,4 @@ I *can* build websites using [Wordpress](https://wordpress.org). It will do pret
 {% include websites.html %}
 
 
-<ul class="actions">
-  <li><a href="/contact" class="l6 button scrolly primary">Get in touch</a></li>
-</ul>
+

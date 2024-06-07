@@ -6,4 +6,4 @@ permalink: /services
 ---
 Please refer to my [Expertise page](/expertise)
 
-{%- include cta.html -%}
+

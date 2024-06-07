@@ -27,7 +27,4 @@ Mark is one of the best contractors I have ever worked with. If you need somethi
 
 Mark is a highly experienced and customer focused consutlant with deep technical knowledge of his subject area. He has worked with a really wide variety of clients and is able to tailor his approach to each one. He provided me and my team with consultancy and practical support which enabled us to review and plug gaps in our online learning provision.
 
-<ul class="actions">
-  <li><a href="/services" class="l4 button scrolly">Services</a></li>
-  <li><a href="/contact" class="l6 button scrolly primary">Get in touch</a></li>
-</ul>
+

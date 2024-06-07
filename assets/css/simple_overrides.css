@@ -205,6 +205,23 @@ details summary h2, details summary h3 {
   display:inline;
 }
 
+div.book-cover {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+div.book-cover img {
+  border:solid 1px #000;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  }
+
+div.book-cover a {
+  display: block;
+}
+
 
 /* MOBILE VIEW */
 
