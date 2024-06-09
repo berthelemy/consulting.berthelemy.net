@@ -8,15 +8,25 @@ tablePagination: false
 order: 1
 tableRowgroup: 1
 permalink: /2024/05/06/buying-software
-img: 2024/mockup-654585_1280.jpg
-imgalt: Mockup of software on an ipad
-imgcredit: Firmbee on Pixabay
-imgurl: https://pixabay.com/photos/mockup-ipad-iphone-white-mobile-654585/
+img: 2024/shutterstock_790283518-1800.png
+imgalt: Line drawing of two people talking by a laptop
+imgcredit: Shutterstock
+imgurl: 
 tags:
   - Solutions architecture
   - Supplier selection
   - Project management
 ---
+The article below was the basis for a professional development guide: [How to Buy Software](https://leanpub.com/howtobuysoftware/c/CwJvX7d3tMk4){:target="_blank"}.
+
+The guide contains more detail and templates for people working through the software buying process.
+
+The first 100 people to use the link below will receive the guide for free.
+
+<a href="https://leanpub.com/howtobuysoftware/c/CwJvX7d3tMk4" target="_blank"><button>Buy the guide</button></a>
+
+<hr>
+
 This guide is designed for those who buy software, particularly multi-user SaaS* products, for organisations.
 
 > *<mark>SaaS</mark> = Software as a Service, usually accessed through a browser over the internet.
