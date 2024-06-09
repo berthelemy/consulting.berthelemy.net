@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: simple_home
+layout: simple_default
 sitemap: false
 ---
 An information architect ensures that your information is <mark>organised</mark> and <mark>presented</mark> in ways that <mark>make sense to the audience</mark>.

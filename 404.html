@@ -9,7 +9,7 @@ layout: simple_default
         <p>If you're looking for a recent article, here they are:</p>
 
         {%- assign count = 0 -%}
-        {%- for post in site.posts | limit: 6 -%}
+        {%- for post in site.posts limit: 6 -%}
         {%- if count == 0 -%}
         <div class="grid">
         {%- endif -%}

@@ -14,7 +14,7 @@ permalink: /articles
 <h2>Recent articles</h2>
 
 {%- assign count = 0 -%}
-{%- for post in site.posts | limit: 9 -%}
+{%- for post in site.posts limit: 9 -%}
 {%- if count == 0 -%}
 <div class="grid">
 {%- endif -%}

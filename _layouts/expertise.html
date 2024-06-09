@@ -30,7 +30,7 @@ layout: simple_default
 {%- assign filtered_posts = site.posts | where_exp:"item",
 "item.tags contains page.title" -%}
 {%- assign count = 0 -%}
-{%- for post in filtered_posts | limit: 6 -%}
+{%- for post in filtered_posts limit: 6 -%}
 {%- if count == 0 -%}
 <div class="grid">
 {%- endif -%}

@@ -32,7 +32,7 @@ permalink: /
     <h2>Recent articles</h2>
 
     {%- assign count = 0 -%}
-    {%- for post in site.posts | limit: 6 -%}
+    {%- for post in site.posts limit: 6 -%}
     {%- if count == 0 -%}
     <div class="grid">
     {%- endif -%}
