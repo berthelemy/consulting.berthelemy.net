@@ -16,13 +16,13 @@ tags:
   - Solutions architecture
   - Content management
 ---
-It was a workshop at the Open University that introduced me to the concept of Single Source Publishing([Wikipedia: Single Source Publishing](https://en.wikipedia.org/wiki/Single-source_publishing)).
+It was a workshop at the Open University that introduced me to the concept of Single Source Publishing ([Wikipedia: Single Source Publishing](https://en.wikipedia.org/wiki/Single-source_publishing)).
 
-For years I'd been exploring the world of databases - where the data is kept separate from how its presented. It means that you can take a set of data and deliver it in many different ways.
+For years I'd been exploring the world of databases - where the data is kept separate from how it's presented. It means that you can take a set of data and deliver it in many different ways.
 
 For example, data about planets in the solar system (my first database project whilst in teacher training - yes, that long ago!) could be used to create a list of planets by size, or a set of pages with details about each planet's moons. Many outputs from a single source.
 
-So, when the OU team shared how they published content from a single XML ([W3Schools: What is XML?](https://www.w3schools.com/xml/xml_whatis.asp)) file it all made sense. Rather than a monolithic file, where the content and how its presented are all stored in the same place, their process took two files, one with the data (XML) and one with the styling information (XSLT ([W3Schools: XSLT Introduction](https://www.w3schools.com/xml/xsl_intr.asp))) and merged them together to create the finished output.
+So, when the OU team shared how they published content from a single XML ([W3Schools: What is XML?](https://www.w3schools.com/xml/xml_whatis.asp)) file it all made sense. Rather than a monolithic file, where the content and how it's presented are all stored in the same place, their process took two files, one with the data (XML) and one with the styling information (XSLT ([W3Schools: XSLT Introduction](https://www.w3schools.com/xml/xsl_intr.asp))) and merged them together to create the finished output.
 
 You could easily change how the output looked by changing the XSLT file, without touching the data itself.
 
