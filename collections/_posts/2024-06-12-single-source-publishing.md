@@ -83,3 +83,7 @@ If you just want to get started, without the complexity of a complete, enterpris
 ## Conclusion
 
 If you are creating more than one-off documents, especially if those documents are going to multiple audiences, you need to start considering aspects of single-source publishing. You will save time and effort almost immediately.
+
+## Disclaimer
+
+I have worked for Xyleme in the past. Other than that, I have no commercial interest in any of the organisations represented in this article.
