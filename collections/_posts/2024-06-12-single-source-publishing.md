@@ -36,11 +36,11 @@ To get the best out of single source publishing, you need to start thinking abou
 
 For example, a simple document may have structural elements like:
 
-- A title
-- Headings
-- Paragraphs
+- Header
+- Main content
+- Footer
 
-More complex documents will start to include headers, footers, asides, images, blockquotes etc.
+More complex documents will start to include asides, blockquotes, tables etc.
 
 Breaking your content into a consistent set of structures that you can reuse across multiple content items is the first step on a journey towards single source publishing.
 
