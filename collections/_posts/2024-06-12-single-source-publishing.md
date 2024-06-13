@@ -16,13 +16,13 @@ tags:
   - Solutions architecture
   - Content management
 ---
-It was a workshop at the Open University that introduced me to the concept of Single Source Publishing ([Wikipedia: Single Source Publishing](https://en.wikipedia.org/wiki/Single-source_publishing)).
+It was a workshop at the Open University that introduced me to the concept of Single Source Publishing ([Wikipedia: Single Source Publishing](https://en.wikipedia.org/wiki/Single-source_publishing){:target="_blank"}).
 
 For years I'd been exploring the world of databases - where the data is kept separate from how it's presented. It means that you can take a set of data and deliver it in many different ways.
 
 For example, data about planets in the solar system (my first database project whilst in teacher training - yes, that long ago!) could be used to create a list of planets by size, or a set of pages with details about each planet's moons. Many outputs from a single source.
 
-So, when the OU team shared how they published content from a single XML ([W3Schools: What is XML?](https://www.w3schools.com/xml/xml_whatis.asp)) file it all made sense. Rather than a monolithic file, where the content and how it's presented are all stored in the same place, their process took two files, one with the data (XML) and one with the styling information (XSLT ([W3Schools: XSLT Introduction](https://www.w3schools.com/xml/xsl_intr.asp))) and merged them together to create the finished output.
+So, when the OU team shared how they published content from a single XML ([W3Schools: What is XML?](https://www.w3schools.com/xml/xml_whatis.asp){:target="_blank"}) file it all made sense. Rather than a monolithic file, where the content and how it's presented are all stored in the same place, their process took two files, one with the data (XML) and one with the styling information (XSLT ([W3Schools: XSLT Introduction](https://www.w3schools.com/xml/xsl_intr.asp){:target="_blank"})) and merged them together to create the finished output.
 
 You could easily change how the output looked by changing the XSLT file, without touching the data itself.
 
@@ -30,11 +30,27 @@ The problem was that the toolchain - the suite of software tools to make this wo
 
 In some ways, that is still the case. You need a particular mindset to get to grips with single-source publishing. It's a way of thinking that separates the content and its structures from the way the content is presented.
 
+## Structured content
+
+To get the best out of single source publishing, you need to start thinking about the structure of your content - aiming for a consistent structure that you can use across multiple content items.
+
+For example, a simple document may have structural elements like:
+
+- A title
+- Headings
+- Paragraphs
+
+More complex documents will start to include headers, footers, asides, images, blockquotes etc.
+
+Breaking your content into a consistent set of structures that you can reuse across multiple content items is the first step on a journey towards single source publishing.
+
 ## Separate content from presentation
 
-Anyone that has created a website using HTML5 will know this. Whilst old-style webpages were awash with instructions about how to display particular elements, modern ones keep the data (HTML ([W3Schools: Introduction to HTML](https://www.w3schools.com/html/html_intro.asp))) in one file, and the presentation instructions (CSS ([W3Schools: Introduction to CSS](https://www.w3schools.com/css/css_intro.asp))) in another.
+Anyone that has created a website using HTML5 will know about structured content. Whilst old-style webpages were awash with instructions about how to display particular elements, modern ones keep the data (HTML ([W3Schools: Introduction to HTML](https://www.w3schools.com/html/html_intro.asp){:target="_blank"})) in one file, and the presentation instructions (CSS ([W3Schools: Introduction to CSS](https://www.w3schools.com/css/css_intro.asp){:target="_blank"})) in another.
 
 In this way, an element like `<h1>My heading</h1>` which gives the content of the main heading, can be adjusted by CSS so that the heading is, for example, a different colour: `h1 { color: red; }`
+
+There are several CSS frameworks designed to work with just "semantic HTML", ie. using just the structures that HTML provides. These include [SimpleCSS](https://simplecss.org/demo){:target="_blank"} and [PicoCSS](https://picocss.com/){:target="_blank"}
 
 So, at its simplest, single-source publishing is about changing how content looks. But, of course, it can get way more complex than that...
 
@@ -42,9 +58,9 @@ A single-source publishing toolchain can not only change the way it looks, it ca
 
 ## Multiple outputs from a single source
 
-For example, taking our basic HTML file (or, more often, an XML or [Markdown](https://www.markdownguide.org/getting-started/) file - these are just different ways of "marking up" content to show how it is structured. XML is complicated. Markdown much less so)... Anyhow, the HTML file can be processed in one way to create a webpage, in another way to create a PDF file, and in another to create an ePub.
+For example, taking our basic HTML file (or, more often, an XML or [Markdown](https://www.markdownguide.org/getting-started/){:target="_blank"} file - these are just different ways of "marking up" content to show how it is structured. XML is complicated. Markdown much less so)... Anyhow, the HTML file can be processed in one way to create a webpage, in another way to create a PDF file, and in another to create an ePub.
 
-This is similar to how [Leanpub](https://leanpub.com/lfm/read#leanpub-auto-how-markdown-is-used-in-leanpub) lets authors write in Markdown, and then output their books as either PDF or ePub. 
+This is similar to how [Leanpub](https://leanpub.com/lfm/read#leanpub-auto-how-markdown-is-used-in-leanpub){:target="_blank"} lets authors write in Markdown, and then output their books as either PDF or ePub. 
 
 Even more complicated, you can start to use the data to create different products for different audiences. For example, you might be creating a training product. Some parts of the content will go in the participants' guide, and all of the content will go in the trainers' guide. There is one central store containing the structured content, with two templates, one that displays all the content, and another that ignores anything that is marked up as for the trainer only.
 
@@ -58,17 +74,17 @@ That means that, if something needs to change, perhaps after a change in the org
 
 ## Where to get help
 
-In training/learning circles, the experts at single-source publishing are [Xyleme](https://xyleme.com/). Over the  years, they've built a highly sophisticated suite of tools, that have gradually become easier to use. Now, from a single piece of structured content, you can create a trainer's guide, a participant handbook, a set of slides, an ePub book, and even interactive elearning content. 
+In training/learning circles, the experts at single-source publishing are [Xyleme](https://xyleme.com/){:target="_blank"}. Over the  years, they've built a highly sophisticated suite of tools, that have gradually become easier to use. Now, from a single piece of structured content, you can create a trainer's guide, a participant handbook, a set of slides, an ePub book, and even interactive elearning content. 
 
 Of course, the elearning content won't be as sophisticated as what you can produce with tools like Articulate Storyline, Evolve or Elucidat. But, if all you need is multi-media with assessment questions (as seen in the vast majority of elearning), then this will be enough.
 
 However, Xyleme is enterprise software. It's expensive. It's designed for organisations creating large quantities of training and documentation, where efficiency in the production process is paramount.
 
-Other process-driven content development toolchains created for elearning and documentation include [Dominknow](https://www.dominknow.com/), [eXactLS](https://www.exactls.com/), [Paligo](https://paligo.net/) and [Author-IT](https://www.author-it.com/).  
+Other process-driven content development toolchains created for elearning and documentation include [Dominknow](https://www.dominknow.com/){:target="_blank"}, [eXactLS](https://www.exactls.com/){:target="_blank"}, [Paligo](https://paligo.net/){:target="_blank"} and [Author-IT](https://www.author-it.com/){:target="_blank"}.  
 
 Single-source publishing is more commonly found in academic publishing, where there are highly sophisticated suites of software designing to ingest content from researchers and use that content to create citation databases, abstracts, journal articles, full journals, proceedings documents and even books. All with highly granular metadata to help enable cataloguing and "discovery" - the process by which other researchers find the content.
 
-Specialist suppliers in this field include [67Bricks](https://www.67bricks.com/), [Coko Foundation](https://coko.foundation/) and [Atypon](https://www.atypon.com/), among many others.
+Specialist suppliers in this field include [67Bricks](https://www.67bricks.com/){:target="_blank"}, [Coko Foundation](https://coko.foundation/){:target="_blank"} and [Atypon](https://www.atypon.com/){:target="_blank"}, among many others.
 
 ## Getting started with single-source publishing
 
