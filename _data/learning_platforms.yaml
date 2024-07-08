@@ -1,0 +1,119 @@
+- provider_name: Docebo
+  provider_url: https://www.docebo.com
+  description: Cloud-based LMS with AI-powered learning suite for enterprises
+  languages_supported: 40+ languages
+  customer_segments: Enterprise, Mid-market
+
+- provider_name: Cornerstone
+  provider_url: https://www.cornerstoneondemand.com
+  description: Comprehensive talent management and LMS platform
+  languages_supported: 35+ languages
+  customer_segments: Enterprise, Mid-market
+
+- provider_name: Moodle Workplace
+  provider_url: https://moodle.com/workplace/
+  description: Customizable open-source LMS for workplace learning
+  languages_supported: 100+ languages
+  customer_segments: Enterprise, Mid-market, Small business
+
+- provider_name: TalentSoft
+  provider_url: https://www.talentsoft.com
+  description: Integrated talent management and LMS solution
+  languages_supported: 15+ languages
+  customer_segments: Enterprise, Mid-market
+
+- provider_name: Fuse
+  provider_url: https://www.fuseuniversal.com
+  description: Next-gen learning platform focused on knowledge sharing
+  languages_supported: 20+ languages
+  customer_segments: Enterprise, Mid-market
+
+- provider_name: Connecteam
+  provider_url: https://connecteam.com
+  description: All-in-one employee management app with training capabilities
+  languages_supported: English
+  customer_segments: Small business, Mid-market
+
+- provider_name: The Brainier LMS
+  provider_url: https://www.brainier.com
+  description: Cloud-based LMS for employee development
+  languages_supported: English
+  customer_segments: Enterprise, Mid-market
+
+- provider_name: Skillsoft Percipio
+  provider_url: https://www.skillsoft.com/platform-solution/percipio
+  description: AI-driven learning experience platform
+  languages_supported: Multiple languages
+  customer_segments: Enterprise, Mid-market
+
+- provider_name: LearnUpon LMS
+  provider_url: https://www.learnupon.com
+  description: User-friendly LMS for training employees partners and customers
+  languages_supported: 30+ languages
+  customer_segments: Enterprise, Mid-market, Small business
+
+- provider_name: 360Learning
+  provider_url: https://360learning.com
+  description: Collaborative learning platform for upskilling from within
+  languages_supported: 20+ languages
+  customer_segments: Enterprise, Mid-market
+
+- provider_name: Absorb LMS
+  provider_url: https://www.absorblms.com
+  description: Flexible LMS for businesses of all sizes
+  languages_supported: 25+ languages
+  customer_segments: Enterprise, Mid-market, Small business
+
+- provider_name: TalentLMS
+  provider_url: https://www.talentlms.com
+  description: Easy-to-use cloud LMS for businesses and educators
+  languages_supported: 40+ languages
+  customer_segments: Small business, Mid-market, Education
+
+- provider_name: LearnDash
+  provider_url: https://www.learndash.com
+  description: WordPress LMS plugin for online courses
+  languages_supported: Any language supported by WordPress
+  customer_segments: Small business, Education, Individual creators
+
+- provider_name: Totara Learn
+  provider_url: https://www.totaralearning.com/products/totara-learn
+  description: Open enterprise LMS for workforce management
+  languages_supported: 30+ languages
+  customer_segments: Enterprise, Mid-market
+
+- provider_name: Canvas
+  provider_url: https://www.instructure.com/canvas
+  description: LMS for K-12 and higher education institutions
+  languages_supported: 30+ languages
+  customer_segments: Education
+
+- provider_name: Easy LMS
+  provider_url: https://www.easy-lms.com
+  description: Simple LMS for creating and selling online courses
+  languages_supported: 15+ languages
+  customer_segments: Small business, Education, Individual creators
+
+- provider_name: BrainCert
+  provider_url: https://www.braincert.com
+  description: All-in-one e-learning and live class platform
+  languages_supported: 100+ languages
+  customer_segments: Education, Small business, Individual creators
+
+- provider_name: Growth Engineering
+  provider_url: https://www.growthengineering.co.uk
+  description: Gamified LMS focused on learner engagement
+  languages_supported: 20+ languages
+  customer_segments: Enterprise, Mid-market
+
+- provider_name: Netex
+  provider_url: https://www.netexlearning.com
+  description: Digital learning solutions including LMS and content creation
+  languages_supported: Multiple languages
+  customer_segments: Enterprise, Mid-market
+
+- provider_name: Learning Pool
+  provider_url: https://learningpool.com
+  description: Suite of workplace digital learning solutions
+  languages_supported: English
+  customer_segments: Enterprise, Mid-market
