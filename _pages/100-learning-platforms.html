@@ -24,7 +24,12 @@ permalink: /data/learning-platforms
 <tr>
 <td>{{ lp.provider_name }}<br><a href="{{ lp.provider_url }}">{{ lp.provider_url }}</a></td>
 <td>{{ lp.description }}</td>
-<td>{{ lp.customer_segments}}</td>
+<td>{{ lp.languages_supported }}</td>
+<td>
+  {%- for cs in lp.customer_segments -%}
+  {{ cs }}<br>
+  {%- endfor -%}
+</td>
 </tr>
 {% endfor %}
 </tbody>

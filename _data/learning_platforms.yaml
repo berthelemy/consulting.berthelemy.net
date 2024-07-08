@@ -1,282 +1,190 @@
-- provider_name: Docebo
-  provider_url: https://www.docebo.com
-  description: Cloud-based LMS with AI-powered learning suite for enterprises
-  languages_supported: 40+ languages
-  customer_segments: Enterprise, Mid-market
-
-- provider_name: Cornerstone
-  provider_url: https://www.cornerstoneondemand.com
-  description: Comprehensive talent management and LMS platform
-  languages_supported: 35+ languages
-  customer_segments: Enterprise, Mid-market
-
-- provider_name: Moodle Workplace
-  provider_url: https://moodle.com/workplace/
-  description: Customizable open-source LMS for workplace learning
-  languages_supported: 100+ languages
-  customer_segments: Enterprise, Mid-market, Small business
-
-- provider_name: TalentSoft
-  provider_url: https://www.talentsoft.com
-  description: Integrated talent management and LMS solution
-  languages_supported: 15+ languages
-  customer_segments: Enterprise, Mid-market
-
-- provider_name: Fuse
-  provider_url: https://www.fuseuniversal.com
-  description: Next-gen learning platform focused on knowledge sharing
-  languages_supported: 20+ languages
-  customer_segments: Enterprise, Mid-market
-
-- provider_name: Connecteam
-  provider_url: https://connecteam.com
-  description: All-in-one employee management app with training capabilities
-  languages_supported: English
-  customer_segments: Small business, Mid-market
-
-- provider_name: The Brainier LMS
-  provider_url: https://www.brainier.com
-  description: Cloud-based LMS for employee development
-  languages_supported: English
-  customer_segments: Enterprise, Mid-market
-
-- provider_name: Skillsoft Percipio
-  provider_url: https://www.skillsoft.com/platform-solution/percipio
-  description: AI-driven learning experience platform
-  languages_supported: Multiple languages
-  customer_segments: Enterprise, Mid-market
-
-- provider_name: LearnUpon LMS
+- provider_name: LearnUpon
   provider_url: https://www.learnupon.com
-  description: User-friendly LMS for training employees partners and customers
-  languages_supported: 30+ languages
-  customer_segments: Enterprise, Mid-market, Small business
+  description: Noted as one of the best enterprise LMS solutions.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprises
+    - SMBs
+    - Educational Institutions
+
+- provider_name: Cloud Academy
+  provider_url: https://cloudacademy.com
+  description: Mentioned among top enterprise LMS options.
+  languages_supported: English
+  customer_segments:
+    - Enterprises
+    - Technology Companies
+
+- provider_name: ProProfs
+  provider_url: https://www.proprofs.com
+  description: Cloud-based LMS with virtual classroom capabilities.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprises
+    - SMBs
+    - Educational Institutions
+
+- provider_name: Tovuti LMS
+  provider_url: https://www.tovutilms.com
+  description: Budget-friendly option for smaller businesses.
+  languages_supported: Multiple languages
+  customer_segments:
+    - SMBs
+    - Educational Institutions
+
+- provider_name: LearnWorlds
+  provider_url: https://www.learnworlds.com
+  description: Offers white-labeling and e-commerce features.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprises
+    - SMBs
+    - Educational Institutions
+
+- provider_name: SkyPrep
+  provider_url: https://skyprep.com
+  description: A SaaS-based enterprise LMS solution.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprises
+    - SMBs
+    - Educational Institutions
+
+- provider_name: Moodle
+  provider_url: https://moodle.org
+  description: Free, open-source LMS popular with large organizations.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprises
+    - Educational Institutions
+    - Government
+
+- provider_name: EducateMe
+  provider_url: https://educateme.com
+  description: Newer platform catering to diverse corporate learning needs.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprises
+    - SMBs
+    - Educational Institutions
+
+- provider_name: Paradiso LMS
+  provider_url: https://www.paradisosolutions.com
+  description: Sophisticated yet easy-to-use enterprise LMS.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprises
+    - SMBs
+    - Educational Institutions
 
 - provider_name: 360Learning
   provider_url: https://360learning.com
   description: Collaborative learning platform for upskilling from within
   languages_supported: 20+ languages
-  customer_segments: Enterprise, Mid-market
+  customer_segments:
+    - Enterprise
+    - Mid-market
 
 - provider_name: Absorb LMS
   provider_url: https://www.absorblms.com
   description: Flexible LMS for businesses of all sizes
   languages_supported: 25+ languages
-  customer_segments: Enterprise, Mid-market, Small business
+  customer_segments:
+    - Enterprise
+    - Mid-market
+    - Small business
 
 - provider_name: TalentLMS
   provider_url: https://www.talentlms.com
   description: Easy-to-use cloud LMS for businesses and educators
   languages_supported: 40+ languages
-  customer_segments: Small business, Mid-market, Education
+  customer_segments:
+    - Small business
+    - Mid-market
+    - Education
 
 - provider_name: LearnDash
   provider_url: https://www.learndash.com
   description: WordPress LMS plugin for online courses
   languages_supported: Any language supported by WordPress
-  customer_segments: Small business, Education, Individual creators
+  customer_segments:
+    - Small business
+    - Education
+    - Individual creators
 
 - provider_name: Totara Learn
   provider_url: https://www.totaralearning.com/products/totara-learn
   description: Open enterprise LMS for workforce management
   languages_supported: 30+ languages
-  customer_segments: Enterprise, Mid-market
+  customer_segments:
+    - Enterprise
+    - Mid-market
 
 - provider_name: Canvas
   provider_url: https://www.instructure.com/canvas
   description: LMS for K-12 and higher education institutions
   languages_supported: 30+ languages
-  customer_segments: Education
+  customer_segments:
+    - Education
 
 - provider_name: Easy LMS
   provider_url: https://www.easy-lms.com
   description: Simple LMS for creating and selling online courses
   languages_supported: 15+ languages
-  customer_segments: Small business, Education, Individual creators
+  customer_segments:
+    - Small business
+    - Education
+    - Individual creators
 
 - provider_name: BrainCert
   provider_url: https://www.braincert.com
   description: All-in-one e-learning and live class platform
   languages_supported: 100+ languages
-  customer_segments: Education, Small business, Individual creators
+  customer_segments:
+    - Education
+    - Small business
+    - Individual creators
 
 - provider_name: Growth Engineering
   provider_url: https://www.growthengineering.co.uk
   description: Gamified LMS focused on learner engagement
   languages_supported: 20+ languages
-  customer_segments: Enterprise, Mid-market
+  customer_segments:
+    - Enterprise
+    - Mid-market
 
 - provider_name: Netex
   provider_url: https://www.netexlearning.com
   description: Digital learning solutions including LMS and content creation
   languages_supported: Multiple languages
-  customer_segments: Enterprise, Mid-market
+  customer_segments:
+    - Enterprise
+    - Mid-market
 
-- provider_name: Learning Pool
-  provider_url: https://learningpool.com
-  description: Suite of workplace digital learning solutions
-  languages_supported: English
-  customer_segments: Enterprise, Mid-market
-
-- provider_name: Bettermode
-  provider_url: https://bettermode.com
-  description: All-in-one customer community platform for businesses to streamline customer experience and build stronger relationships
-  languages_supported: Multiple languages
-  customer_segments: Business, Enterprise, Mid-market
-
-- provider_name: Circle
-  provider_url: https://circle.so
-  description: Modern community platform for creators and brands to bring together discussions, memberships, and content
-  languages_supported: Multiple languages
-  customer_segments: Creators, Small Business, Education
-
-- provider_name: Disciple
-  provider_url: https://www.disciple.community
-  description: White-label community platform for building branded social networks and online communities
-  languages_supported: Multiple languages
-  customer_segments: Brands, Influencers, Organizations
-
-- provider_name: Hivebrite
-  provider_url: https://hivebrite.io
-  description: All-in-one community management and engagement platform
-  languages_supported: Multiple languages
-  customer_segments: Alumni Networks, Nonprofits, Corporations
-
-- provider_name: Invision Community
-  provider_url: https://invisioncommunity.com
-  description: Flexible community software for creating forums, social networks, and Q&A platforms
-  languages_supported: Multiple languages
-  customer_segments: Businesses, Organizations, Online Communities
-
-- provider_name: Mighty Networks
-  provider_url: https://www.mightynetworks.com
-  description: Platform for creating and monetizing communities, online courses, and membership sites
-  languages_supported: Multiple languages
-  customer_segments: Creators, Entrepreneurs, Brands
+- provider_name: SkyPrep
+  provider_url: https://skyprep.com
+  description: An intuitive online training platform for enterprise learning needs, offering automation, distance learning, and employee productivity improvement.
+  languages_supported: English and several others
+  customer_segments:
+    - Enterprises
+    - Event Staff Training
+    - Corporate Training
 
 - provider_name: Participate
   provider_url: https://www.participate.com
-  description: Community-powered learning platform for professional development and collaboration
+  description: An all-in-one platform for building communities of practice, offering features for community building, learning experiences, digital badges, and collaborative spaces.
+  languages_supported: English
+  customer_segments:
+    - Higher Education
+    - Nonprofits
+    - Purpose-driven Businesses
+    - Educational Institutions
+    - Social Impact Organizations
+
+- provider_name: CrossKnowledge Learning Suite
+  provider_url: https://www.crossknowledge.com
+  description: An engaging, forward-looking digital learning solution that drives business outcomes and transforms individuals and organizations. It offers a customized, fully integrated learning solution with cutting-edge technology and world-class content in a blended environment.
   languages_supported: Multiple languages
-  customer_segments: Education, Nonprofits, Corporations
-
-- provider_name: Thrive
-  provider_url: https://www.thrivelearning.com/lms
-  description: All-in-one learning platform that combines LMS and LXP features, enabling organizations to consolidate learning, skills, and communications
-  languages_supported: 20+ languages
-  customer_segments: Enterprise, Mid-market, Scale-ups
-
-- provider_name: Training Orchestra TMS
-  provider_url: https://trainingorchestra.com
-  description: Training Management System (TMS) that complements existing LMS platforms to manage complex instructor-led and virtual instructor-led training at scale
-  languages_supported: Multiple languages
-  customer_segments: Large Enterprises, Organizations with Complex Training Operations
-
-- provider_name: Administrate
-  provider_url: https://www.getadministrate.com
-  description: Comprehensive training management platform for planning, scheduling, coordinating, and communicating training details across global operations, both in-person and virtual
-  languages_supported: Multiple languages
-  customer_segments: Enterprise, Mid-market, Training Organizations
-
-- provider_name: Knowledge Anywhere
-  provider_url: https://www.knowledgeanywhere.com
-  description: Comprehensive learning management system offering custom eLearning solutions, including LMS, course creation, and virtual reality training
-  languages_supported: Multiple languages
-  customer_segments: Enterprise, Mid-market, Small Business
-
-- provider_name: "CYPHER Learning"
-  provider_url: "https://www.cypherlearning.com"
-  description: "Suitable for training, career development, and compliance use cases."
-  languages_supported: "Multiple languages"
-  customer_segments: "Enterprises, Educational Institutions, Government"
-
-- provider_name: "iSpring"
-  provider_url: "https://www.ispringsolutions.com"
-  description: "A popular enterprise LMS option."
-  languages_supported: "Multiple languages"
-  customer_segments: "Enterprises, SMBs, Educational Institutions"
-
-- provider_name: "Docebo"
-  provider_url: "https://www.docebo.com"
-  description: "Highly rated enterprise LMS platform."
-  languages_supported: "Multiple languages"
-  customer_segments: "Enterprises, SMBs, Educational Institutions"
-
-- provider_name: "LearnUpon"
-  provider_url: "https://www.learnupon.com"
-  description: "Noted as one of the best enterprise LMS solutions."
-  languages_supported: "Multiple languages"
-  customer_segments: "Enterprises, SMBs, Educational Institutions"
-
-- provider_name: "Cloud Academy"
-  provider_url: "https://cloudacademy.com"
-  description: "Mentioned among top enterprise LMS options."
-  languages_supported: "English"
-  customer_segments: "Enterprises, Technology Companies"
-
-- provider_name: "ProProfs"
-  provider_url: "https://www.proprofs.com"
-  description: "Cloud-based LMS with virtual classroom capabilities."
-  languages_supported: "Multiple languages"
-  customer_segments: "Enterprises, SMBs, Educational Institutions"
-
-- provider_name: "Tovuti LMS"
-  provider_url: "https://www.tovutilms.com"
-  description: "Budget-friendly option for smaller businesses."
-  languages_supported: "Multiple languages"
-  customer_segments: "SMBs, Educational Institutions"
-
-- provider_name: "LearnWorlds"
-  provider_url: "https://www.learnworlds.com"
-  description: "Offers white-labeling and e-commerce features."
-  languages_supported: "Multiple languages"
-  customer_segments: "Enterprises, SMBs, Educational Institutions"
-
-- provider_name: "SkyPrep"
-  provider_url: "https://skyprep.com"
-  description: "A SaaS-based enterprise LMS solution."
-  languages_supported: "Multiple languages"
-  customer_segments: "Enterprises, SMBs, Educational Institutions"
-
-- provider_name: "Moodle"
-  provider_url: "https://moodle.org"
-  description: "Free, open-source LMS popular with large organizations."
-  languages_supported: "Multiple languages"
-  customer_segments: "Enterprises, Educational Institutions, Government"
-
-- provider_name: "EducateMe"
-  provider_url: "https://educateme.com"
-  description: "Newer platform catering to diverse corporate learning needs."
-  languages_supported: "Multiple languages"
-  customer_segments: "Enterprises, SMBs, Educational Institutions"
-
-- provider_name: "Paradiso LMS"
-  provider_url: "https://www.paradisosolutions.com"
-  description: "Sophisticated yet easy-to-use enterprise LMS."
-  languages_supported: "Multiple languages"
-  customer_segments: "Enterprises, SMBs, Educational Institutions"
-
-- provider_name: "SkyPrep"
-  provider_url: "https://skyprep.com"
-  description: "An intuitive online training platform for enterprise learning needs, offering automation, distance learning, and employee productivity improvement."
-  languages_supported: "English and several others"
-  customer_segments: "Enterprises, Event Staff Training, Corporate Training"
-
-- provider_name: "Participate"
-    provider_url: "https://www.participate.com"
-    description: "An all-in-one platform for building communities of practice, offering features for community building, learning experiences, digital badges, and collaborative spaces."
-    languages_supported: "English"
-    customer_segments: 
-      - Higher Education
-      - Nonprofits
-      - Purpose-driven Businesses
-      - Educational Institutions
-      - Social Impact Organizations
-
-- provider_name: "CrossKnowledge Learning Suite"
-  provider_url: "https://www.crossknowledge.com"
-  description: "An engaging, forward-looking digital learning solution that drives business outcomes and transforms individuals and organizations. It offers a customized, fully integrated learning solution with cutting-edge technology and world-class content in a blended environment."
-  languages_supported: "Multiple languages"
   customer_segments:
     - Large Enterprises (>10,000)
     - Public Administrations
@@ -287,74 +195,158 @@
     - Telecommunications
     - Transportation/Trucking/Railroad
 
-- provider_name: "EducateMe"
-  provider_url: "https://www.educate-me.co"
-  description: "A collaborative platform for creating and scaling educational courses, offering customization, automation, and real-time insights."
-  languages_supported: "English"
+- provider_name: EducateMe
+  provider_url: https://www.educate-me.co
+  description: A collaborative platform for creating and scaling educational courses, offering customization, automation, and real-time insights.
+  languages_supported: English
   customer_segments:
     - Educational Institutions
     - Startups
     - E-learning Organizations
     - Cohort-based Programs
 
-- provider_name: "AcademyOcean"
-  provider_url: "https://academyocean.com"
-  description: "A comprehensive learning management system for enterprises, offering course creation, assessment tools, and detailed analytics."
-  languages_supported: "Multiple languages"
+- provider_name: AcademyOcean
+  provider_url: https://academyocean.com
+  description: A comprehensive learning management system for enterprises, offering course creation, assessment tools, and detailed analytics.
+  languages_supported: Multiple languages
   customer_segments:
     - Enterprises
     - Corporate Organizations
     - Small to Large Businesses
 
-- provider_name: "Knolyx"
-  provider_url: "https://knolyx.com"
-  description: "A platform for empowering workforce and delivering impactful learning, allowing organizations to create their own learning academies."
-  languages_supported: "English"
+- provider_name: Docebo
+  provider_url: https://www.docebo.com
+  description: Cloud-based LMS with AI-powered learning suite for enterprises
+  languages_supported: 40+ languages
+  customer_segments:
+    - Enterprise
+    - Mid-market
+
+- provider_name: Cornerstone
+  provider_url: https://www.cornerstoneondemand.com
+  description: Comprehensive talent management and LMS platform
+  languages_supported: 35+ languages
+  customer_segments:
+    - Enterprise
+    - Mid-market
+
+- provider_name: Moodle Workplace
+  provider_url: https://moodle.com/workplace/
+  description: Customizable open-source LMS for workplace learning
+  languages_supported: 100+ languages
+  customer_segments:
+    - Enterprise
+    - Mid-market
+    - Small business
+
+- provider_name: TalentSoft
+  provider_url: https://www.talentsoft.com
+  description: Integrated talent management and LMS solution
+  languages_supported: 15+ languages
+  customer_segments:
+    - Enterprise
+    - Mid-market
+
+- provider_name: Fuse
+  provider_url: https://www.fuseuniversal.com
+  description: Next-gen learning platform focused on knowledge sharing
+  languages_supported: 20+ languages
+  customer_segments:
+    - Enterprise
+    - Mid-market
+
+- provider_name: Connecteam
+  provider_url: https://connecteam.com
+  description: All-in-one employee management app with training capabilities
+  languages_supported: English
+  customer_segments:
+    - Small business
+    - Mid-market
+
+- provider_name: The Brainier LMS
+  provider_url: https://www.brainier.com
+  description: Cloud-based LMS for employee development
+  languages_supported: English
+  customer_segments:
+    - Enterprise
+    - Mid-market
+
+- provider_name: Skillsoft Percipio
+  provider_url: https://www.skillsoft.com/platform-solution/percipio
+  description: AI-driven learning experience platform
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprise
+    - Mid-market
+
+- provider_name: LearnUpon LMS
+  provider_url: https://www.learnupon.com
+  description: User-friendly LMS for training employees partners and customers
+  languages_supported: 30+ languages
+  customer_segments:
+    - Enterprise
+    - Mid-market
+    - Small business
+
+- provider_name: 360Learning
+  provider_url: https://360learning.com
+  description: An all-in-one learning management system offering an intuitive platform, off-the-shelf training content, and expert L&D services, including AI-powered learning capabilities.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Corporations
+    - Small to Large Businesses
+    - Organizations seeking compliance training
+    - Companies
+
+- provider_name: Knolyx
+  provider_url: https://knolyx.com
+  description: A platform for empowering workforce and delivering impactful learning, allowing organizations to create their own learning academies.
+  languages_supported: English
   customer_segments:
     - Enterprises
     - Corporate Training
     - Educational Institutions
 
-- provider_name: "Continu"
-  provider_url: "https://www.continu.com"
-  description: "A modern learning platform for businesses to train, onboard, and develop their teams."
-  languages_supported: "English"
+- provider_name: Continu
+  provider_url: https://www.continu.com
+  description: A modern learning platform for businesses to train, onboard, and develop their teams.
+  languages_supported: English
   customer_segments:
     - Businesses
     - Corporate Training
     - Employee Development
 
-- provider_name: "GoSkills"
-  provider_url: "https://www.goskills.com"
-  description: "An online learning platform offering business skills courses and a learning management system for businesses."
-  languages_supported: "English"
+- provider_name: GoSkills
+  provider_url: https://www.goskills.com
+  description: An online learning platform offering business skills courses and a learning management system for businesses.
+  languages_supported: English
   customer_segments:
     - Individuals
     - Small to Medium Businesses
     - Corporate Training
 
-- provider_name: "Groundwork"
-  provider_url: "https://groundwork1.com"
-  description: "A platform for creating and delivering online courses and training programs."
-  languages_supported: "English"
+- provider_name: Groundwork
+  provider_url: https://groundwork1.com
+  description: A platform for creating and delivering online courses and training programs.
+  languages_supported: English
   customer_segments:
     - Course Creators
     - Businesses
     - Educational Institutions
 
-- provider_name: "Seismic"
-  provider_url: "https://seismic.com"
-  description: "A sales enablement platform that includes learning and coaching capabilities for sales teams."
-  languages_supported: "Multiple languages"
+- provider_name: Seismic
+  provider_url: https://seismic.com
+  description: A sales enablement platform that includes learning and coaching capabilities for sales teams.
+  languages_supported: Multiple languages
   customer_segments:
     - Sales Organizations
     - Enterprises
     - B2B Companies
 
-- provider_name: "eCom Learning Solutions"
-  provider_url: "https://www.ecomlearningsolutions.com/digital-learning-platforms/"
-  description: "Offers a range of innovative and flexible digital learning solutions including workforce development platforms, online assessment tools, learning management systems, digital badges, virtual reality-based learning, and eLearning content authoring tools."
-  languages_supported: "Multiple languages"
+- provider_name: eCom Learning Solutions
+  provider_url: https://www.ecomlearningsolutions.com/digital-learning-platforms/
+  description: Offers a range of innovative and flexible digital learning solutions including workforce development platforms, online assessment tools, learning management systems, digital badges, virtual reality-based learning, and eLearning content authoring tools.
+  languages_supported: Multiple languages
   customer_segments:
     - Academic Institutions
     - Corporate Organizations
@@ -362,12 +354,116 @@
     - Public Sector
     - Charitable Organizations
 
-- provider_name: "Litmos"
-  provider_url: "https://www.litmos.com"
-  description: "An all-in-one learning management system offering an intuitive platform, off-the-shelf training content, and expert L&D services, including AI-powered learning capabilities."
-  languages_supported: "Multiple languages"
+- provider_name: Litmos
+  provider_url: https://www.litmos.com
+  description: An all-in-one learning management system offering an intuitive platform, off-the-shelf training content, and expert L&D services, including AI-powered learning capabilities.
+  languages_supported: Multiple languages
   customer_segments:
     - Corporations
     - Small to Large Businesses
     - Organizations seeking compliance training
     - Companies
+
+- provider_name: Thrive
+  provider_url: https://www.thrivelearning.com/lms
+  description: All-in-one learning platform that combines LMS and LXP features, enabling organizations to consolidate learning, skills, and communications
+  languages_supported: 20+ languages
+  customer_segments:
+    - Enterprise
+    - Mid-market
+    - Scale-ups
+
+- provider_name: Training Orchestra TMS
+  provider_url: https://trainingorchestra.com
+  description: Training Management System (TMS) that complements existing LMS platforms to manage complex instructor-led and virtual instructor-led training at scale
+  languages_supported: Multiple languages
+  customer_segments:
+    - Large Enterprises
+    - Organizations with Complex Training Operations
+
+- provider_name: Administrate
+  provider_url: https://www.getadministrate.com
+  description: Comprehensive training management platform for planning, scheduling, coordinating, and communicating training details across global operations, both in-person and virtual
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprise
+    - Mid-market
+    - Training Organizations
+
+- provider_name: Knowledge Anywhere
+  provider_url: https://www.knowledgeanywhere.com
+  description: Comprehensive learning management system offering custom eLearning solutions, including LMS, course creation, and virtual reality training
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprise
+    - Mid-market
+    - Small Business
+
+- provider_name: CYPHER Learning
+  provider_url: https://www.cypherlearning.com
+  description: Suitable for training, career development, and compliance use cases.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprises
+    - Educational Institutions
+    - Government
+
+- provider_name: iSpring
+  provider_url: https://www.ispringsolutions.com
+  description: A popular enterprise LMS option.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprises
+    - SMBs
+    - Educational Institutions
+
+- provider_name: Docebo
+  provider_url: https://www.docebo.com
+  description: Highly rated enterprise LMS platform.
+  languages_supported: Multiple languages
+  customer_segments:
+    - Enterprises
+    - SMBs
+    - Educational Institutions
+
+- provider_name: Learning Pool
+  provider_url: https://learningpool.com
+  description: Suite of workplace digital learning solutions
+  languages_supported: English
+  customer_segments:
+    - Enterprise
+    - Mid-market
+
+- provider_name: Bettermode
+  provider_url: https://bettermode.com
+  description: All-in-one customer community platform for businesses to streamline customer experience and build stronger relationships
+  languages_supported: Multiple languages
+  customer_segments:
+    - Business
+    - Enterprise
+    - Mid-market
+
+- provider_name: Circle
+  provider_url: https://circle.so
+  description: Modern community platform for creators and brands to bring together discussions, memberships, and content
+  languages_supported: Multiple languages
+  customer_segments:
+    - Creators
+    - Small Business
+    - Education
+
+- provider_name: Disciple
+  provider_url: https://www.disciple.community
+  description: White-label community platform for building branded social networks and online communities
+  languages_supported: Multiple languages
+  customer_segments:
+    - Brands
+    - Influencers
+    - Organizations
+
+- provider_name: Hivebrite
+  provider_url: https://hivebrite.io
+  description: All-in-one community management and engagement platform
+  languages_supported: Multiple languages
+  customer_segments:
+    - Alumni Networks
