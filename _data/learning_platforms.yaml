@@ -456,12 +456,12 @@
   description: Flexible LMS that can be tailored to specific company requirements, offering features like gamification and social learning.
 
 - provider_name: edyoucated LMS
-    provider_url: https://edyoucated.org/en/products/learning-management-system-lms
-    supplier: edyoucated
-    description: AI-powered LMS focusing on personalized learning experiences and skill-based learning paths.
-    customer_segments:
-      - Corporate
-      - Higher Education
+  provider_url: https://edyoucated.org/en/products/learning-management-system-lms
+  supplier: edyoucated
+  description: AI-powered LMS focusing on personalized learning experiences and skill-based learning paths.
+  customer_segments:
+    - Corporate
+    - Higher Education
 
 - provider_name: imc Learning Suite
   provider_url: https://www.im-c.com/learning-suite/
