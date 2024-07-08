@@ -171,3 +171,9 @@
   description: Training Management System (TMS) that complements existing LMS platforms to manage complex instructor-led and virtual instructor-led training at scale
   languages_supported: Multiple languages
   customer_segments: Large Enterprises, Organizations with Complex Training Operations
+
+- provider_name: Administrate
+  provider_url: https://www.getadministrate.com
+  description: Comprehensive training management platform for planning, scheduling, coordinating, and communicating training details across global operations, both in-person and virtual
+  languages_supported: Multiple languages
+  customer_segments: Enterprise, Mid-market, Training Organizations
