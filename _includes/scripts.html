@@ -20,38 +20,37 @@
               $(document).ready( function () {
                 
                   $('table').DataTable({
-                    dom: 'lfrtip',
-                    "responsive": true,
-                    "paging": false,
+                    dom: 'lfrtip'
+                    ,"responsive": true
+                    ,"searching": true
                   
-                  
-                
+        
                   {%- if page.order -%}
-                    "order": [[{{ page.order }}, 'asc']],
+                    ,"order": [[{{ page.order }}, 'asc']]
                     {%- else -%}
-                    "order": [[ 0, "asc" ]],
+                    ,"order": [[ 0, "asc" ]]
                   {%- endif -%}
                   
                   {%- if page.tableRowgroup -%}
                     "columnDefs": [
                       {
-                        "targets": {{ page.tableRowgroup }},
-                        "visible": false,
-                        "searchable": true
+                        ,"targets": {{ page.tableRowgroup }}
+                        ,"visible": false
+                        ,"searchable": true
                       }
                     ],
                     "rowGroup": {
-                      "dataSrc": {{ page.tableRowgroup }}
+                      ,"dataSrc": {{ page.tableRowgroup }}
                     },
                   {%- endif -%}
                   {%- if page.tablePagination -%}
-                    "paging": true
+                    ,"paging": true
                   {%- else -%}
-                    "paging": false
+                    ,"paging": false
                   {%- endif -%}
                   
-                    ,"searching": true
-                    } );
+                    
+                    });
                   });
               </script>
             {% endif %}
