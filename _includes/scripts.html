@@ -18,8 +18,23 @@
               <script type="text/javascript" src="https://cdn.datatables.net/rowgroup/1.3.0/css/rowGroup.dataTables.min.css"></script>
               <script>
               $(document).ready( function () {
+                {% if page.datatable == 'learning-platforms' %}
                   $('table').DataTable({
-                    "dom": '<f<t>ip>',
+                    dom: 'lfrtip',
+                    "responsive": true,
+                    "paging": false,
+                    
+
+
+                  });
+                  {% endif %}  
+                
+                  {%- if page.order -%}
+                    "order": [[{{ page.order }}, 'asc']],
+                    {%- else -%}
+                    "order": [[ 0, "asc" ]],
+                  {%- endif -%}
+                  
                   {%- if page.tableRowgroup -%}
                     "columnDefs": [
                       {
@@ -37,9 +52,7 @@
                   {%- else -%}
                     "paging": false
                   {%- endif -%}
-                  {%- if page.order -%}
-                    ,"order": [[{{ page.order }}, 'asc']]
-                  {%- endif -%}
+                  
                     ,"searching": true
                     } );
                   });
@@ -153,16 +166,6 @@
   {% endif %}
   {% if page.datatable == 'curriculum-table' %}
   $('#curriculum-table').dataTable({
-    dom: 'lfrtip',
-    "responsive": true,
-    "paging": false,
-    "order": [[ 0, "asc" ]],
-
-
-  });
-  {% endif %}
-  {% if page.datatable == 'learning-platforms' %}
-  $('#learning-platforms').dataTable({
     dom: 'lfrtip',
     "responsive": true,
     "paging": false,
