@@ -272,3 +272,17 @@
       - Purpose-driven Businesses
       - Educational Institutions
       - Social Impact Organizations
+
+- provider_name: "CrossKnowledge Learning Suite"
+  provider_url: "https://www.crossknowledge.com"
+  description: "An engaging, forward-looking digital learning solution that drives business outcomes and transforms individuals and organizations. It offers a customized, fully integrated learning solution with cutting-edge technology and world-class content in a blended environment."
+  languages_supported: "Multiple languages"
+  customer_segments:
+    - Large Enterprises (>10,000)
+    - Public Administrations
+    - Small/Medium Businesses
+    - Manufacturing
+    - Pharmaceuticals
+    - Retail
+    - Telecommunications
+    - Transportation/Trucking/Railroad
