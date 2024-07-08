@@ -1,9 +1,6 @@
 <!-- Scripts -->
             <script src="/assets/js/jquery.min.js"></script>
-            <!--
-            <script src="/assets/js/jquery.scrollex.min.js"></script>
-            <script src="/assets/js/jquery.scrolly.min.js"></script>
-          -->
+
             <script src="/assets/js/browser.min.js"></script>
             <script src="/assets/js/breakpoints.min.js"></script>
             <script src="/assets/js/util.js"></script>
@@ -157,6 +154,16 @@
   {% endif %}
   {% if page.datatable == 'curriculum-table' %}
   $('#curriculum-table').dataTable({
+    dom: 'lfrtip',
+    "responsive": true,
+    "paging": false,
+    "order": [[ 0, "asc" ]],
+
+
+  });
+  {% endif %}
+  {% if page.datatable == 'learning-platforms' %}
+  $('#learning-platforms').dataTable({
     dom: 'lfrtip',
     "responsive": true,
     "paging": false,
