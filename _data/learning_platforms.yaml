@@ -1,11 +1,3 @@
-- provider_name: LearnUpon
-  provider_url: https://www.learnupon.com
-  description: Noted as one of the best enterprise LMS solutions.
-  languages_supported: Multiple languages
-  customer_segments:
-    - Enterprises
-    - SMBs
-    - Educational Institutions
 
 - provider_name: Cloud Academy
   provider_url: https://cloudacademy.com
@@ -58,15 +50,6 @@
     - Enterprises
     - Educational Institutions
     - Government
-
-- provider_name: EducateMe
-  provider_url: https://educateme.com
-  description: Newer platform catering to diverse corporate learning needs.
-  languages_supported: Multiple languages
-  customer_segments:
-    - Enterprises
-    - SMBs
-    - Educational Institutions
 
 - provider_name: Paradiso LMS
   provider_url: https://www.paradisosolutions.com
@@ -160,15 +143,6 @@
   customer_segments:
     - Enterprise
     - Mid-market
-
-- provider_name: SkyPrep
-  provider_url: https://skyprep.com
-  description: An intuitive online training platform for enterprise learning needs, offering automation, distance learning, and employee productivity improvement.
-  languages_supported: English and several others
-  customer_segments:
-    - Enterprises
-    - Event Staff Training
-    - Corporate Training
 
 - provider_name: Participate
   provider_url: https://www.participate.com
@@ -288,16 +262,6 @@
     - Mid-market
     - Small business
 
-- provider_name: 360Learning
-  provider_url: https://360learning.com
-  description: An all-in-one learning management system offering an intuitive platform, off-the-shelf training content, and expert L&D services, including AI-powered learning capabilities.
-  languages_supported: Multiple languages
-  customer_segments:
-    - Corporations
-    - Small to Large Businesses
-    - Organizations seeking compliance training
-    - Companies
-
 - provider_name: Knolyx
   provider_url: https://knolyx.com
   description: A platform for empowering workforce and delivering impactful learning, allowing organizations to create their own learning academies.
@@ -411,15 +375,6 @@
 - provider_name: iSpring
   provider_url: https://www.ispringsolutions.com
   description: A popular enterprise LMS option.
-  languages_supported: Multiple languages
-  customer_segments:
-    - Enterprises
-    - SMBs
-    - Educational Institutions
-
-- provider_name: Docebo
-  provider_url: https://www.docebo.com
-  description: Highly rated enterprise LMS platform.
   languages_supported: Multiple languages
   customer_segments:
     - Enterprises
