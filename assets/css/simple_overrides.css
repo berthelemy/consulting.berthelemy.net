@@ -223,7 +223,7 @@ div.book-cover a {
 }
 
 table.dataTable span.dt-column-title[role=button], div.dt-paging button  {
-  all: unset;
+  all: revert;
 }
 
 
