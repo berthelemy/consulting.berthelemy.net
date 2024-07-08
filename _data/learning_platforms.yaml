@@ -271,5 +271,5 @@
 - provider_name: "SkyPrep"
   provider_url: "https://skyprep.com"
   description: "An intuitive online training platform for enterprise learning needs, offering automation, distance learning, and employee productivity improvement."
-  languages_supported: "English"
+  languages_supported: "English and several others"
   customer_segments: "Enterprises, Event Staff Training, Corporate Training"
