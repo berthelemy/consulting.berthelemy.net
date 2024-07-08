@@ -177,3 +177,9 @@
   description: Comprehensive training management platform for planning, scheduling, coordinating, and communicating training details across global operations, both in-person and virtual
   languages_supported: Multiple languages
   customer_segments: Enterprise, Mid-market, Training Organizations
+
+- provider_name: Knowledge Anywhere
+  provider_url: https://www.knowledgeanywhere.com
+  description: Comprehensive learning management system offering custom eLearning solutions, including LMS, course creation, and virtual reality training
+  languages_supported: Multiple languages
+  customer_segments: Enterprise, Mid-market, Small Business
