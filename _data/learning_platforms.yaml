@@ -183,3 +183,87 @@
   description: Comprehensive learning management system offering custom eLearning solutions, including LMS, course creation, and virtual reality training
   languages_supported: Multiple languages
   customer_segments: Enterprise, Mid-market, Small Business
+
+- provider_name: "CYPHER Learning"
+  provider_url: "https://www.cypherlearning.com"
+  description: "Suitable for training, career development, and compliance use cases."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, Educational Institutions, Government"
+
+- provider_name: "iSpring"
+  provider_url: "https://www.ispringsolutions.com"
+  description: "A popular enterprise LMS option."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, SMBs, Educational Institutions"
+
+- provider_name: "Docebo"
+  provider_url: "https://www.docebo.com"
+  description: "Highly rated enterprise LMS platform."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, SMBs, Educational Institutions"
+
+- provider_name: "LearnUpon"
+  provider_url: "https://www.learnupon.com"
+  description: "Noted as one of the best enterprise LMS solutions."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, SMBs, Educational Institutions"
+
+- provider_name: "Cloud Academy"
+  provider_url: "https://cloudacademy.com"
+  description: "Mentioned among top enterprise LMS options."
+  languages_supported: "English"
+  customer_segments: "Enterprises, Technology Companies"
+
+- provider_name: "ProProfs"
+  provider_url: "https://www.proprofs.com"
+  description: "Cloud-based LMS with virtual classroom capabilities."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, SMBs, Educational Institutions"
+
+- provider_name: "Tovuti LMS"
+  provider_url: "https://www.tovutilms.com"
+  description: "Budget-friendly option for smaller businesses."
+  languages_supported: "Multiple languages"
+  customer_segments: "SMBs, Educational Institutions"
+
+- provider_name: "LearnWorlds"
+  provider_url: "https://www.learnworlds.com"
+  description: "Offers white-labeling and e-commerce features."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, SMBs, Educational Institutions"
+
+- provider_name: "SkyPrep"
+  provider_url: "https://skyprep.com"
+  description: "A SaaS-based enterprise LMS solution."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, SMBs, Educational Institutions"
+
+- provider_name: "Adobe Learning Manager"
+  provider_url: "https://learning.adobe.com"
+  description: "Highly rated enterprise LMS."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, SMBs, Educational Institutions"
+
+- provider_name: "Moodle"
+  provider_url: "https://moodle.org"
+  description: "Free, open-source LMS popular with large organizations."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, Educational Institutions, Government"
+
+- provider_name: "EducateMe"
+  provider_url: "https://educateme.com"
+  description: "Newer platform catering to diverse corporate learning needs."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, SMBs, Educational Institutions"
+
+- provider_name: "Paradiso LMS"
+  provider_url: "https://www.paradisosolutions.com"
+  description: "Sophisticated yet easy-to-use enterprise LMS."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, SMBs, Educational Institutions"
+
+- provider_name: "Looop"
+  provider_url: "https://www.looop.co"
+  description: "SaaS LMS suitable for both internal and external training."
+  languages_supported: "Multiple languages"
+  customer_segments: "Enterprises, SMBs, Educational Institutions"
