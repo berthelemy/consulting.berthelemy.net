@@ -13,13 +13,13 @@ permalink: /data/learning-platforms
 
 ---
 <table id="learning-platforms">
-{% for learning-platform in site.data.learning-platforms %}
+{% for lp in site.data.learning_platforms %}
 <tr>
-<td>{{ learning-platform.provider_name }}</td>
-<td>{{ learning-platform.description }}</td>
-<td>{{ learning-platform.languages_supported }}></td>
-<td>{{ learning-platform.customer_segments}}</td>
-<td><a href="{{ learning-platform.provider_url }}">{{ learning-platform.provider_url }}</a></td>
+<td>{{ lp.provider_name }}</td>
+<td>{{ lp.description }}</td>
+<td>{{ lp.languages_supported }}></td>
+<td>{{ lp.customer_segments}}</td>
+<td><a href="{{ lp.provider_url }}">{{ lp.provider_url }}</a></td>
 </tr>
 {% endfor %}
 </table>
