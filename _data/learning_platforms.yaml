@@ -286,3 +286,67 @@
     - Retail
     - Telecommunications
     - Transportation/Trucking/Railroad
+
+- provider_name: "EducateMe"
+  provider_url: "https://www.educate-me.co"
+  description: "A collaborative platform for creating and scaling educational courses, offering customization, automation, and real-time insights."
+  languages_supported: "English"
+  customer_segments:
+    - Educational Institutions
+    - Startups
+    - E-learning Organizations
+    - Cohort-based Programs
+
+- provider_name: "AcademyOcean"
+  provider_url: "https://academyocean.com"
+  description: "A comprehensive learning management system for enterprises, offering course creation, assessment tools, and detailed analytics."
+  languages_supported: "Multiple languages"
+  customer_segments:
+    - Enterprises
+    - Corporate Organizations
+    - Small to Large Businesses
+
+- provider_name: "Knolyx"
+  provider_url: "https://knolyx.com"
+  description: "A platform for empowering workforce and delivering impactful learning, allowing organizations to create their own learning academies."
+  languages_supported: "English"
+  customer_segments:
+    - Enterprises
+    - Corporate Training
+    - Educational Institutions
+
+- provider_name: "Continu"
+  provider_url: "https://www.continu.com"
+  description: "A modern learning platform for businesses to train, onboard, and develop their teams."
+  languages_supported: "English"
+  customer_segments:
+    - Businesses
+    - Corporate Training
+    - Employee Development
+
+- provider_name: "GoSkills"
+  provider_url: "https://www.goskills.com"
+  description: "An online learning platform offering business skills courses and a learning management system for businesses."
+  languages_supported: "English"
+  customer_segments:
+    - Individuals
+    - Small to Medium Businesses
+    - Corporate Training
+
+- provider_name: "Groundwork"
+  provider_url: "https://groundwork1.com"
+  description: "A platform for creating and delivering online courses and training programs."
+  languages_supported: "English"
+  customer_segments:
+    - Course Creators
+    - Businesses
+    - Educational Institutions
+
+- provider_name: "Seismic"
+  provider_url: "https://seismic.com"
+  description: "A sales enablement platform that includes learning and coaching capabilities for sales teams."
+  languages_supported: "Multiple languages"
+  customer_segments:
+    - Sales Organizations
+    - Enterprises
+    - B2B Companies
