@@ -350,3 +350,24 @@
     - Sales Organizations
     - Enterprises
     - B2B Companies
+
+- provider_name: "eCom Learning Solutions"
+  provider_url: "https://www.ecomlearningsolutions.com/digital-learning-platforms/"
+  description: "Offers a range of innovative and flexible digital learning solutions including workforce development platforms, online assessment tools, learning management systems, digital badges, virtual reality-based learning, and eLearning content authoring tools."
+  languages_supported: "Multiple languages"
+  customer_segments:
+    - Academic Institutions
+    - Corporate Organizations
+    - Government Agencies
+    - Public Sector
+    - Charitable Organizations
+
+- provider_name: "Litmos"
+  provider_url: "https://www.litmos.com"
+  description: "An all-in-one learning management system offering an intuitive platform, off-the-shelf training content, and expert L&D services, including AI-powered learning capabilities."
+  languages_supported: "Multiple languages"
+  customer_segments:
+    - Corporations
+    - Small to Large Businesses
+    - Organizations seeking compliance training
+    - Companies
