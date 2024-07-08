@@ -165,3 +165,9 @@
   description: All-in-one learning platform that combines LMS and LXP features, enabling organizations to consolidate learning, skills, and communications
   languages_supported: 20+ languages
   customer_segments: Enterprise, Mid-market, Scale-ups
+
+- provider_name: Training Orchestra TMS
+  provider_url: https://trainingorchestra.com
+  description: Training Management System (TMS) that complements existing LMS platforms to manage complex instructor-led and virtual instructor-led training at scale
+  languages_supported: Multiple languages
+  customer_segments: Large Enterprises, Organizations with Complex Training Operations
