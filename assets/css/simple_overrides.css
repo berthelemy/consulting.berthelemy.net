@@ -222,6 +222,10 @@ div.book-cover a {
   display: block;
 }
 
+table.dataTable span.dt-column-title[role=button] {
+  all: inherit;
+}
+
 
 /* MOBILE VIEW */
 
