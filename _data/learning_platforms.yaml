@@ -117,3 +117,45 @@
   description: Suite of workplace digital learning solutions
   languages_supported: English
   customer_segments: Enterprise, Mid-market
+
+- provider_name: Bettermode
+  provider_url: https://bettermode.com
+  description: All-in-one customer community platform for businesses to streamline customer experience and build stronger relationships
+  languages_supported: Multiple languages
+  customer_segments: Business, Enterprise, Mid-market
+
+- provider_name: Circle
+  provider_url: https://circle.so
+  description: Modern community platform for creators and brands to bring together discussions, memberships, and content
+  languages_supported: Multiple languages
+  customer_segments: Creators, Small Business, Education
+
+- provider_name: Disciple
+  provider_url: https://www.disciple.community
+  description: White-label community platform for building branded social networks and online communities
+  languages_supported: Multiple languages
+  customer_segments: Brands, Influencers, Organizations
+
+- provider_name: Hivebrite
+  provider_url: https://hivebrite.io
+  description: All-in-one community management and engagement platform
+  languages_supported: Multiple languages
+  customer_segments: Alumni Networks, Nonprofits, Corporations
+
+- provider_name: Invision Community
+  provider_url: https://invisioncommunity.com
+  description: Flexible community software for creating forums, social networks, and Q&A platforms
+  languages_supported: Multiple languages
+  customer_segments: Businesses, Organizations, Online Communities
+
+- provider_name: Mighty Networks
+  provider_url: https://www.mightynetworks.com
+  description: Platform for creating and monetizing communities, online courses, and membership sites
+  languages_supported: Multiple languages
+  customer_segments: Creators, Entrepreneurs, Brands
+
+- provider_name: Participate
+  provider_url: https://www.participate.com
+  description: Community-powered learning platform for professional development and collaboration
+  languages_supported: Multiple languages
+  customer_segments: Education, Nonprofits, Corporations
