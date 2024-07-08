@@ -18,16 +18,13 @@
               <script type="text/javascript" src="https://cdn.datatables.net/rowgroup/1.3.0/css/rowGroup.dataTables.min.css"></script>
               <script>
               $(document).ready( function () {
-                {% if page.datatable == 'learning-platforms' %}
+                
                   $('table').DataTable({
                     dom: 'lfrtip',
                     "responsive": true,
                     "paging": false,
-                    
-
-
                   });
-                  {% endif %}  
+                  
                 
                   {%- if page.order -%}
                     "order": [[{{ page.order }}, 'asc']],
