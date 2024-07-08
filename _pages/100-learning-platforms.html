@@ -21,7 +21,8 @@ permalink: /data/learning-platforms
     <th>Customer segments</th>
     <th>URL</th>
   </thead>
-{% for lp in site.data.learning_platforms %}
+  <tbody>
+  {% for lp in site.data.learning_platforms %}
 <tr>
 <td>{{ lp.provider_name }}</td>
 <td>{{ lp.description }}</td>
@@ -30,4 +31,5 @@ permalink: /data/learning-platforms
 <td><a href="{{ lp.provider_url }}">{{ lp.provider_url }}</a></td>
 </tr>
 {% endfor %}
+</tbody>
 </table>
