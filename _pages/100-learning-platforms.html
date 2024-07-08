@@ -19,16 +19,15 @@ permalink: /data/learning-platforms
     <th>Description</th>
     <th>Language support</th>
     <th>Customer segments</th>
-    <th>URL</th>
   </thead>
   <tbody>
   {% for lp in site.data.learning_platforms %}
 <tr>
-<td>{{ lp.provider_name }}</td>
+<td>{{ lp.provider_name }}<br><a href="{{ lp.provider_url }}">{{ lp.provider_url }}</a></td>
 <td>{{ lp.description }}</td>
 <td>{{ lp.languages_supported }}></td>
 <td>{{ lp.customer_segments}}</td>
-<td><a href="{{ lp.provider_url }}">{{ lp.provider_url }}</a></td>
+<td></td>
 </tr>
 {% endfor %}
 </tbody>
