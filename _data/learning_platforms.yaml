@@ -267,3 +267,9 @@
   description: "SaaS LMS suitable for both internal and external training."
   languages_supported: "Multiple languages"
   customer_segments: "Enterprises, SMBs, Educational Institutions"
+
+- provider_name: "SkyPrep"
+  provider_url: "https://skyprep.com"
+  description: "An intuitive online training platform for enterprise learning needs, offering automation, distance learning, and employee productivity improvement."
+  languages_supported: "English"
+  customer_segments: "Enterprises, Event Staff Training, Corporate Training"
