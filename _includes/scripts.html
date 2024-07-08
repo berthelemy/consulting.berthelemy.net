@@ -20,7 +20,14 @@
               $(document).ready( function () {
                 
                   $('#{{ page.datatable }}').DataTable({
-                    dom: 'lfrtipB'
+                    layout: {
+                        topStart: {
+                            buttons: [
+                                'copy', 'excel', 'pdf'
+                            ]
+                        }
+                    }
+                    dom: 'lfrtip'
                     ,"responsive": true
                     ,"searching": true
                   
