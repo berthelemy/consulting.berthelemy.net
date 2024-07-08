@@ -222,7 +222,7 @@ div.book-cover a {
   display: block;
 }
 
-table.dataTable span.dt-column-title[role=button] {
+table.dataTable span.dt-column-title[role=button], div.dt-paging button  {
   all: unset;
 }
 
