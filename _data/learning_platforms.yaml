@@ -422,3 +422,59 @@
   languages_supported: Multiple languages
   customer_segments:
     - Alumni Networks
+
+- provider_name: ILIAS
+  provider_url: https://www.ilias.de/en/
+  supplier: ILIAS Society
+  description: Open-source LMS that evolved from the University of Cologne, suitable for various educational contexts.
+  customer_segments:
+    - Higher Education
+    - Businesses
+    - Schools
+    - Public Authorities
+
+- provider_name: AmpleLogic LMS
+  provider_url: https://amplelogic.com/de/learning-management-software/
+  supplier: AmpleLogic
+  description: AI-enabled LMS designed for regulated industries like Life Sciences, Food & Beverages, Cosmetics, Gene Therapy, and Medical Devices.
+  customer_segments:
+    - Pharmaceutical Industry
+    - Regulated Industries
+    - Corporate
+
+- provider_name: Bechtle LMS
+  provider_url: https://www.bechtle.com/de-en/it-services/learning-services/digital-learning/learning-management-system
+  supplier: Bechtle
+  description: Customizable LMS offering various packages (Bronze, Silver, Gold) with features like video management, multilingualism, and mobile app support.
+  customer_segments:
+    - Corporate
+    - Enterprise
+
+- provider_name: you-know LMS
+  provider_url: https://you-know.de/en/learning-technologies/learning-management-system/
+  supplier: you-know
+  description: Flexible LMS that can be tailored to specific company requirements, offering features like gamification and social learning.
+
+- provider_name: edyoucated LMS
+    provider_url: https://edyoucated.org/en/products/learning-management-system-lms
+    supplier: edyoucated
+    description: AI-powered LMS focusing on personalized learning experiences and skill-based learning paths.
+    customer_segments:
+      - Corporate
+      - Higher Education
+
+- provider_name: imc Learning Suite
+  provider_url: https://www.im-c.com/learning-suite/
+  supplier: imc AG
+  description: Comprehensive learning platform offering personalized learning experiences, compliance training, and talent development features.
+  customer_segments:
+    - Corporate
+    - Enterprise
+
+- provider_name: WorkAdemy LMS
+  provider_url: https://www.theworkademy.com/
+  supplier: WorkAdemy
+  description: Cloud-based LMS focusing on employee training and development, offering features like course creation and progress tracking.
+  customer_segments:
+    - Corporate
+    - Small to Medium Businesses
