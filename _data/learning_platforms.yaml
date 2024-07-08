@@ -478,3 +478,16 @@
   customer_segments:
     - Corporate
     - Small to Medium Businesses
+
+- provider_name: Vector Solutions
+  provider_url: https://www.vectorsolutions.com/
+  supplier: Vector Solutions
+  description: Industry-specific training and workforce management solutions offering online courses, compliance management, and safety tools for various sectors including education, public safety, industrial, and AEC.
+  customer_segments:
+    - Education
+    - Public Safety
+    - Industrial
+    - Architecture, Engineering, and Construction (AEC)
+    - Healthcare
+    - Casino and Gaming
+    - Financial Services
