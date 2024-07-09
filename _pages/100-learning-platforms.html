@@ -14,6 +14,8 @@ layout: simple_default
 permalink: /data/learning-platforms
 
 ---
+{%- assign platforms-sorted = site.data.learning-platforms | sort: "provider_name" -%}
+
 <table id="learning-platforms" class="order-column compact">
   <thead>
     <th>Name</th>
@@ -21,7 +23,7 @@ permalink: /data/learning-platforms
     <th>Customer segments</th>
   </thead>
   <tbody>
-  {% for lp in site.data.learning_platforms %}
+  {% for lp in platforms-sorted %}
 <tr>
 <td>{{ lp.provider_name }}<br><a href="{{ lp.provider_url }}">{{ lp.provider_url }}</a></td>
 <td>{{ lp.description }}</td>
