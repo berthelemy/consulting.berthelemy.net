@@ -491,3 +491,14 @@
     - Healthcare
     - Casino and Gaming
     - Financial Services
+
+- provider_name: Intellum
+  provider_url: https://www.intellum.com/
+  supplier: Intellum
+  description: Comprehensive platform for customer, partner, and employee education, offering interactive HTML5 e-learning content creation and delivery. Focuses on driving business results through education initiatives.
+  customer_segments:
+    - Corporate
+    - Enterprise
+    - Technology Companies
+    - Retail
+    - Human Resources
