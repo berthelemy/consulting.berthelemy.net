@@ -28,9 +28,9 @@ The programme will help you to identify and develop the skills you need.
 
 1. Initial free exploration session - to assess whether the coaching relationship will work for both of us.
 2. 50 minute sessions - where we look at what you've done since the previous session and what you want to achieve by next time. Sessions can be as frequent as you need, with a gap of one month as an ideal minimum.
-3. Free access to videos and supporting content (coming soon)
-4. Free group Q&A sessions for (coming soon)
-5. Free online community of practice for all subscribers (coming soon)
+3. Access to videos and supporting content (coming soon)
+4. Group Q&A sessions for (coming soon)
+5. Online community of practice for all subscribers (coming soon)
 
 ### Pricing
 
