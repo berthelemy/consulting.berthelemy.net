@@ -25,7 +25,7 @@ In the world of education and adult learning, you'll find several established op
 
 That last point is critical. It's fine to experiment with software from all over. As soon as you want to roll it out across an organisation and start to depend on it, you need to have some confidence it will be maintained and supported for a while.
 
-This post focusses on **elearning** authoring tools. I'm deliberately keeping that definition quite tight - in that it must be specifically designed to support teaching and learning. I could, in theory, include applications like LibreOffice, Dokuwiki, Booktype, and a whole host of others. And I could include more complex platforms like Moodle, OpenEdX and Wordpress. But that would make this article way too long!
+This post focusses on **elearning** authoring tools. I'm deliberately keeping that definition quite tight - in that it must be specifically designed to support teaching and learning. I could, in theory, include applications like LibreOffice, Dokuwiki, Booktype, and a whole host of others. And I could include more complex platforms like Moodle, OpenEdX and Wordpress. I'll cover those in future articles.
 
 ## Adapt
 
