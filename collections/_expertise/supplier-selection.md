@@ -2,10 +2,10 @@
 title: Supplier selection
 excerpt: Helping you reduce risk by choosing the right technology for your needs
 order: 3
-img: m-skidoo-1000878.jpg
-img-alt: A line of parked skidoos on snow
-img-credit: Mark Berthelemy
-img-credit-url: 
+img: coffee-break-1177540_1280.jpg
+img-alt: People at a conference
+img-credit: Steve Cliff on Pixabay
+img-credit-url: https://pixabay.com/photos/coffee-break-conference-women-1177540/
 ---
 I can help you:
 
@@ -21,4 +21,4 @@ I can help you:
 - Providing support to an online training startup to select a marketing and delivery platform
 - Leading the procurement process to select an enterprise learning and talent management platform for a global company in the energy sector *
 
-* done under my old business name: Wyver Solutions Ltd
+[ * Done under my old business name: Wyver Solutions Ltd ]

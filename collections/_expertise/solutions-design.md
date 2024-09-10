@@ -2,10 +2,10 @@
 title: Solutions design
 excerpt: Finding and designing a learning technology solution that fits your existing landscape, your needs and your people
 order: 2
-img: m-mountains-IMG_20190402_121936-small.jpg
-img-alt: Panorama of mountains and a valley
-img-credit: Mark Berthelemy
-img-credit-url: 
+img: meeting-594091_1280.jpg
+img-alt: People in a meeting
+img-credit: StartupStockPhotos on Pixabay
+img-credit-url: https://pixabay.com/photos/meeting-brainstorming-business-594091/
 ---
 I can help you:
 
@@ -17,4 +17,9 @@ I can help you:
 
 ## Previous projects
 
-- Designing the Skills Framework for Agriculture for CABI
+- Designing the overall approach to designing and delivering courses within the CABI Academy
+- Designing, prototyping and delivering the Skills Framework for Agriculture for CABI
+- Designing an integrated content delivery system, using TalentLMS and Rustici Content Controller, for MIX Diversity's online training
+- Designing the approach to using Moodle for an award-winning NHS Leadership programme *
+
+[ * Done under my old business name: Wyver Solutions Ltd ]

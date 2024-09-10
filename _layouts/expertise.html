@@ -1,14 +1,14 @@
 ---
 layout: simple_default
 ---
-<div class="banner">
+<!--<div class="banner">
   <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.img-alt }}">
   <p class="img-credit">Image credit:&nbsp;
     {%- if expertise.img-credit-url -%}<a href="{{ expertise.img-credit-url }}" target="_blank">{{ expertise.img-credit }}</a>
     {%- else -%}
     {{ expertise.img-credit }}
     {%- endif -%}
-</div>
+</div>-->
 <nav aria-label="breadcrumb">
     <ul>
       <li><a href="/expertise">Expertise</a></li>
@@ -56,7 +56,8 @@ layout: simple_default
 <h3>Other services</h3>
 
 <ul>
-{%- for expertise in site.expertise -%}
+{%- assign expertiseOrdered = site.expertise | sort:"order" %}
+{%- for expertise in expertiseOrdered -%}
 {%- if expertise.url != page.url -%}
 
 <li><a href="{{ expertise.url }}">{{ expertise.title }}</a></li>

@@ -150,6 +150,17 @@ footer aside, aside.list {
   margin: inherit;
 }
 
+.img-container {
+  height: 40vh;
+  overflow:hidden;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.img-container img {
+  margin-top:-60vh;
+}
+
 article.expertise {
   height: 97%;
 }

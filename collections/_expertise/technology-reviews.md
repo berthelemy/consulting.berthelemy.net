@@ -2,10 +2,10 @@
 title: Technology reviews
 excerpt: Looking at how to make the best use of what you already have and provide a roadmap for the future
 order: 1
-img: m-footpath-P1010564.JPG
-img-alt: Three footpath signs
-img-credit: Mark Berthelemy
-img-credit-url: 
+img: way-427984_1280.jpg
+img-alt: Road heading into the distance
+img-credit: Michal Jarmoluk on Pixabay
+img-credit-url: https://pixabay.com/photos/way-clouds-belts-direction-427984/
 ---
 I can help you:
 
@@ -22,9 +22,10 @@ I can help you:
 - Developing a business case for a new, custom-built content management platform for Emerald Publishing
 - Recommending how to simplify a disparate set of learning technologies for a software company that has grown by acquisition
 - Developing a 5 year roadmap for the future of learning technology at the UK's HMRC (tax office) *
+- Reviewing the use of Moodle within the National Institute for Health Research, and proposing improvements *
 - Reviewing the learning technology in use across the UK's Defence Academy *
 - Reviewing current assessment management processes and systems, with a view to replacing with off-the-shelf platforms, for a global qualificiations provider *
 - Developing a roadmap for improvements and integration of ecommerce, customer relationship and course delivery for Education for Health *
 - Reviewing the use of current enterprise learning systems within National Grid, and making recommendations for the future *
 
-* Done under my old business name: Wyver Solutions Ltd
+[ * Done under my old business name: Wyver Solutions Ltd ]

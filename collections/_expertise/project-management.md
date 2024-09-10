@@ -1,12 +1,12 @@
 ---
-title: Learning project management
+title: Project management
 excerpt: Ensuring that everyone is heading in the same direction to deliver your learning and knowledge projects
 order: 4
 
-img: m-dog-sled-1000984-white.jpg
-img-alt: Dog sled team on a snowy landscape
-img-credit: Mark Berthelemy
-img-credit-url: 
+img: meeting-4784909_1280.jpg
+img-alt: People in a workshop
+img-credit: Pixabay
+img-credit-url: https://pixabay.com/photos/meeting-adults-business-people-4784909/
 ---
 You've made your choice of technologies and now need to get them running in your organisation.
 
@@ -39,12 +39,12 @@ With my experience across large and small scale projects, I can help you manage 
 - Learning technology advice and support for UfI funded projects *
 - Quality assurance for an Axelos cyber-security product *
 - Project managing a complex Moodle upgrade in a highly integrated system for a TEFL training company *
-- Learning platform lead for the award-winning NHS Leadership Academy *
+- Learning platform lead for an award-winning NHS Leadership programme *
 - Supporting a Moodle implementation and content migration project for Oxfordshire NHS Trust *
 - Project management for Xyleme's implementation within Tetrapak *
 - Online learning manager for the UK Census field-force training - setting up a Moodle-based platform to manage training for 60,000 people over a period of 6 months **
 - Leading Capita's delivery of an integrated platform for Civil Service Learning's face-to-face training in 4 weeks **
 - System configuration for a government-sponsored high stakes assessment tool for users of a child-protection database **
 
-* done under my old business name: Wyver Solutions Ltd
-** done whilst employed by Capita Group PLC
+[ * done under my old business name: Wyver Solutions Ltd ]
+[ ** done whilst employed by Capita Group PLC ]
