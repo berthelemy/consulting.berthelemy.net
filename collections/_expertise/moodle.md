@@ -1,6 +1,6 @@
 ---
 title: Moodle
-published: true
+published: false
 excerpt: Hands on support to configure your Moodle platform
 order: 2
 img: m-pulley-1000895.jpg

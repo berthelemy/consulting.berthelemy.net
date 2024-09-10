@@ -5,7 +5,8 @@ layout: simple_default
 permalink: /expertise
 ---
 {%- assign count = 0 -%}
-{%- for expertise in site.expertise -%}
+{%- assign expertiseOrdered = site.expertise | sort:"order" %}
+{%- for expertise in expertiseOrdered -%}
 {%- if expertise.published != false -%}
 {%- if count == 0 -%}
 <div class="grid">

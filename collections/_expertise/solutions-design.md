@@ -1,7 +1,7 @@
 ---
-title: Solutions architecture
-excerpt: Finding and designing a learning technology solution that fits your existing landscape
-order: 3
+title: Solutions design
+excerpt: Finding and designing a learning technology solution that fits your existing landscape, your needs and your people
+order: 2
 img: m-mountains-IMG_20190402_121936-small.jpg
 img-alt: Panorama of mountains and a valley
 img-credit: Mark Berthelemy
@@ -14,3 +14,7 @@ I can help you:
 - Design new solutions
 - Plan a roadmap to get to your future state
 - Ensure clear communication between technical and non-technical audiences
+
+## Previous projects
+
+- Designing the Skills Framework for Agriculture for CABI
