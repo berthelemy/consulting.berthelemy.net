@@ -5,7 +5,7 @@ excerpt: "Following a recent spate of attacks on commonly-used web applications,
 layout: post
 permalink: /2014/05/17/recovering-from-a-hacked-web-based-system/
 tags:
- - System implementation
+ - Project management
 
 ---
 Following on from my past two posts about [risk][2] and [security][3], it&#8217;s probably a good idea to identify a few techniques which might help you to recover your systems following an attack.

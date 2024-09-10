@@ -6,7 +6,7 @@ excerpt: |
 layout: post
 permalink: /2017/10/18/digital-transformation-big-questions
 tags:
-  - System implementation
+  - Project management
   - Project management
 thumb: /post-images/2017/10/binary-thumb.png
 banner: /post-images/2017/10/binary-banner.png

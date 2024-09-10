@@ -7,6 +7,7 @@ layout: post
 tags:
   - Supplier selection
   - Content management
+  - Advocacy
 ---
 <a href="http://www.adlnet.gov/capabilities/scorm.html" target="_blank">SCORM</a> has, for a long time, been the de facto method of packaging online content for use within learning management systems (LMS). It allows content to be produced separately from the LMS and then used in multiple LMS&#8217;s. It also allows the content to send and receive data to and from the LMS, enabling tracking of learner progress and attainment.
 

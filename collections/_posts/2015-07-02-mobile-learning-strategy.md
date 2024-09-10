@@ -6,8 +6,8 @@ excerpt:
 layout: post
 permalink: /2015/07/02/mobile-learning-strategy/
 tags:
-  - Learning design
-  - System implementation
+  - Solution design
+  - Project management
   - Supplier selection
 thumb: /assets/ipad-MT241216-cropped.png
 banner: /assets/ipad-MT241216-cropped.png

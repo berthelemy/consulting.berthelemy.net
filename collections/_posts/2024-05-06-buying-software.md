@@ -13,7 +13,7 @@ imgalt: Line drawing of two people talking by a laptop
 imgcredit: Shutterstock
 imgurl: 
 tags:
-  - Solutions architecture
+  - Solution design
   - Supplier selection
   - Project management
 ---

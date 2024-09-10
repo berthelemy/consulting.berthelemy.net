@@ -15,7 +15,7 @@ imgurl: https://www.flickr.com/photos/gerlos/40635833271
 tags:
   - Standards
   - Content management
-  - Solutions architecture
+  - Solution design
   - Open source
 ---
 Elearning content has, since 1993, been distributed in "packages", whether AICC, SCORM or CMI5 (see [previous article introducing elearning standards](/2024/04/05/elearning-standards)).

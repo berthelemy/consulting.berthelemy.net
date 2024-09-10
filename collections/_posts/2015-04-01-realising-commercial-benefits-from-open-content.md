@@ -7,6 +7,7 @@ permalink: /2015/04/01/realising-commercial-benefits-from-open-content/
 tags:
   - Content management
   - Coaching
+  - Advocacy
 thumb: /assets/morguefile0001600559463-thumb.png
 banner: /assets/morguefile0001600559463-995.png
 alt: Web browser

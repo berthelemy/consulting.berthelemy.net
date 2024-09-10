@@ -1,5 +1,5 @@
 ---
-title: Solutions design
+title: Solution design
 excerpt: Finding and designing a learning technology solution that fits your existing landscape, your needs and your people
 order: 2
 img: meeting-594091_1280.jpg

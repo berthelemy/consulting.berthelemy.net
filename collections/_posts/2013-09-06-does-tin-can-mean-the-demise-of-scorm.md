@@ -6,6 +6,7 @@ layout: post
 permalink: /2013/09/06/does-tin-can-mean-the-demise-of-scorm/
 tags:
   - Supplier selection
+  - Advocacy
   - Standards
 ---
 <div style="padding: 5px; border: 1px solid #5b5b5b; margin: 5px; text-align: center;">

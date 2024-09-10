@@ -5,7 +5,7 @@ excerpt: Many systems implementations fail to achieve their desired results thro
 layout: post
 permalink: /2012/11/12/system-adoption-methodology/
 tags:
-  - System implementation
+  - Project management
 ---
 Many systems are introduced into organisations, yet fail to realise significant benefits because people in the organisation either choose not to use the system, or do not use it most effectively.
 

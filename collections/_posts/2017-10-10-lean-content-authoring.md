@@ -7,7 +7,7 @@ permalink: /2017/10/10/lean-content-authoring
 tags:
   - Content management
   - Supplier selection
-  - Solutions architecture
+  - Solution design
 thumb: /post-images/2017/10/alphabets-2365812_455-thumb.jpg
 banner: /post-images/2017/10/alphabets-2365812_900-banner.jpg
 alt: LTI graphic

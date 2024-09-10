@@ -6,6 +6,7 @@ layout: post
 permalink: /2013/01/11/open-source-software/
 tags:
   - Open source
+  - Advocacy
   - Supplier selection
 ---
 In the learning &amp; training world, open source software means more than just <a href="http://moodle.org/" target="_blank">Moodle</a>. As well as the ubiquitous Course Management System, there are open source content development tools (e.g. [ExeLearning][1], <a href="http://www.nottingham.ac.uk/xerte" target="_blank">Xerte</a>), mind-mapping applications (e.g. [Freemind][2]), audio-editing tools (eg. [Audacity][3]), utilities (e.g. [Filezilla][4], [Firefox][5]), content management systems (e.g. [WordPress][6], <a href="http://drupal.org/" target="_blank">Drupal</a> and [Joomla][7]), and even [OpenOffice][8], a full-blown competitor to Microsoft Office.

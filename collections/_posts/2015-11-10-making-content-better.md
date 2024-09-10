@@ -8,6 +8,7 @@ permalink: /2015/11/10/making-content-better
 tags:
  - Supplier selection
  - Content management
+ - Advocacy
 thumb: /post-images/2015/11/making-content-better-thumb.png
 banner: /post-images/2015/11/making-content-better-banner.png
 alt: Content processes

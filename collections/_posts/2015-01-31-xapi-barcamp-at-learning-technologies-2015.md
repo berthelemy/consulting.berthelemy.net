@@ -6,6 +6,7 @@ layout: post
 permalink: /2015/01/31/xapi-barcamp-at-learning-technologies-2015/
 tags:
   - Standards
+  - Advocacy
 ---
 This week I had the privilege to work alongside <a href="https://twitter.com/bbetts" target="_blank">Ben Betts</a>, <a href="https://twitter.com/jonarchibald" target="_blank">Jonathan Archibald</a>, <a href="https://twitter.com/mrdownes" target="_blank">Andrew Downes</a>, and <a href="https://twitter.com/maberdour" target="_blank">Mark Aberdour</a> at the <a href="http://www.adlnet.gov/tla/experience-api/" target="_blank">xAPI</a> barcamp run by <a href="http://learnpatch.com/" target="_blank">LearnPatch</a>. Over 40 of me gathered at the <a href="http://www.thecumberlandarmspub.co.uk/" target="_blank">Cumberland Arms</a> to spend an hour or so in conversation about xAPI (aka Tin Can API).
 

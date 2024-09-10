@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/04/18/securing-wordpress
 tags:
   - Content management
-  - System implementation
+  - Project management
 thumb: /post-images/2016/04/securing-wordpress-thumb.png
 banner: /post-images/2016/04/securing-wordpress-banner.png
 alt: Wordpress logo with padlock

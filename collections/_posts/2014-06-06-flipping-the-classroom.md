@@ -6,7 +6,7 @@ layout: post
 permalink: /2014/06/06/flipping-the-classroom/
 tags:
   - Coaching
-  - Learning design
+  - Solution design
 
 ---
 This post is designed as preparation activity prior to a short workshop for university staff on &#8220;Flipping the classroom&#8221;.

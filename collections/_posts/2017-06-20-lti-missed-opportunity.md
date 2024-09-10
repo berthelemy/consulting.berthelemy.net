@@ -6,14 +6,15 @@ layout: post
 permalink: /2017/06/20/lti-missed-opportunity
 tags:
   - Supplier selection
+  - Advocacy
   - Content management
-  - Solutions architecture
+  - Solution design
 thumb: /post-images/2017/06/computer-2148713_thumb.jpg
 banner: /post-images/2017/06/computer-2148713_banner.jpg
 alt: LTI graphic
 img-credit: <a href="https://pixabay.com/en/computer-keyboard-mac-technology-2148713/" target="_blank">Pixabay</a>
 ---
-If you work in a medium-to-large organisation, you've probably come across **tactical**, online learning solutions designed to meet a specific need at a specific moment in time.
+If you work in a medium-to-large organisation, you've probably come across **tactical**, online learning Solution designed to meet a specific need at a specific moment in time.
 
 Examples might include:
 

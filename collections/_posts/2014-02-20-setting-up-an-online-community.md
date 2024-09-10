@@ -5,7 +5,7 @@ excerpt: In this article, I explore what needs to be in place before starting an
 layout: post
 permalink: /2014/02/20/setting-up-an-online-community/
 tags:
-  - Learning design
+  - Solution design
   - Coaching
 ---
 <p dir="ltr">

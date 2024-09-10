@@ -6,7 +6,7 @@ excerpt: |
 layout: post
 permalink: /2017/04/17/systems-implementation-process/
 tags:
-  - System implementation
+  - Project management
   - Project management
 thumb: /post-images/2017/04/implementation-process-thumb.png
 banner: /post-images/2017/04/implementation-process-banner.png

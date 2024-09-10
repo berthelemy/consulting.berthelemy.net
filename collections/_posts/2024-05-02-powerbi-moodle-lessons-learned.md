@@ -13,7 +13,7 @@ imgalt: PowerBI generated ribbon chart - edited to remove labels
 imgcredit: CABI
 imgurl: https://cabi.org
 tags:
-  - Solutions architecture
+  - Solution design
   - Moodle
   - Information architecture
 ---

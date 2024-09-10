@@ -5,7 +5,7 @@ excerpt: "Some will argue that I shouldn't have a separate elearning strategy - 
 layout: post
 permalink: /2014/05/11/what-to-include-in-an-elearning-strategy/
 tags:
- - Learning design
+ - Solution design
  - Coaching
 
 ---

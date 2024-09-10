@@ -5,7 +5,7 @@ excerpt: Testing is one of those tasks, like writing documentation, that most of
 layout: post
 permalink: /2013/08/10/managing-testing/
 tags:
-  - System implementation
+  - Project management
 ---
 I often work on large projects where at least some elements of the solution are bespoked for the client, whether it&#8217;s code, application configuration, administration processes or workflows.
 

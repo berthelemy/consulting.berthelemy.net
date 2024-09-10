@@ -6,7 +6,7 @@ layout: post
 permalink: /2014/12/23/end-of-year-news/
 tags:
 - Standards
-- Learning design
+- Solution design
 - Open source
 ---
 I'd like to thank you for working with me over the past year, and to wish you a ***Happy Christmas*** and an exciting New Year!

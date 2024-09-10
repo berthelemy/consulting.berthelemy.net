@@ -5,8 +5,9 @@ excerpt: Building online learning materials and applications that rely on a cert
 layout: post
 permalink: /2013/02/18/introduction-to-responsive-design/
 tags:
-  - Learning design
+  - Solution design
   - Supplier selection
+  - Advocacy
   - Coaching
 ---
 It used to be the case that online learning materials were specified with a particular screen size. At one point this was 800 x 600, then 1024 x 768.

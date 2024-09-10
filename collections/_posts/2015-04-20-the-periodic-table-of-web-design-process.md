@@ -5,7 +5,7 @@ excerpt: The periodic table of web design provides the basis of a useful templat
 layout: post
 permalink: /2015/04/20/the-periodic-table-of-web-design-process/
 tags:
-  - System implementation
+  - Project management
 ---
 In my thinking around learning technology implementation (see [article 1][1] and [article 2][2], I've been influenced heavily by a number of wider project management methodologies, such as <a href="https://www.axelos.com/best-practice-solutions/prince2" target="_blank">Prince 2</a>, <a href="http://www.dummies.com/how-to/content/agile-project-management-for-dummies-cheat-sheet.html" target="_blank">Agile Software Development</a> and <a href="https://www.scrumalliance.org/why-scrum" target="_blank">Scrum</a>.
 

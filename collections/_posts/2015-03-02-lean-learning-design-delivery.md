@@ -7,6 +7,7 @@ permalink: /2015/03/02/lean-learning-design-delivery/
 tags:
 
   - Coaching
+  - Advocacy
 
 ---
 During last week&#8217;s Lean Learning Masterclass, I used the concept map below to explore how lean principles might apply to the design and delivery of learning interventions.

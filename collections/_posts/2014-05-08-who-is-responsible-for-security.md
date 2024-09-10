@@ -5,7 +5,7 @@ excerpt: Where do you turn to for support and maintenance of your valuable softw
 layout: post
 permalink: /2014/05/08/who-is-responsible-for-security/
 tags:
-  - System implementation
+  - Project management
   - Supplier selection
 ---
 Of course, like health and safety, security is everyone&#8217;s responsibility. But, when it comes to the software systems you use, it&#8217;s important to have a named person or team who work to ensure the security of your data.

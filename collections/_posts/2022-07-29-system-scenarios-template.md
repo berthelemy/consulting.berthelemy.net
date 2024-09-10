@@ -12,7 +12,7 @@ imgurl: https://pixabay.com/photos/meeting-adults-business-people-4784909/
 tags:
   - Resources
   - Supplier selection
-  - Solutions architecture
+  - Solution design
 ---
 When purchasing a new software system, it's often really helpful to create some scenarios describing how it will be used.
 

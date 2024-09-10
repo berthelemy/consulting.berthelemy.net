@@ -14,7 +14,8 @@ imgcredit: Karolina Grabowska on Pixabay
 imgurl: https://pixabay.com/photos/technology-laptop-keyboard-computer-791029/
 tags:
   - Open source
-  - Solutions architecture
+  - Advocacy
+  - Solution design
   - Supplier selection
 ---
 There is a lot of software out there claiming to be free. Often, what this really means is a free trial, or a free, highly limited version. And most offer no freedom to make changes to the software.

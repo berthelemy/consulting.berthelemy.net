@@ -7,7 +7,7 @@ permalink: /2014/12/03/introduction-to-lean-learning/
 tags:
 
 
-  - Learning design
+  - Solution design
   - Coaching
 
 ---

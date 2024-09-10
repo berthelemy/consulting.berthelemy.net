@@ -15,7 +15,7 @@ tags:
   - Supplier selection
   - Coaching
   - Resources
-  - Solutions architecture
+  - Solution design
 ---
 I've used mind-mapping as part of my consultant's toolkit for over 20 years. I find the technique particularly useful when gathering and sorting ideas in workshops, or when brainstorming for articles like this one.
 

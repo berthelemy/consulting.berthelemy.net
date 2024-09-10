@@ -6,8 +6,9 @@ layout: post
 permalink: /2021/06/06/online-learning-without-lms
 tags:
   - Resources
+  - Advocacy
   - Supplier selection
-  - Learning design
+  - Solution design
   - Content management
 ---
 Your organisation wants to get into online learning.

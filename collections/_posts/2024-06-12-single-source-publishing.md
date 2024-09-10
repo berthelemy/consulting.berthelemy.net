@@ -13,7 +13,7 @@ imgalt: Machine with cogs
 imgcredit: MustangJoe on Pixabay
 imgurl: https://pixabay.com/photos/gears-cogs-machine-machinery-1236578/
 tags:
-  - Solutions architecture
+  - Solution design
   - Content management
 ---
 It was a workshop at the Open University that introduced me to the concept of Single Source Publishing ([Wikipedia: Single Source Publishing](https://en.wikipedia.org/wiki/Single-source_publishing){:target="_blank"}).

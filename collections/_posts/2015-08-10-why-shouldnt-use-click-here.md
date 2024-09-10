@@ -8,6 +8,7 @@ permalink: /2015/08/10-why-shouldnt-use-click-here
 tags:
   - Information architecture
   - Coaching
+  - Advocacy
 thumb: /assets/pixabay-signpost-468074_1280-165.png
 banner: /assets/signpost.png
 alt: Signpost saying "walk down"

@@ -8,7 +8,7 @@ excerpt: |
 layout: post
 permalink: /2015/04/22/learning-technology-implementation-planning-3/
 tags:
-  - System implementation
+  - Project management
 ---
 My previous articles on Learning Technology Implementation Planning have considered the [scoping and kick-off stages][1], and [project setup][2].
 

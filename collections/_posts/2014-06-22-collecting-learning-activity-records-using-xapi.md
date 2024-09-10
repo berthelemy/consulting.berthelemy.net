@@ -6,7 +6,7 @@ layout: post
 permalink: /2014/06/22/collecting-learning-activity-records-using-xapi/
 tags:
   - Standards
-  - Learning design
+  - Solution design
 ---
 My [whitepaper exploring the potential of the Tin Can API][1] shows, in theory, how the xAPI can help organisations manage their learning data.
 

@@ -5,7 +5,7 @@ excerpt: "In the news this week we've learned that many of my national and local
 layout: post
 permalink: /2014/03/26/weighing-up-the-risks-a-sensible-attitude-to-security/
 tags:
- - System implementation
+ - Project management
  - Supplier selection
 
 ---

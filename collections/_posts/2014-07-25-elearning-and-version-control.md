@@ -6,6 +6,7 @@ layout: post
 permalink: /2014/07/25/elearning-and-version-control/
 tags:
   - Content management
+  - Solution design
 ---
 Most of us start out creating documents and other materials without any system of version control in place.
 

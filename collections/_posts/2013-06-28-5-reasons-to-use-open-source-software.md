@@ -8,6 +8,7 @@ permalink: /2013/06/28/5-reasons-to-use-open-source-software/
 tags:
   - Supplier selection
   - Open source
+  - Advocacy
 
 ---
 Doug Belshaw, as his contribution to the [Elearning Network&#8217;s][2] event:[ &#8220;The Open Source revolution: low-cost, no cost &#8211; too good to be true?][3]&#8221; has produced a short video which outlines 5 reasons to use Open Source software.

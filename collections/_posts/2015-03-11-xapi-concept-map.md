@@ -7,6 +7,7 @@ layout: post
 permalink: /2015/03/11/xapi-concept-map/
 tags:
   - Standards
+  - Advocacy
   - Coaching
 thumb: /assets/cmaptools-icon.jpg
 banner: /assets/cmap-xapi.png

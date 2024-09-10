@@ -6,7 +6,7 @@ excerpt: As part of Towards Maturity’s eXchanges programme at Learning Technol
 layout: post
 permalink: /2013/02/05/game-based-learning/
 tags:
-  - Learning design
+  - Solution design
 ---
 As part of [Towards Maturity&#8217;s eXchanges programme][1] at Learning Technologies 2013, Wyver Solutions director, Mark Berthelemy, chaired a conversation with [Ben Betts][2].
 

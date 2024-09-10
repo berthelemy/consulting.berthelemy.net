@@ -14,7 +14,7 @@ imgcredit: Cory Doctorow (Creative Commons)
 imgurl: https://www.flickr.com/photos/doctorow/14452760238
 tags:
   - Standards
-  - Solutions architecture
+  - Solution design
   - Open source
 ---
 There will come a point in everyone's software journey when they'll want two or more systems to "talk" to each other.

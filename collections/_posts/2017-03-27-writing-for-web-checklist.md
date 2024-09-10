@@ -7,6 +7,7 @@ layout: post
 permalink: /2017/03/27/writing-for-web-checklist/
 tags:
   - Content management
+  - Advocacy
 thumb: /post-images/2017/03/writing-for-web-thumb.jpg
 banner: /post-images/2017/03/writing-for-web-banner.jpg
 alt: keyboard on desk

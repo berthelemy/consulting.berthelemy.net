@@ -6,7 +6,7 @@ layout: post
 permalink: /2020/08/20/content-conundrum
 tags:
   - Content management
-  - Learning design
+  - Solution design
   - Supplier selection
 thumb: /post-images/2020/08/question-mark-1872665_455.png
 banner: /post-images/2020/08/question-mark-1872665_900.png

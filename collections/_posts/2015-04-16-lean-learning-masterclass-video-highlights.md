@@ -9,7 +9,7 @@ layout: post
 permalink: /2015/04/16/lean-learning-masterclass-video-highlights/
 tags:
 
-  - System implementation
+  - Project management
   - Content management
   - Coaching
 ---

@@ -13,7 +13,7 @@ imgalt: Man writing next to a laptop
 imgcredit: Stocksnap on Pixabay
 imgurl: https://pixabay.com/photos/man-writing-laptop-computer-write-2562325/
 tags:
-  - Solutions architecture
+  - Solution design
   - Moodle
 ---
 I'm assuming you've got a Moodle site installed.

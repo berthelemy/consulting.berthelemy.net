@@ -10,6 +10,7 @@ imgcredit: Bellahu123 on Pixabay
 imgurl: https://pixabay.com/photos/gift-christmas-birthday-4663231/
 tags:
   - Standards
+  - Advocacy
   - Moodle
   - Content management
 ---

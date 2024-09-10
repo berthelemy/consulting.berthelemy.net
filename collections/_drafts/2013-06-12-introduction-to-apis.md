@@ -6,7 +6,7 @@ excerpt: I look at Application Programming Interfaces (APIs) and how they can he
 layout: post
 permalink: /2013/06/12/introduction-to-apis/
 tags:
- - System implementation
+ - Project management
 
 ---
 <p style="border: 1px solid gray; width: 33%; padding: 4px; text-align: left;">

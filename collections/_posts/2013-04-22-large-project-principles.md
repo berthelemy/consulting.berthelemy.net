@@ -5,7 +5,7 @@ excerpt: 'I discuss three key principles for effectively managing large projects
 layout: post
 permalink: /2013/04/22/large-project-principles/
 tags:
-  - System implementation
+  - Project management
 ---
 Recently, I was asked how I would lead a large, complex project.
 

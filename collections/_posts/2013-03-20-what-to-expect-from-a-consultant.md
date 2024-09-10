@@ -6,6 +6,7 @@ layout: post
 permalink: /2013/03/20/what-to-expect-from-a-consultant/
 tags:
   - Coaching
+  - Technology reviews
 
 ---
 If you call me in to help you with a problem, the first thing I&#8217;ll do is ask you lots of questions. Yes, I do have a preferred, and constantly evolving, toolbox of ideas, processes, applications and systems, but there&#8217;s no way I could suggest any particular way of doing things until I really know what you need.

@@ -8,7 +8,7 @@ tags:
   
   - Content management
   - Open source
-  - Learning design
+  - Solution design
   - Standards
   
 ---

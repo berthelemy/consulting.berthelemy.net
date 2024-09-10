@@ -14,8 +14,9 @@ imgcredit: Pixabay
 imgurl: https://pixabay.com/photos/usb-type-c-cable-guy-two-1281034/
 tags:
   - Standards
+  - Advocacy
   - Supplier selection
-  - Solutions architecture
+  - Solution design
 ---
 It wasn't that long ago when each manufacturer had its own way of plugging in devices to charge. Standards help us to reuse chargers and cables, and to connect devices from different manufacturers.
 

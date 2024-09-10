@@ -5,8 +5,9 @@ excerpt: Slides and follow-up notes from my recent workshop on "flipping the cla
 layout: post
 permalink: /2014/06/16/flipping-the-classroom-follow-up/
 tags:
- - Learning design
+ - Solution design
  - Coaching
+ - Advocacy
 
 
 ---
