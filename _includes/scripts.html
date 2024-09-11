@@ -286,16 +286,4 @@ Cal("init", "25-minute-call", {origin:"https://cal.com"});
   </script>
   <!-- Cal element-click embed code ends -->
 
-  {%- if page.recaptcha -%}
-
-  <script type="text/javascript">
-    var onloadCallback = function() {
-      alert("grecaptcha is ready!");
-    };
-  </script>
-
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-async defer>
-</script>
-
-{%- endif -%}
+  
