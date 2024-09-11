@@ -7,19 +7,20 @@ img-alt: People in a meeting
 img-credit: StartupStockPhotos on Pixabay
 img-credit-url: https://pixabay.com/photos/meeting-brainstorming-business-594091/
 ---
+## Summary
+
 Kerizac Consulting can help you:
 
 - Review your current people, processes and technology
 - Define your problems
-- Design new solutions
+- Design solutions using appropriate technologies
 - Plan a roadmap to get to your future state
 - Ensure clear communication between technical and non-technical audiences
 
-## Previous projects
+## Our experience
 
 - Designing the overall approach to designing and delivering courses within the CABI Academy
 - Designing, prototyping and delivering the Skills Framework for Agriculture for CABI
 - Designing an integrated content delivery system, using TalentLMS and Rustici Content Controller, for MIX Diversity's online training
-- Designing the approach to using Moodle for an award-winning NHS Leadership programme *
-
-[ * Done under the old business name: Wyver Solutions Ltd ]
+- Designing the approach to using Moodle for an award-winning NHS Leadership programme
+- Leading the design and implementation of learning technology for the UK Census fieldforce training

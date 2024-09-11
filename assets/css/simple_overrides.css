@@ -84,7 +84,7 @@ footer h2 {
     font-size: 80%;
 }
 
-p.centred {
+p.centred, article.centred {
     text-align: center;
 }
 

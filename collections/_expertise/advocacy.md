@@ -7,9 +7,9 @@ img-alt: Three footpath signs
 img-credit: Mark Berthelemy
 img-credit-url: 
 ---
-We help **suppliers** communicate the benefits of new technologies.
+## Summary
 
-We help **customers** understand the implications of new technologies, in their own language.
+Kerizac Consulting helps **suppliers** communicate the benefits of new learning technologies, and helps **users** understand the implications of those technologies, in their own language.
 
 ## Current activities
 
@@ -17,15 +17,11 @@ We help **customers** understand the implications of new technologies, in their 
 - Promoting standards-based approaches to systems integration
 - Promoting quality elearning that is based on performance and meaningful feedback
 
-## Previous work
+## Our experience
 
 - Supporting the MIX Diversity team as they prepared for a high-profile product launch and exhibition stand
 - Promoting CABI's <a href="https://agricultureskills.org/" target="_blank">Skills Framework for Agriculture</a>
 - Writing a short book on "<a href="https://leanpub.com/howtobuysoftware" target="_blank">How to buy software</a>" - aimed at introducing the competitive dialogue approach to procurement
-- Introducing the "flipped classroom" approach to the University of East London's legal department *
-- Writing one of the first <a href="https://www.slideshare.net/slideshow/exploring-the-potential-of-the-xapi-aka-tin-can-api/35792471" target="_blank">introductions to xAPI</a> - exploring its potential for a non-technical audience *
-- Working with Microsoft and RM to develop an XML standard for integrating learning platforms into schools **
-
-[ * Done under the old business name: Wyver Solutions Ltd ]
-
-[ ** done whilst Mark was employed by Capita Group PLC ]
+- Introducing the "flipped classroom" approach to the University of East London's legal department
+- Writing one of the first <a href="https://www.slideshare.net/slideshow/exploring-the-potential-of-the-xapi-aka-tin-can-api/35792471" target="_blank">introductions to xAPI</a> - exploring its potential for a non-technical audience
+- Working with Microsoft and RM to develop an XML standard for integrating learning platforms into schools
