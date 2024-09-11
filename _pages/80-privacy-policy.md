@@ -12,13 +12,13 @@ permalink: /privacy
 
 
 ---
-This privacy policy ("policy") will help you understand how Mark Berthelemy ("I", "my") uses and protects the data you provide to us when you visit and use https://mark.berthelemy.net ("website", "service").
+This privacy policy ("policy") will help you understand how Mark Berthelemy (trading as Kerizac Consulting) ("I", "my") uses and protects the data you provide to us when you visit and use https://mark.berthelemy.net ("website", "service").
 
 I reserve the right to change this policy at any given time. If you want to make sure that you are up to date with the latest changes, I advise you to frequently visit this page.
 
 ## What User Data I Collect
 
-When you visit the website, I may collect the following data:
+When you visit the website, we may collect the following data:
 
 - Your IP address
 - Your contact information and email address

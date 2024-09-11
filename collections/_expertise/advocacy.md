@@ -1,15 +1,15 @@
 ---
 title: Advocacy
-excerpt: I promote technologies and practices within the learning and knowledge domains that can make real differences
+excerpt: We promote technologies and practices within the learning and knowledge domains that can make real differences
 order: 5
-img: m-footpath-P1010564.JPG
+img: /assets/img/page-images/m-footpath-P1010564.JPG
 img-alt: Three footpath signs
 img-credit: Mark Berthelemy
 img-credit-url: 
 ---
-I can help **suppliers** communicate the benefits of new technologies.
+We help **suppliers** communicate the benefits of new technologies.
 
-I can help **customers** understand the implications of new technologies, in their own language.
+We help **customers** understand the implications of new technologies, in their own language.
 
 ## Current activities
 
@@ -26,5 +26,6 @@ I can help **customers** understand the implications of new technologies, in the
 - Writing one of the first <a href="https://www.slideshare.net/slideshow/exploring-the-potential-of-the-xapi-aka-tin-can-api/35792471" target="_blank">introductions to xAPI</a> - exploring its potential for a non-technical audience *
 - Working with Microsoft and RM to develop an XML standard for integrating learning platforms into schools **
 
-[ * Done under my old business name: Wyver Solutions Ltd ]
-[ ** done whilst employed by Capita Group PLC ]
+[ * Done under the old business name: Wyver Solutions Ltd ]
+
+[ ** done whilst Mark was employed by Capita Group PLC ]

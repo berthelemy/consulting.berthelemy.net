@@ -2,12 +2,12 @@
 title: Technology reviews
 excerpt: Looking at how to make the best use of what you already have and provide a roadmap for the future
 order: 1
-img: way-427984_1280.jpg
+img: /assets/img/page-images/way-427984_1280.jpg
 img-alt: Road heading into the distance
 img-credit: Michal Jarmoluk on Pixabay
 img-credit-url: https://pixabay.com/photos/way-clouds-belts-direction-427984/
 ---
-I can help you:
+Kerizac Consulting can help you:
 
 - Review your current learning technology and knowledge systems landscape, and work with you to develop a roadmap for the future
 - Undertake competitor analysis within the learning technology market
@@ -28,4 +28,4 @@ I can help you:
 - Developing a roadmap for improvements and integration of ecommerce, customer relationship and course delivery for Education for Health *
 - Reviewing the use of current enterprise learning systems within National Grid, and making recommendations for the future *
 
-[ * Done under my old business name: Wyver Solutions Ltd ]
+[ * Done under the old business name: Wyver Solutions Ltd ]

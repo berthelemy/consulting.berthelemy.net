@@ -23,15 +23,39 @@ div.container-75 {
 }
 
 header#main-header {
-    background-image: url("/assets/img/page-images/background-dots.png");
-    /*height: 4rem;*/
-    background-size: contain;
-    background-repeat: repeat-y;
+    background: rgb(4,120,120);
+    background: linear-gradient(90deg,
+    var(--pico-primary) 0%,
+    var(--pico-ins-color) 35%,
+    var(--pico-primary) 100%);
+      /*height: 4rem;*/
+    /*background-repeat: repeat-y;*/
     padding: 1rem;
+    width: 100%;
+    
+    
+  
 }
 
 header#main-header h1 {
-    color: #fff;
+ 
+  color: var(--pico-primary-inverse);
+
+}
+
+header#main-header p {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 1rem;
+  z-index: 9999;  
+  background-color: var(--pico-contrast);
+  color: var(--pico-primary-inverse);
+  margin-bottom: 0;
+}
+
+
+header#main-header p a {
+  color: var(--pico-primary-inverse);
 }
 
 div.grid>a:has(button) {
@@ -41,6 +65,7 @@ div.grid>a:has(button) {
 
 div#cta {
     margin-top: var(--pico-spacing);
+    margin-bottom: var(--pico-spacing);
 }
 
 div.single-portfolio {
@@ -150,16 +175,8 @@ footer aside, aside.list {
   margin: inherit;
 }
 
-.img-container {
-  height: 40vh;
-  overflow:hidden;
-  margin-bottom: 1rem;
-  margin-top: -1rem;
-}
 
-.img-container img {
-  margin-top:-60vh;
-}
+
 
 article.expertise {
   height: 97%;
@@ -250,6 +267,13 @@ table.dataTable span.dt-column-title[role=button], div.dt-paging button  {
         width:100%;
         /*height: 2rem;*/
         padding: 1rem;
+    }
+    .headerimg {
+      height: 15vh;
+      margin-bottom: 0.5rem;
+    }
+    .headerimg img {
+      margin-top:-15vh;
     }
     aside {
       float:none;

@@ -3,7 +3,7 @@ title: Project management
 excerpt: Ensuring that everyone is heading in the same direction to deliver your learning and knowledge projects
 order: 4
 
-img: meeting-4784909_1280.jpg
+img: /assets/img/page-images/meeting-4784909_1280.jpg
 img-alt: People in a workshop
 img-credit: Pixabay
 img-credit-url: https://pixabay.com/photos/meeting-adults-business-people-4784909/
@@ -26,7 +26,7 @@ That will involve considering aspects such as:
 
 Depending on the size of the project, you may have individuals or teams running each of these aspects. Or you may be reliant on one person for everything.
 
-With my experience across large and small scale projects, I can help you manage and coordinate the whole process, getting hands-on with the technology wherever necessary.
+With Kerizac Consulting's experience across large and small scale projects, we can help you manage and coordinate the whole process, getting hands-on with the technology wherever necessary.
 
 ### Previous projects
 
@@ -46,5 +46,6 @@ With my experience across large and small scale projects, I can help you manage 
 - Leading Capita's delivery of an integrated platform for Civil Service Learning's face-to-face training in 4 weeks **
 - System configuration for a government-sponsored high stakes assessment tool for users of a child-protection database **
 
-[ * done under my old business name: Wyver Solutions Ltd ]
-[ ** done whilst employed by Capita Group PLC ]
+[ * Done under the old business name: Wyver Solutions Ltd ]
+
+[ ** done whilst Mark was employed by Capita Group PLC ]

@@ -12,7 +12,7 @@ imgurl: https://pixabay.com/photos/technology-keyboard-computing-785742/
 tags:
   - Moodle
   - Coaching
-  - Avocacy
+  - Advocacy
 ---
 You've got your Moodle site setup and configured to meet your organisation's needs. So now it's time to introduce your team to it.
 
