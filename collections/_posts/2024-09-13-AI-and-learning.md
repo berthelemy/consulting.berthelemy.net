@@ -1,7 +1,7 @@
 ---
 title: 'AI and learning'
 author: Mark Berthelemy
-excerpt: An optimistic viewpoint?
+excerpt: An over-optimistic viewpoint?
 layout: post
 datatable: false
 tablePagination: false
