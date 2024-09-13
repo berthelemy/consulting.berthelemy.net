@@ -1,7 +1,7 @@
 ---
 title: 'AI and learning'
 author: Mark Berthelemy
-excerpt: Getting you going for free!
+excerpt: An optimistic viewpoint?
 layout: post
 datatable: false
 tablePagination: false
