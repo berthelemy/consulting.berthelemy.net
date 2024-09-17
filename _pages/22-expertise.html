@@ -7,28 +7,6 @@ img:
 ---
 <p>Kerizac Consulting's expertise is built on many projects working within teaching, learning and knowledge management, across multiple sectors, including education, public sector, corporate and not-for-profits.</p>
 
-{%- assign count = 0 -%}
-{%- assign expertiseOrdered = site.expertise | sort:"order" %}
-{%- for expertise in expertiseOrdered -%}
-{%- if expertise.published != false -%}
-{%- if count == 0 -%}
-<div class="grid">
-{%- endif -%}
+{% include expertise-list.html %}
 
-    <div>
-        <article class="expertise">
-            
-            <h2><a href="{{ expertise.url }}">{{ expertise.title }}</a></h2>
-            <p class="description">{{ expertise.excerpt }}</p>
-        </article>
-    </div>
-
-{%- assign count = count | plus: 1 -%}
-{%- if count == 2 -%}
-</div><!-- end grid container -->
-{%- assign count = 0 -%}
-{%- endif -%}
-{%- endif -%}
-{%- endfor -%}
-</div>
 

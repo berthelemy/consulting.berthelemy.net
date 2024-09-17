@@ -9,9 +9,9 @@ img-credit-url: https://pixabay.com/photos/way-clouds-belts-direction-427984/
 ---
 ## Summary
 
-Kerizac Consulting can help you:
+Kerizac Consulting works with learning technology **vendors** and their **customers** to help:
 
-- Review your current learning technology and knowledge systems landscape, and work with you to develop a roadmap for the future
+- Review the organisation's current learning technology and knowledge systems landscape, and develop a roadmap for the future
 - Undertake competitor analysis within the learning technology market
 - Navigate the world of learning technology technical standards, such as SCORM, XLIFF and xAPI
 - Prepare business cases for non-technical decision makers
@@ -19,10 +19,15 @@ Kerizac Consulting can help you:
 
 ## Our experience
 
+### Vendors
+
 - Doing competitor analysis and providing learning technology advice for a software supplier as they transitioned to supporting learning activities
 - Creating a prioritised roadmap and business case for improvements to an educational publisher's content delivery platform
 - Developing a business case for a new, custom-built content management platform for Emerald Publishing
 - Recommending how to simplify a disparate set of learning technologies for a software company that has grown by acquisition
+
+### Customers
+
 - Developing a 5 year roadmap for the future of learning technology at the UK's HMRC (tax office)
 - Reviewing the use of Moodle within the National Institute for Health Research, and proposing improvements
 - Reviewing the learning technology in use across the UK's Defence Academy

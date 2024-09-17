@@ -25,6 +25,21 @@ layout: simple_default
 
 {% include cta.html %}
 
+<hr>
+
+<h2>Other expertise</h2>
+
+<ul>
+{%- assign expertiseOrdered = site.expertise | sort:"order" %}
+{%- for expertise in expertiseOrdered -%}
+{%- if expertise.url != page.url -%}
+
+<li><a href="{{ expertise.url }}">{{ expertise.title }}</a></li>
+
+{%- endif -%}
+{%- endfor -%}
+</ul>
+
 <h2>Related articles</h2>
 
 {%- assign filtered_posts = site.posts | where_exp:"item",
@@ -51,17 +66,3 @@ layout: simple_default
 {%- endfor -%}
 </div>
 
-<hr>
-
-<h3>Other services</h3>
-
-<ul>
-{%- assign expertiseOrdered = site.expertise | sort:"order" %}
-{%- for expertise in expertiseOrdered -%}
-{%- if expertise.url != page.url -%}
-
-<li><a href="{{ expertise.url }}">{{ expertise.title }}</a></li>
-
-{%- endif -%}
-{%- endfor -%}
-</ul>

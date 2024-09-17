@@ -10,32 +10,54 @@ img-credit-url: https://pixabay.com/photos/meeting-adults-business-people-478490
 ---
 ## Summary
 
-Kerizac Consulting provides "hands on" management of your learning technology projects, considering aspects such as:
+Kerizac Consulting provides "hands on" management of your learning technology projects, for both <strong>vendors</strong> and their <strong>customers</strong>, considering aspects such as:
+
 <div class="grid">
-    <div><article>Hosting</article></div>
-    <div><article>Configuration</article></div>
-    <div><article>Data analytics</article></div>
-    <div><article>Supplier liason</article></div>
+<div>
+<article>
+<h3>People</h3>
+    <p><strong>Supplier liason</strong> - leading the conversations with engineers and developers to ensure your requirements are met</p>
+    <p><strong>Coordination</strong> - keeping the teams aligned, and ensuring they know what's coming</p>
+    <p><strong>Training and education</strong> - ensuring that users have the skills they need, when they need them</p>
+    <p><strong>Testing</strong> - ensuring that the software works as expected, and handles unexpected use correctly</p>
+    <p><strong>Support</strong> - ensuring that users have the support they need, when they need it</p>
+</article>
 </div>
-<div class="grid">
-    <div><article>Disaster recovery</article></div>
-    <div><article>Integration with other systems</article></div>
-    <div><article>Internal or external marketing</article></div>
-    <div><article>Data migration</article></div>
+<div>
+<article>
+    <h3>Processes</h3>
+    <p><strong>Data analytics</strong> - ensuring you capture the information you need to provide meaningful reports</p>   
+    <p><strong>Disaster recovery</strong> - setting you up to deal with issues in the future</p>
+    <p><strong>Data migration</strong> - managing the process to move your data from one system to another</p>
+    <p><strong>Testing</strong> - ensuring that the software works as expected, and handles unexpected use correctly</p>
+</article>
 </div>
-<div class="grid">
-    <div><article>Coordination</article></div>
-    <div><article>Training</article></div>
-    <div><article>Testing</article></div>
-    <div><article>Support</article></div>
+<div>
+<article>
+<h3>Technology</h3> 
+    <p><strong>Hosting</strong> - ensuring your software will work securely at scale</p>
+    <p><strong>Configuration</strong> - setting up your software to meet the needs of your organisation</p>
+    <p><strong>Integration with other systems</strong> - capturing integration requirements and turning them into technical documentation for developers</p>
+    <p><strong>Coordination</strong> - keeping the teams aligned, and ensuring they know what's coming</p>
+    <p><strong>Testing</strong> - ensuring that the software works as expected, and handles unexpected use correctly</p>
+</article>
 </div>
+
+</div>
+
 
 ## Our experience
 
-- Digital learning manager for the CABI Academy - creating a Moodle-based service and associated team that ended up supporting over 28,000 learners from more than 140 countries
-- Creating a data dashboard using PowerBI integrated with the CABI Academy Moodle database
+### Vendors
+
 - Combining TalentLMS and Rustici Content Controller to provide a flexible business model for MIX Diversity's online training
 - Agile coach for a long term software development project for Emerald Publishing
+- Project management for Xyleme's implementation within Tetrapak
+
+### Customers
+
+- Digital learning manager for the CABI Academy - creating a Moodle-based service and associated team that ended up supporting over 28,000 learners from more than 140 countries
+- Creating a data dashboard using PowerBI integrated with the CABI Academy Moodle database
 - Supplier liaison for a complex, custom Moodle implementation for Lean Construction Institute
 - Supplier liason, Moodle training and support for McCrudden Training - providing online leadership and management resources for public sector workers
 - Learning technology advice and support for UfI funded projects
@@ -43,7 +65,6 @@ Kerizac Consulting provides "hands on" management of your learning technology pr
 - Project managing a complex Moodle upgrade in a highly integrated system for a TEFL training company
 - Learning platform lead for an award-winning NHS Leadership programme
 - Supporting a Moodle implementation and content migration project for Oxfordshire NHS Trust
-- Project management for Xyleme's implementation within Tetrapak
 - Online learning manager for the UK Census field-force training - setting up a Moodle-based platform to manage training for 60,000 people over a period of 6 months
 - Leading Capita's delivery of an integrated platform for Civil Service Learning's face-to-face training in 4 weeks
 - System configuration for a government-sponsored high stakes assessment tool for users of a child-protection database

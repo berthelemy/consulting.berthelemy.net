@@ -9,7 +9,7 @@ img-credit-url: https://pixabay.com/photos/meeting-brainstorming-business-594091
 ---
 ## Summary
 
-Kerizac Consulting can help you:
+Kerizac Consulting works with **vendors** and their **customers** during the process of designing learning technology solutions to:
 
 - Review your current people, processes and technology
 - Define your problems
@@ -19,8 +19,14 @@ Kerizac Consulting can help you:
 
 ## Our experience
 
+### Vendors
+
+- Designing an integrated content delivery system, using TalentLMS and Rustici Content Controller, for MIX Diversity's online training
+- Developing a product roadmap for a media technology company moving into the learning technology space
+
+### Customers
+
 - Designing the overall approach to designing and delivering courses within the CABI Academy
 - Designing, prototyping and delivering the Skills Framework for Agriculture for CABI
-- Designing an integrated content delivery system, using TalentLMS and Rustici Content Controller, for MIX Diversity's online training
 - Designing the approach to using Moodle for an award-winning NHS Leadership programme
 - Leading the design and implementation of learning technology for the UK Census fieldforce training
