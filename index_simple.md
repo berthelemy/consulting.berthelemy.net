@@ -7,7 +7,7 @@ An information architect ensures that your information is <mark>organised</mark>
 
 When information is designed for the audience:
 
-1. Employees and customers learn more quickly
+1. Employees and buyers learn more quickly
 2. Less time is wasted in looking for and interpreting the information
 3. People make fewer mistakes
 4. You will attract more customers

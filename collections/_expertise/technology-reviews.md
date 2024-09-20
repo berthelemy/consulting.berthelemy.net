@@ -9,7 +9,7 @@ img-credit-url: https://pixabay.com/photos/way-clouds-belts-direction-427984/
 ---
 ## Summary
 
-Kerizac Consulting works with learning technology **vendors** and their **customers** to help:
+Kerizac Consulting works with learning technology **vendors** and their **buyers** to help:
 
 - Review the organisation's current learning technology and knowledge systems landscape, and develop a roadmap for the future
 - Undertake competitor analysis within the learning technology market
@@ -26,7 +26,7 @@ Kerizac Consulting works with learning technology **vendors** and their **custom
 - Developing a business case for a new, custom-built content management platform for Emerald Publishing
 - Recommending how to simplify a disparate set of learning technologies for a software company that has grown by acquisition
 
-### Customers
+### Buyers
 
 - Developing a 5 year roadmap for the future of learning technology at the UK's HMRC (tax office)
 - Reviewing the use of Moodle within the National Institute for Health Research, and proposing improvements

@@ -9,7 +9,7 @@ img-credit-url:
 ---
 ## Summary
 
-Kerizac Consulting helps **vendors** communicate the benefits of new learning technologies, and helps their **customers** understand the implications of those technologies, in their own language.
+Kerizac Consulting helps **vendors** communicate the benefits of new learning technologies, and helps their **buyers** understand the implications of those technologies, in their own language.
 
 We work across various media, including:
 
@@ -28,7 +28,7 @@ We work across various media, including:
 -  Working with Microsoft and RM to develop an XML standard for integrating learning platforms into schools
 - Promoting standards-based approaches to systems integration
 
-### Customers
+### Buyers
 
 - Writing a short book on "<a href="https://leanpub.com/howtobuysoftware" target="_blank">How to buy software</a>" - aimed at introducing the competitive dialogue approach to procurement
 - Introducing the "flipped classroom" approach to the University of East London's legal department

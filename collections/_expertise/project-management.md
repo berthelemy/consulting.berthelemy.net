@@ -10,7 +10,7 @@ img-credit-url: https://pixabay.com/photos/meeting-adults-business-people-478490
 ---
 ## Summary
 
-Kerizac Consulting provides "hands on" management of your learning technology projects, for both <strong>vendors</strong> and their <strong>customers</strong>, considering aspects such as:
+Kerizac Consulting provides "hands on" management of your learning technology projects, for both <strong>vendors</strong> and their <strong>buyers</strong>, considering aspects such as:
 
 <div class="grid">
 <div>
@@ -54,7 +54,7 @@ Kerizac Consulting provides "hands on" management of your learning technology pr
 - Agile coach for a long term software development project for Emerald Publishing
 - Project management for Xyleme's implementation within Tetrapak
 
-### Customers
+### Buyers
 
 - Digital learning manager for the CABI Academy - creating a Moodle-based service and associated team that ended up supporting over 28,000 learners from more than 140 countries
 - Creating a data dashboard using PowerBI integrated with the CABI Academy Moodle database
