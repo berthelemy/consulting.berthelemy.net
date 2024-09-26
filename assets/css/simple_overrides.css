@@ -1,3 +1,10 @@
+
+
+:root:not([data-theme=dark]),[data-theme=light] {
+  --pico-secondary-background: #b03030;
+
+}
+
 html {
     scroll-padding-top: 4rem;
   }
