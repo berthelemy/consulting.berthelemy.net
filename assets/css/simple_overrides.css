@@ -9,6 +9,40 @@ html {
     scroll-padding-top: 4rem;
   }
 
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/page-images/m-mountains-IMG_20190402_121936-small.jpg");
+
+  /* Set a specific height */
+  height: 50vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  /*text-align: left;*/
+  position: absolute;
+  top: 50%;
+  /*left: 20%;*/
+  transform: translate(0, -50%);
+  
+}
+
+.hero-text article {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.hero-text p {
+  color: white;
+  font-size: calc(var(--pico-font-size)*1.5);
+}
+
 article img {
   display: block;
   margin-left: auto;
@@ -65,6 +99,10 @@ header#main-header p a {
   color: var(--pico-primary-inverse);
 }
 
+.mainclass {
+  padding-block: 0;
+}
+
 div.grid>a:has(button) {
     margin-left: auto;
     margin-right: auto
@@ -114,7 +152,8 @@ body>header {
   }
 
   nav#main-menu {
-    border-bottom: 1px solid var(--pico-muted-color);
+    /*border-bottom: 1px solid var(--pico-muted-color);*/
+    border-bottom:none;
   }
   
   nav#main-menu.container {
@@ -135,7 +174,7 @@ body>header {
 
 nav[aria-label=breadcrumb] {
   background-color: var(--pico-code-background-color);
-  padding:var(--pico-spacing);
+  padding:0 var(--pico-spacing);
   margin-bottom: var(--pico-spacing);
 }
 
@@ -281,6 +320,9 @@ table.dataTable span.dt-column-title[role=button], div.dt-paging button  {
     }
     .headerimg img {
       margin-top:-15vh;
+    }
+    .hero-text p {
+      text-align: center;
     }
     aside {
       float:none;
