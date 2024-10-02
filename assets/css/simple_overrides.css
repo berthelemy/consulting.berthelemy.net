@@ -12,7 +12,8 @@ html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/page-images/m-mountains-IMG_20190402_121936-small.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  
 
   /* Set a specific height */
   height: 50vh;
@@ -24,6 +25,16 @@ html {
   position: relative;
 }
 
+.hero-image img {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -999;
+  height:100%;
+  width:100%;
+  object-fit:none;
+}
+
 /* Place text in the middle of the image */
 .hero-text {
   /*text-align: left;*/
@@ -31,17 +42,10 @@ html {
   top: 50%;
   /*left: 20%;*/
   transform: translate(0, -50%);
-  
+  width: 100%;
 }
 
-.hero-text article {
-  background-color: rgba(0, 0, 0, 0);
-}
 
-.hero-text p {
-  color: white;
-  font-size: calc(var(--pico-font-size)*1.5);
-}
 
 article img {
   display: block;
@@ -73,23 +77,14 @@ header#main-header {
     /*background-repeat: repeat-y;*/
     padding: 1rem;
     width: 100%;
-    
-    
-  
 }
 
-header#main-header h1 {
- 
-  color: var(--pico-primary-inverse);
-
-}
-
-header#main-header p {
-  position: absolute;
+header#main-header p, header#main-header h1 {
+  /*position: absolute;*/
   bottom: 0.1rem;
   right: 1rem;
   z-index: 9999;  
-  background-color: var(--pico-contrast);
+  
   color: var(--pico-primary-inverse);
   margin-bottom: 0;
 }
@@ -99,8 +94,18 @@ header#main-header p a {
   color: var(--pico-primary-inverse);
 }
 
-.mainclass {
+header#main-header.headerHero {
+  background: none;
   padding-block: 0;
+  padding: 0;
+}
+
+div.hero-text h1 {
+  padding-left: var(--pico-spacing);
+  padding-top: var(--pico-spacing);
+  padding-bottom: var(--pico-spacing);
+  /*background-color: var(--pico-contrast);*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
 }
 
 div.grid>a:has(button) {

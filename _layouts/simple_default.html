@@ -5,9 +5,40 @@
     <body>
         
             {% include simple_nav.html %}
+
+                 
+        {%- if page.hero-image -%}
+        {%- assign headerHero = "headerHero" -%}
+        {%- endif -%}
         
-        {%- if page.url != "/" -%}
-        <header id="main-header" class="container">
+        
+        <header id="main-header" class="container {{ headerHero }}">
+
+            {%- if page.hero-image -%}
+            <div class="hero-image">
+                <img src="{{ page.hero-image }}" alt="{{ page.hero-image-alt }}">
+                {%- if page.hero-text -%}
+                <div class="hero-text">
+                  <div class="grid">
+                    <div>
+                      
+                        <h1>{{ page.hero-text }}</h1>
+                      
+                    </div>
+                    <div>
+                      
+                      {%- include cta.html -%}
+                   
+                    </div>
+              
+                  </div>
+                </div>
+                <!-- end of hero text -->
+                {%- endif -%}
+              </div><!-- end of hero image -->
+    
+            {%- else -%}
+
             <h1>{{ page.title }}</h1>
            <!-- {%- if page.img -%}
             {%- if page.imgcredit -%}
@@ -20,16 +51,17 @@
             <!--<img src="{{ page.img }}" alt="People in a workshop">-->
             
             <!--{%- endif -%}-->
+
+            {%- endif -%}
             
         </header>
-        {%- endif -%}
+       
          
         
-        {%- if page.url == "/" -%}
-        {%- assign mainclass = "mainclass" -%}
-        {%- endif -%}
+   
+
             
-        <main class="container {{ mainclass }}">
+        <main class="container">
             <!--<nav aria-label="breadcrumb">
                 <ul>
                   <li><a href="#">Home</a></li>
@@ -37,6 +69,8 @@
                   <li>Design</li>
                 </ul>
               </nav>-->
+
+             
             
                      
             {{ content }}
