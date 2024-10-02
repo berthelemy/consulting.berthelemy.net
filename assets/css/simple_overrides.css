@@ -9,6 +9,32 @@ html {
     scroll-padding-top: 4rem;
   }
 
+  blockquote {
+    
+    font-family:Georgia, "Times New Roman", Times, serif;
+   
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote div.quote {
+  float:left;
+  margin-right: var(--pico-spacing);
+}
+
+blockquote div.quotetext {
+  display: block;
+  overflow: hidden;
+}
+
+
+blockquote div.quote:before { 
+content: open-quote;
+font-weight: bold;
+font-size:100px;
+color:#889c0b;
+} 
+
+
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
@@ -110,7 +136,7 @@ div.hero-text h1 {
 
 div.grid>a:has(button) {
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 div#cta {
