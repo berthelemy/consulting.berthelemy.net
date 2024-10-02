@@ -31,7 +31,7 @@ blockquote div.quote:before {
 content: open-quote;
 font-weight: bold;
 font-size:100px;
-color:#889c0b;
+color:var(--pico-muted-color);
 } 
 
 
