@@ -26,13 +26,28 @@ blockquote div.quotetext {
   overflow: hidden;
 }
 
+blockquote p {
+  display: inline;
+}
 
-blockquote div.quote:before { 
-content: open-quote;
-font-weight: bold;
-font-size:100px;
+
+blockquote p:before { 
+  content: open-quote;
+  font-weight: bold;
+  font-size:25px;
+  line-height: 110%;
+  margin-right: 3px;
 color:var(--pico-muted-color);
 } 
+
+blockquote p:after { 
+  content: close-quote;
+  font-weight: bold;
+  font-size:25px;
+  line-height: 110%;
+  margin-left:3px;
+  color:var(--pico-muted-color);
+  } 
 
 
 /* The hero image */
