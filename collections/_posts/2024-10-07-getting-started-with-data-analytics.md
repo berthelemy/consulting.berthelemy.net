@@ -41,7 +41,7 @@ Depending on your level of access to the system(s) involved, you might be able t
 
 The former will give you more control and access to up-to-date information, but it won't come easy! The latter is often easier to work with, but each time you want to analyse the data, you'll need to re-export all the files.
 
-Let's take the example of a list of customers. I've taken the list of 1,000 sample customers provided by [Datablist](https://www.datablist.com/learn/csv/download-sample-csv-files) and imported that into the open-source analytics tool, [Metabase](https://metabase.com).
+Let's take the example of a list of customers. I've taken the list of 1,000 sample customers provided by [Datablist](https://www.datablist.com/learn/csv/download-sample-csv-files){:target="_blank"} and imported that into the open-source analytics tool, [Metabase](https://metabase.com){:target="_blank"}.
 
 <div class="grid">
 <div markdown="1">
