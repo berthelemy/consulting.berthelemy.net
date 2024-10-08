@@ -33,7 +33,7 @@ We'll look at this from the perspective of a typical learning & development team
 
 ## Data source(s)
 
-Now, our training company, will have lots of information about its operation. Often this is scattered across multiple systems. You might have a marketing campaigns system (like Mailchimp), a booking system (like Administrate), a delivery system (like Moodle), and an evaluation system (like SurveyMonkey). Some companies use all-in-one systems, like Learnworlds, Thinkific, Teachable, Kajabi or Circle.
+Now, our training company will have lots of information about its operation. Often this is scattered across multiple systems. You might have a marketing campaigns system (like Mailchimp), a booking system (like Administrate), a delivery system (like Moodle), and an evaluation system (like SurveyMonkey). Some companies use all-in-one systems, like Learnworlds, Thinkific, Teachable, Kajabi or Circle.
 
 In either case, there's a lot of data flying around about your marketing, booking, delivery and evaluation operations.
 
