@@ -9,7 +9,7 @@ img-credit-url: https://pixabay.com/photos/way-clouds-belts-direction-427984/
 ---
 ## Summary
 
-Kerizac Consulting works with learning technology **vendors** and their **buyers** to help:
+Mark Berthelemy Consulting works with learning technology **vendors** and their **buyers** to help:
 
 - Review the organisation's current learning technology and knowledge systems landscape, and develop a roadmap for the future
 - Undertake competitor analysis within the learning technology market

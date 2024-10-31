@@ -9,7 +9,7 @@ img-credit-url: https://pixabay.com/photos/coffee-break-conference-women-1177540
 ---
 ## Summary
 
-Kerizac Consulting works with **vendors** and their **buyers** to help ensure a good match. This may involve:
+Mark Berthelemy Consulting works with **vendors** and their **buyers** to help ensure a good match. This may involve:
 
 - Reviewing your how your people, processes and technology are currently working to support learning, and identifying improvements
 - Preparing business cases for new product development or for procurement

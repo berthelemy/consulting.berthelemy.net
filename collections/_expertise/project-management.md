@@ -10,7 +10,7 @@ img-credit-url: https://pixabay.com/photos/meeting-adults-business-people-478490
 ---
 ## Summary
 
-Kerizac Consulting provides "hands on" management of your learning technology projects, for both <strong>vendors</strong> and their <strong>buyers</strong>, considering aspects such as:
+Mark Berthelemy Consulting provides "hands on" management of your learning technology projects, for both <strong>vendors</strong> and their <strong>buyers</strong>, considering aspects such as:
 
 <div class="grid">
 <div>

@@ -9,7 +9,7 @@ img-credit-url: https://pixabay.com/photos/meeting-brainstorming-business-594091
 ---
 ## Summary
 
-Kerizac Consulting works with **vendors** and their **buyers** during the process of designing learning technology solutions to:
+Mark Berthelemy Consulting works with **vendors** and their **buyers** during the process of designing learning technology solutions to:
 
 - Review your current people, processes and technology
 - Define your problems

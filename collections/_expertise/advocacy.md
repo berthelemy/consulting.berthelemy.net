@@ -9,7 +9,7 @@ img-credit-url:
 ---
 ## Summary
 
-Kerizac Consulting helps **vendors** communicate the benefits of new learning technologies, and helps their **buyers** understand the implications of those technologies, in their own language.
+Mark Berthelemy Consulting helps **vendors** communicate the benefits of new learning technologies, and helps their **buyers** understand the implications of those technologies, in their own language.
 
 We work across various media, including:
 
