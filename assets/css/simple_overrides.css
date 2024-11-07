@@ -86,6 +86,9 @@ blockquote p:after {
   width: 100%;
 }
 
+div.grid article {
+  height: 95%;
+}
 
 
 article img {
