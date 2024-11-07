@@ -11,7 +11,7 @@ html {
 
   blockquote {
     
-    font-family:Georgia, "Times New Roman", Times, serif;
+   /* font-family:Georgia, "Times New Roman", Times, serif; */
    
     quotes: "\201C""\201D""\2018""\2019";
 }
