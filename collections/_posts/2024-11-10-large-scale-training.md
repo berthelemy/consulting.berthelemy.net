@@ -1,7 +1,7 @@
 ---
 title: 'Creating a large scale training programme'
 author: Mark Berthelemy
-excerpt: How to get started
+excerpt: From amorphous blob to a practical plan
 layout: post
 datatable: false
 tablePagination: false
