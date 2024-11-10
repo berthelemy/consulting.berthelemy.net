@@ -24,14 +24,26 @@ Instead, I'd recommend going for an iterative approach, that gradually gets clos
 
 You'll need to consider things like:
 
-🔶 **The trainees** (let's call them that for want of a better word): Who are they? Where are they? What are their current capabilities? What range of capabilities do they have? What are their motivations with regard to this programme?
+## The trainees
 
-🔶 **The commissioning organisation**: What is the programme meant to achieve? What are their success measures? What do they need the trainees to be able to do by the end of the programme? What are the timelines? What's the budget? Who are the stakeholders?
+(Let's call them that for want of a better word)
 
-🔶 **The technology**: What is already available? What reports will be required? Where will the data come from for those reports? What systems do we need to operate and deliver the training programme? What technology constraints are we working under?
+Who are they? Where are they? What are their current capabilities? What range of capabilities do they have? What are their motivations with regard to this programme?
 
-🔶 **The delivery organisation**: How do they usually operate? What processes already exist? Do we have the personnel in place to run the programme? Who do we need to recruit? Where will they come from? What skills do we need?
+## The commissioning organisation
 
-🔶 **The training itself**: Will it be face-to-face or online or both? Will it be run as a self-study, or within cohorts? How will we assess capabilities? What activities might we use to help trainees practice their new skills? What knowledge do trainees need to complete those activities? What knowledge will they need at their fingertips when on-the-job?
+What is the programme meant to achieve? What are their success measures? What do they need the trainees to be able to do by the end of the programme? What are the timelines? What's the budget? Who are the stakeholders?
+
+## The technology
+
+What is already available? What reports will be required? Where will the data come from for those reports? What systems do we need to operate and deliver the training programme? What technology constraints are we working under?
+
+## The delivery organisation
+
+How do they usually operate? What processes already exist? Do we have the personnel in place to run the programme? Who do we need to recruit? Where will they come from? What skills do we need?
+
+## The training itself
+
+Will it be face-to-face or online or both? Will it be run as a self-study, or within cohorts? How will we assess capabilities? What activities might we use to help trainees practice their new skills? What knowledge do trainees need to complete those activities? What knowledge will they need at their fingertips when on-the-job?
 
 Initially, you'll feel like this is an amorphous blob of jelly. Gradually things will start to coalesce and take a more defined shape. There'll be compromises. It won't be perfect. If you're able to run the programme for more than a one-off, then you can make tweaks and iterate towards that perfect state.
