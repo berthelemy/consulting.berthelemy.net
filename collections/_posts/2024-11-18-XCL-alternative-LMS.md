@@ -7,7 +7,7 @@ datatable: false
 tablePagination: false
 order: 1
 tableRowgroup: 1
-permalink: /2024/11/18/introduction-to-XCL
+permalink: /2024/11/18/XCL-alternative-LMS
 img: 2024/11/xcl-blog.png
 imgalt: Laptop showing the XCL home page
 imgcredit: Stocksnap on Pixabay
