@@ -97,10 +97,41 @@ article img {
   margin-right: auto;
 }
 
+div.clear {
+  clear:both;
+}
+
 aside {
   float:right;
   width: 33%;
   margin: 0 0 var(--pico-spacing) var(--pico-spacing);
+}
+
+aside.textbox {
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50%;
+  margin:0.4rem 0 var(--pico-spacing) var(--pico-spacing);
+  background-color: var(--pico-primary-background);
+  padding: var(--pico-spacing);
+  /*font-size: 0.85rem;*/
+}
+
+aside.textbox p, aside.textbox h3, aside.textbox a, aside.textbox ul {
+  color: var(--pico-primary-inverse);
+}
+
+aside.textbox ul {
+  padding-inline-start: var(--pico-spacing);
+}
+
+aside.textbox li {
+  display:list-item;
+  padding: 0;
+}
+
+aside.textbox a {
+  text-decoration: underline;
 }
 
 aside img {
@@ -377,6 +408,15 @@ table.dataTable span.dt-column-title[role=button], div.dt-paging button  {
       float:none;
       width: 100%;
       margin: var(--pico-spacing) 0 var(--pico-spacing) 0;
+    }
+    aside.textbox {
+      border-radius: 25px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width: 100%;
+      margin: var(--pico-spacing) 0 var(--pico-spacing) 0;
+      background-color: var(--pico-primary-background);
+      padding: var(--pico-spacing);
+      
     }
 
 
