@@ -1,11 +1,13 @@
 ---
 title: Writing for the web checklist
 category: Learning design
+type: checklist
+layout: resource
 img: p-keyboard-498396_800.jpg
 img-alt: Person writing with a keyboard
 img-credit: Pixabay
 img-url: https://pixabay.com/en/keyboard-type-computer-computing-498396/
-description: |
+excerpt: |
     A quick check to see if your materials will work for your audience
 ---
 The goal of creating materials on the web is communication. The checklist below provides a test to see if your materials will communicate effectively.
@@ -24,7 +26,7 @@ Have you written your materials using an active voice throughout?<br>eg. “The 
 
 ## Building scent
 
-Do all your links to other pages contain enough information to let people know where they're going?<br>eg. "<u>More information</u>"&nbsp;not "Click <u>here</u>&nbsp;for more information".
+Do all your links to other pages contain enough information to let people know where they're going?<br>eg. "<u>More information</u>" not "Click <u>here</u> for more information".
 
 Have you underlined text that is not a link? That will be highly confusing for your audience.
 
