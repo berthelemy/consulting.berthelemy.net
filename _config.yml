@@ -18,6 +18,9 @@ collections:
   toolkit:
     output: true
     permalink: /:collection/:path
+  resources:
+    output: true
+    permalink: /:collection/:path
   expertise:
     output: true
     sort_by: order

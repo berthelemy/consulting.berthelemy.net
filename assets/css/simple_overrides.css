@@ -209,7 +209,7 @@ footer h2 {
     font-size: 80%;
 }
 
-p.centred, article.centred {
+p.centred, article.centred, div.centred {
     text-align: center;
 }
 
@@ -261,6 +261,14 @@ nav[aria-label=breadcrumb] {
 div.button-group {
     width: 100%;
     overflow-x: auto;
+}
+
+button#expand_toggle {
+  cursor: pointer;
+}
+
+details summary {
+  text-decoration: underline dashed;
 }
 
   .tag-link, .category-tag {

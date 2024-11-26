@@ -70,7 +70,21 @@
             {% endif %}
 
 
-
+<script>
+  jQuery(document).ready(function($) {
+       //expand or collapse all boxes
+       $("button#expand_toggle").click(function(){
+        if($(this).hasClass("expanded")){
+           $("details[open]").removeAttr("open");
+           $(this).removeClass("expanded");
+        }
+        else {
+           $("details").attr("open","open");
+           $(this).addClass("expanded");
+        };
+    })});
+  
+</script>
 
 
 
@@ -286,4 +300,4 @@ Cal("init", "25-minute-call", {origin:"https://cal.com"});
   </script>
   <!-- Cal element-click embed code ends -->
 
-  
+

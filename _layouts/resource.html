@@ -1,0 +1,31 @@
+---
+layout: simple_default
+---
+<nav aria-label="breadcrumb">
+  <ul>
+    <li><a href="/resources">Resources</a></li>
+    <li>{{ page.title }}</li>
+  </ul>
+</nav>
+{%- if page.img -%}
+<aside>
+  <img src="{{ page.img }}" alt="{{ page.imgalt }}">
+  {%- if page.imgcredit -%}
+  {%- if page.imgurl -%}
+  <p><small>Image credit: <a href="{{ page.imgurl }}" target="_blank">{{ page.imgcredit }}</a></small></p>
+  {%- else -%}
+  <p><small>Image credit: {{ page.imgcredit }}</small></p>
+  {%- endif -%}
+  {%- endif -%}
+</aside>
+{%- endif -%}
+             
+            
+                     
+            {{ content }}
+
+            <hr />
+            <p>If you'd like to discuss this resource, or how I can help you, <a href="/contact">get in touch</a>.</p>
+              
+           
+            

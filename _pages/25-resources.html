@@ -1,0 +1,24 @@
+---
+title: Resources
+display-title: false
+active: true
+layout: simple_default
+permalink: /resources
+hero-image: /assets/img/page-images/P8210015.JPG
+hero-image-alt: Mountains
+hero-text: Resources
+---
+<div class="grid">
+{% for resource in site.resources %}
+    <div>
+        <article>
+            <header>
+                <h2>{{ resource.title }}</h2>
+            </header>
+            <p>{{ resource.excerpt }}</p>
+            <p class="centred"><a href="{{ resource.url }}"><button>View {{ resource.type }}</button></a></p>
+        </article>
+    </div>
+{% endfor %}
+
+</div>
