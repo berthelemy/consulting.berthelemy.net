@@ -7,18 +7,7 @@ layout: simple_default
     <li>{{ page.title }}</li>
   </ul>
 </nav>
-{%- if page.img -%}
-<aside>
-  <img src="{{ page.img }}" alt="{{ page.imgalt }}">
-  {%- if page.imgcredit -%}
-  {%- if page.imgurl -%}
-  <p><small>Image credit: <a href="{{ page.imgurl }}" target="_blank">{{ page.imgcredit }}</a></small></p>
-  {%- else -%}
-  <p><small>Image credit: {{ page.imgcredit }}</small></p>
-  {%- endif -%}
-  {%- endif -%}
-</aside>
-{%- endif -%}
+
              
             
                      
