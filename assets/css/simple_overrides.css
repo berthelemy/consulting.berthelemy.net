@@ -384,6 +384,10 @@ div.book-cover a {
   display: block;
 }
 
+table.text-table td {
+  vertical-align: top;
+}
+
 table.dataTable span.dt-column-title[role=button], div.dt-paging button  {
   all: revert;
 }
