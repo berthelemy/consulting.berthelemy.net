@@ -22,7 +22,11 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
   <meta property="og:description" content="{{ site.long-description }}">
+  {% if page.hero-image %}
+  <meta property="og:image" content="https://mark.berthelemy.net/{{ page.hero-image }}">
+  {% else %}
   <meta property="og:image" content="https://mark.berthelemy.net/assets/img/page-images/mark-berthelemy-opengraph.png">
+  {% endif %}
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
@@ -30,8 +34,11 @@
   <meta property="twitter:url" content="{{ page.url }}">
   <meta name="twitter:title" content="{{ site.title }} | {{ page.title }}">
   <meta name="twitter:description" content="{{ site.long-description }}">
+  {% if page.hero-image %}
+  <meta property="twitter:image" content="https://mark.berthelemy.net/{{ page.hero-image }}">
+  {% else %}
   <meta name="twitter:image" content="https://mark.berthelemy.net/assets/img/page-images/mark-berthelemy-opengraph.png">
-
+  {% endif %}
 
         <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
 
