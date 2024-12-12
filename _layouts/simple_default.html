@@ -3,6 +3,13 @@
 <html lang="en">
     {% include simple_head.html %}
     <body>
+      {% if page.hide-banner != true %}
+      <div id="banner" class="container">
+        <div id="banner-content">
+          <p><a href="/strategy-workshop">Unlock your organisation's potential with a strategy workshop</a></p>
+        </div>
+      </div>
+      {% endif %}
         
             {% include simple_nav.html %}
 

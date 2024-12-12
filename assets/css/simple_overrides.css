@@ -392,6 +392,42 @@ table.dataTable span.dt-column-title[role=button], div.dt-paging button  {
   all: revert;
 }
 
+.featherlight .featherlight-content {
+  background-color: var(--pico-primary-background);
+}
+
+.featherlight .featherlight-content * {
+  color: var(--pico-primary-inverse);
+}
+
+div#banner { 
+  background-color: var(--pico-primary-hover-background); 
+  width: 100%;
+  margin-top: var(--pico-spacing);
+  box-shadow: 0px 2px 5px var(--pico-primary-hover-background);
+  
+  
+}
+
+
+
+div#banner-content { 
+  margin: 0 auto; 
+  padding: calc(var(--pico-spacing)*0.5) 0; 
+  text-align:center;
+  font-size: calc(var(--pico-spacing)*1.15);
+}
+
+div#banner-content * {
+  color: var(--pico-primary-inverse);
+  padding: 0;
+  margin:0;
+}
+
+div#banner-content a {
+  text-decoration-color: var(--pico-primary-inverse);
+}
+
 
 /* MOBILE VIEW */
 
