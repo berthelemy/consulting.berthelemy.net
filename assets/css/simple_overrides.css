@@ -293,7 +293,8 @@ aside.floating-menu {
     float:right;
     top: 8rem;
     right: calc(4*var(--pico-spacing));
-    width: 25%;
+    width: 33%;
+    padding: var(--pico-spacing);
     margin-bottom: var(--pico-spacing);
     background-color: var(--pico-background-color);
     filter: drop-shadow(2px 3px 2px var(--pico-primary-background));
@@ -301,6 +302,18 @@ aside.floating-menu {
 
 aside.floating-menu {
   padding-inline-start: var(--pico-spacing);
+}
+
+aside.floating-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+aside.floating-menu ul li {
+  margin:0 0 calc(var(--pico-spacing)*0.5) 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none;
 }
 
 footer aside, aside.list {
