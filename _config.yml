@@ -12,6 +12,9 @@ domain: consulting.berthelemy.net
 collections_dir: collections
 
 collections:
+  tag:
+    output: true
+    permalink: /:collection/:path
   lessons:
     output: true
     permalink: /:collection/:path
@@ -40,6 +43,12 @@ plugins:
 author: Mark Berthelemy
 
 defaults:
+  - scope:
+      path: ""
+      type: tag
+    values:
+      layout: "tag"
+      sitemap: true
   - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
