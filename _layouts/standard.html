@@ -1,0 +1,36 @@
+---
+layout: simple_default
+---
+<nav aria-label="breadcrumb">
+  <ul>
+    <li><a href="/resources">Resources</a></li>
+    <li><a href="/resources/standards">Standards</a></li>
+    <li>{{ page.title }}</li>
+  </ul>
+</nav>
+
+<h2>Type</h2>
+
+<p>{{ page.type | capitalize }}</p>
+
+<h2>Purpose</h2>
+
+<p>{{ page.purpose }}</p>
+
+<h2>Rationale for inclusion</h2>
+
+<p>{{ page.rationale }}</p>
+
+<h2>Source</h2>
+
+<p>Owner: {{ page.owner }}</p>
+
+<p>Last updated: {{ page.last_updated }}</p>
+
+<p><a href="{{ page.standard_url }}" target="_blank"><button>Go to standard</button></a></p>
+
+
+
+{{ content }}
+
+  					

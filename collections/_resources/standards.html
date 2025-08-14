@@ -1,0 +1,36 @@
+---
+category: Technology
+type: standards
+layout: resource
+excerpt: |
+    Existing standards used across the learning technology industry
+
+title: Standards
+active: true
+datatable: standards
+---
+<p>Interoperability standards allow multiple systems to work together without needing custom-built interfaces.</p>
+<p>Quality standards set a bar with which to assess organisations and their processes.</p>
+<p>For inclusion in this list, the standard must play some part in a learning technology ecosystem.</p>
+
+<table id="standards" class="order-column">
+<thead>
+    <th>Standard</th>
+    <th>Type</th>
+    <th>Purpose</th>
+    <th>Last updated</th>
+    
+</thead>
+<tbody>
+    {%- for standard in site.standards -%}
+<tr>
+    <td><a href="{{ site.baseurl }}{{ standard.url }}">{{ standard.title }}</a><br/><small>{{ standard.subtitle }}</small></td>
+    <td>{{ standard.type | capitalize }}</td>
+    
+    <td>{{ standard.purpose }}</td>
+    <td>{{ standard.last_updated }}</td>
+    
+</tr>
+    {%- endfor -%}
+</tbody>
+</table>

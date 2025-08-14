@@ -28,6 +28,10 @@ collections:
     output: true
     sort_by: order
     permalink: /:collection/:path
+  standards:
+    output: true
+    sort_by: title
+    permalink: /:collection/:path
 
 levels-order:
  - Novice
@@ -79,3 +83,7 @@ defaults:
       path: "/google*"
     values:
       sitemap: false
+  - scope:
+      type: "standards"
+    values:
+      layout: standard

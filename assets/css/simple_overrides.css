@@ -397,13 +397,22 @@ div.book-cover a {
   display: block;
 }
 
-table.text-table td {
+table.text-table td, table#standards td {
   vertical-align: top;
 }
 
 table.dataTable span.dt-column-title[role=button], div.dt-paging button  {
   all: revert;
 }
+
+table.dataTable span.dt-column-order[role=button]  {
+  all: revert;
+}
+
+div.dt-layout-cell input[type=search]  {
+  background-image: none;
+}
+
 
 .featherlight .featherlight-content {
   background-color: var(--pico-primary-background);
