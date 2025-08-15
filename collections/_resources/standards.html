@@ -24,8 +24,8 @@ datatable: standards
 <thead>
     <th>Standard</th>
     <th>Also known as</th>
-    <th>Purpose</th>
     <th>Type</th>
+    <th>Purpose</th>
     <th>Last updated</th>
     
 </thead>
@@ -34,9 +34,8 @@ datatable: standards
 <tr>
     <td><a href="{{ site.baseurl }}{{ standard.url }}">{{ standard.title }}</a></td>
     <td>{{ standard.aka }}</td>
-    <td>{{ standard.purpose }}
-    </td>
     <td>{{ standard.type | capitalize }}</td>
+    <td>{{ standard.purpose }}</td>
     <td>{{ standard.last_updated }}</td>
     
 </tr>

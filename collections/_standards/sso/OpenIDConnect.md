@@ -4,8 +4,7 @@ aka:  OIDC
 standard_id: OpenID Connect
 type: single-sign-on
 last_updated: 2023
-purposes:
-   - "OpenID Connect provides a way to verify a user's identity"
+purpose: "OpenID Connect provides a way to verify a user's identity"
 strengths:
    - OIDC enables users to sign-in to multiple services without needing to create and remember a new username and password
    - It provides a robust and standardised way to verify a user's identity
