@@ -9,28 +9,63 @@ layout: simple_default
   </ul>
 </nav>
 
-<h2>Type</h2>
+    <aside class="floating-menu">
+    <h2>Related standards</h2>
+      <nav>
+    <ul>
+      {%- assign standards = site.standards | where: "type", page.type | sort: "title" -%}
+      {%- assign number_standards = standards | size -%}
+      {%- if number_standards > 1 -%}
+      {%- for standard in standards -%}
+      {%- if page.url != standard.url -%}
+      <li><a href="{{ site.baseurl }}{{ standard.url }}">{{ standard.title }}</a></li>
+      {%- endif -%}
+      {%- endfor -%}
+      {%- else -%}
+      <li>No related standards</li>
+      {%- endif -%}
+    </ul>
+    </nav>
+    </aside>
+    <p>{{ page.title }} is {% if page.type == 'interoperability' %} an {% else %} a {% endif %} {{ page.type }}
+      standard{% if page.aka %}, also known as: <strong>{{ page.aka }}</strong>.{% else %}. {% endif %}</p>
 
-<p>{{ page.type | capitalize }}</p>
+    <p>The <a href="{{ page.standard_url }}" target="_blank">{{ page.title }} documentation</a> is managed by {{
+      page.owner }}, and was last updated in {{ page.last_updated }}.</p>
 
-<h2>Purpose</h2>
+    {{ content }}
 
-<p>{{ page.purpose }}</p>
+    {%- if page.type == 'interoperability' -%}
 
-<h2>Rationale for inclusion</h2>
+    <p>{{ page.purpose }}</p>
 
-<p>{{ page.rationale }}</p>
+    {%- endif -%}
 
-<h2>Source</h2>
+    <div class="grid">
+      <div>
+        <h2>Strengths</h2>
 
-<p>Owner: {{ page.owner }}</p>
+        <ul>
+          {%- for strength in page.strengths -%}
+          <li>{{ strength }}</li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div>
+        <h2>Limitations</h2>
+        <ul>
+          {%- for limitation in page.limitations -%}
+          <li>{{ limitation }}</li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
 
-<p>Last updated: {{ page.last_updated }}</p>
-
-<p><a href="{{ page.standard_url }}" target="_blank"><button>Go to standard</button></a></p>
-
-
-
-{{ content }}
-
-  					
+    <div class="centred">
+      <a role="button" href="{{ page.standard_url }}" target="_blank">More information on the {{ page.title }}
+        standard</a>
+    </div>
+  
+  
+    
+  

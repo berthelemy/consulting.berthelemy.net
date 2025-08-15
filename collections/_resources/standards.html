@@ -9,32 +9,34 @@ title: Learning Technology Standards
 active: true
 datatable: standards
 ---
-<p>When we talk about standards, we're considering two types:</p>
+<p>Industry standards serve two purposes:</p>
 <ol>
-    <li><strong>Interoperability standards</strong> - allowing multiple systems to work together without needing custom-built interfaces.</li>
-    <li><strong>Quality standards</strong> - setting a bar against which to assess organisations and their processes.</li>
+    <li><strong>Interoperability standards</strong> - allow multiple systems to work together without needing custom-built interfaces.</li>
+    <li><strong>Quality standards</strong> - set a bar against which to evaluate organisations and their processes.</li>
 </ol>
 
-<p>For inclusion in the list below, the standard must play some part in a learning technology ecosystem.</p>
+<p>For inclusion in the list below, the standard must play some part in a learning technology ecosystem, such as the one illustrated.</p>
 
-<div>DIAGRAM</div>
+<div class="container" style="max-width: 961px;"><img src="{{ site.baseurl }}/assets/img/infrastructure.png" alt="Flow chart that illustrates the relationship between: identity provider, face-to-face events, communities of practice, courses, knowledge base, assessment and certification, operational systems and analytics."></div>
 
 <h2>List of available standards</h2>
 <table id="standards" class="order-column">
 <thead>
     <th>Standard</th>
-    <th>Type</th>
+    <th>Also known as</th>
     <th>Purpose</th>
+    <th>Type</th>
     <th>Last updated</th>
     
 </thead>
 <tbody>
     {%- for standard in site.standards -%}
 <tr>
-    <td><a href="{{ site.baseurl }}{{ standard.url }}">{{ standard.title }}</a><br/><small>{{ standard.subtitle }}</small></td>
+    <td><a href="{{ site.baseurl }}{{ standard.url }}">{{ standard.title }}</a></td>
+    <td>{{ standard.aka }}</td>
+    <td>{{ standard.purpose }}
+    </td>
     <td>{{ standard.type | capitalize }}</td>
-    
-    <td>{{ standard.purpose }}</td>
     <td>{{ standard.last_updated }}</td>
     
 </tr>

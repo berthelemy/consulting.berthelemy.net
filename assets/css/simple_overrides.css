@@ -213,6 +213,8 @@ p.centred, article.centred, div.centred {
     text-align: center;
 }
 
+
+
 footer>div.grid div:first-child {
     border-right: 1px solid var(--pico-muted-color);
     padding-right: var(--pico-spacing);
@@ -539,7 +541,7 @@ div#banner-content a {
         width: 100%; /* fix for isotope */
     }
     aside.floating-menu {
-        display:none;
+         display:none;
     }
   }
 

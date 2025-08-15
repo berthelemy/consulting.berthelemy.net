@@ -205,28 +205,36 @@
     "columnDefs": [
             {
                 "targets": [ 0 ],
+                "width":"15%",
                 "visible": true,
                 "orderable": true,
                 "responsivePriority": 1
             },
             {
                 "targets": [ 1 ],
-                "width": "15%",
+                "width": "20%",
                 "orderable": true,
+                "responsivePriority": 1,
                 "className": "min-desktop"
             },
             
             {
                 "targets": [ 2 ],
-                "orderable": false,
+                "orderable": true,
                 "className": "min-desktop"
             },
             {
                 "targets": [ 3 ],
-                "width": "15%",
                 "orderable": true,
+                "width": "20%",
                 "className": "min-desktop"
             },
+            {
+                "targets": [ 4 ],
+                "width": "10%",
+                "orderable": true,
+                "className": "min-desktop"
+            }
         ]
   });
   {%- endif -%}
