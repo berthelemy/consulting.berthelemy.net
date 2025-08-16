@@ -10,7 +10,7 @@ strengths:
     - "Granular data collection - as rich as you need it"
     - "Highly flexible, with each implementation able to define its own verbs and objects"
     - "Able to collect data from multiple data sources"
-    - "Some standardisation of data structures is taking place, through contextualised 'profiles'"
+    - "Some standardisation of data structures is taking place, through contextualised 'profiles', such as cmi5"
 limitations:
     - "Implementation can be highly complex, requiring considerable pre-work on defining the data structures required"
     - "Organisations can end up with vast amounts of data that's hard to interpret"
