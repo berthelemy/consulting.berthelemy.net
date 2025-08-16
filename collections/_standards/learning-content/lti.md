@@ -17,6 +17,6 @@ standard_url: https://www.imsglobal.org/spec/lti/v1p3/
 ---
 The LTI specification is mostly used within the education sector. It allows content providers to deliver their materials to institutional learning platforms without requiring any specific single-sign-on or user provisioning integrations.
 
-It's rarely used in the corporate sector, where external providers tend to deliver programmes of content rather than catalogues.
+It's rarely used in the corporate sector, unfortunately.
 
-Very few corporate learning systems therefore support LTI.
+![Illustration showing the the role of provider and consumer systems in LTI]({{ site.baseurl }}/assets/img/standards/lti.png)
