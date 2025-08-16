@@ -2,7 +2,7 @@
 title: QTI
 aka: Question and Test Interoperability
 standard_id: QTI 3.0
-type: interoperability
+type: learning content
 purpose: "To facilitate the exchange and storage of assessment content"
 strengths:
     - Reduces vendor lock-in

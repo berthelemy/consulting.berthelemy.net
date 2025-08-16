@@ -2,7 +2,7 @@
 title: LTI
 aka: Learning Tools Interoperability
 standard_id: LTI 1.3
-type: interoperability
+type: learning content
 last_updated: 2019
 purpose: "LTI provides a way for users of Learning Management Systems (LMS) or platforms to access remote tools and content."
 strengths:

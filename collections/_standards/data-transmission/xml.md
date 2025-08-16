@@ -2,7 +2,7 @@
 title: XML
 aka: eXtensible Markup Language
 standard_id: XML
-type: data format
+type: data transmission
 last_updated: 2008
 purpose: "XML files provide a way to transfer complex, related data between systems."
 strengths:

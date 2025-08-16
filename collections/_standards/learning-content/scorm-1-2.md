@@ -1,8 +1,8 @@
 ---
 title: SCORM 1.2
-aka: Shareable Content Object Reference Model
+aka: Shareable Content Object Reference Model 1.2
 standard_id: SCORM 1.2
-type: interoperability
+type: learning content
 last_updated: 2001
 purpose: SCORM 1.2 provides basic capabilities to allow content authored in one system to work within a separate delivery system.
 strengths:
@@ -13,6 +13,7 @@ limitations:
     - Rigid, linear structure by default
     - Relies on the user being online
     - Updating published SCORM packages can be difficult
+    - Aging technology which can lead to challenges with modern development practices and browser security
 rationale: "Included for completeness even though it's not really a standard, and is a legacy specification. SCORM 1.2 is the most widely used of the available content packaging methods."
 purpose: "Allows packages of content to be used in delivery systems, and their usage tracked by the host system."
 license: Copyright &copy; 2001 Advanced Distributed Learning
@@ -29,7 +30,7 @@ It covers three main aspects:
 
 SCORM 1.2 was instrumental in standardizing early elearning interoperability.
 
-Some companies have developed workarounds for the various limitations:
+Some companies have developed workarounds for some of the limitations:
 
 - **Limited data**: By adding custom data, although this relies on both the authoring tool and the hosting LMS knowing how to parse that data.
 - **Rigid, linear structure**: Authoring tools overcome the rigid, linear structure limitation by ignoring much of the content packaging specification. Instead, all their content is placed into a single SCO.

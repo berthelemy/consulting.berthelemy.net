@@ -2,7 +2,7 @@
 title: JSON
 aka: JavaScript Object Notation
 standard_id: ISO 21778
-type: data format
+type: data transmission
 last_updated: 2017
 purpose: "JSON provide a way to transfer complex, multi-layerd data between systems."
 strengths:
