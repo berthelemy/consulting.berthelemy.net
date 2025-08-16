@@ -4,6 +4,7 @@ aka: Shareable Content Object Reference Model 1.2
 standard_id: SCORM 1.2
 type: learning content
 last_updated: 2001
+status: ADL specification
 purpose: SCORM 1.2 provides basic capabilities to allow content authored in one system to work within a separate delivery system.
 strengths:
     - Widespread adoption

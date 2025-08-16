@@ -4,6 +4,7 @@ aka: Learning Tools Interoperability
 standard_id: LTI 1.3
 type: learning content
 last_updated: 2019
+status: IMS Specification (ie. Active standard)
 purpose: "LTI provides a way for users of Learning Management Systems (LMS) or platforms to access remote tools and content."
 strengths:
     - The provider system doesn't need to know about the user in advance

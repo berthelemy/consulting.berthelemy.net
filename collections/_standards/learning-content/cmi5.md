@@ -4,6 +4,7 @@ aka:
 standard_id: cmi5
 type: learning content
 last_updated: 2016
+status: ADL specification
 purpose: "cmi5 bridges LMSs and xAPI content, ensuring reliable course launches and basic completion/score tracking while leveraging xAPI's ability to collect detailed data."
 strengths:
     - Familiar methods - like SCORM

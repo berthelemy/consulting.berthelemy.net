@@ -4,6 +4,7 @@ aka:  Open Authorization
 standard_id: Oauth 2.0
 type: single-sign-on
 last_updated: 2012
+status: Active standard
 purpose: "OAuth 2.0 is a security framework that lets you give a third-party app access to your information on another website without sharing your password.  "
 strengths:
    - The user is in control of their data

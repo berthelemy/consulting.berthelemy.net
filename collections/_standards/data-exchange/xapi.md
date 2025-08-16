@@ -3,7 +3,7 @@ title: xAPI
 aka: eXperience API
 standard_id: IEEE 9274.1.1-2023
 type: data exchange
-
+status: Active standard
 last_updated: 2023
 purpose: "xAPI captures the data describing diverse learning experiences, enabling detailed tracking beyond traditional courses."
 strengths:

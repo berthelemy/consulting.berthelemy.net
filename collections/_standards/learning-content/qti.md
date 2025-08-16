@@ -3,6 +3,7 @@ title: QTI
 aka: Question and Test Interoperability
 standard_id: QTI 3.0
 type: learning content
+status: IMS specification
 purpose: "To facilitate the exchange and storage of assessment content"
 strengths:
     - Reduces vendor lock-in

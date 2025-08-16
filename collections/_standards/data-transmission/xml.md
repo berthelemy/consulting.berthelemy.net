@@ -4,6 +4,7 @@ aka: eXtensible Markup Language
 standard_id: XML
 type: data transmission
 last_updated: 2008
+status: W3C recommendation (ie. Active standard)
 purpose: "XML files provide a way to transfer complex, related data between systems."
 strengths:
     - Self-describing - completely flexible
