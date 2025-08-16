@@ -201,25 +201,25 @@
     },
     
     "searching": true,
-    "order": [[ 0, "asc" ]],
+    "order": [[ 2, "asc" ]],
     "columnDefs": [
             {
                 "targets": [ 0 ],
                 "width":"15%",
                 "visible": true,
-                "orderable": true,
+                "orderable": false,
                 "responsivePriority": 1
             },
             {
                 "targets": [ 1 ],
                 "width": "20%",
-                "orderable": true,
-                "responsivePriority": 1,
-                "className": "min-desktop"
+                "orderable": false,
+                "responsivePriority": 2   
             },
             {
                 "targets": [ 2 ],
-                "orderable": true,
+                "orderable": false,
+                "visible": false,
                 "width": "20%",
                 "className": "min-desktop"
             },
@@ -227,15 +227,17 @@
                 "targets": [ 3 ],
                 "orderable": false,
                 "className": "min-desktop"
-            },
-            
+            },   
             {
                 "targets": [ 4 ],
                 "width": "10%",
-                "orderable": true,
+                "orderable": false,
                 "className": "min-desktop"
             }
-        ]
+        ],
+        "rowGroup": {
+                      "dataSrc": 2
+                    }
   });
   {%- endif -%}
 

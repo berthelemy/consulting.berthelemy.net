@@ -452,6 +452,32 @@ div#banner-content a {
   text-decoration-color: var(--pico-primary-inverse);
 }
 
+/* Datatable styling */
+
+/* Row group header */
+
+tr.dtrg-group th {
+  background-color: #f2f2f2; /* Light grey background */
+  font-weight: bold;         /* Make the text bold */
+  color: #333;               /* Darker text color */
+}
+
+/* Mobile view button */
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
+  width: 2em;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control {
+  padding-left: 60px;
+}
+
+/* Mobile view list items */
+
+ul.dtr-details li.min-desktop {
+  list-style: none;
+}
+
 
 /* MOBILE VIEW */
 
