@@ -5,6 +5,7 @@ standard_id: IEEE 9274.1.1-2023
 type: data exchange
 status: Active standard
 last_updated: 2023
+route: formal
 purpose: "xAPI captures the data describing diverse learning experiences, enabling detailed tracking beyond traditional courses."
 strengths:
     - "Tracks everything, everywhere - whether online, offline, in a game, a simulation, or even real-world activities"

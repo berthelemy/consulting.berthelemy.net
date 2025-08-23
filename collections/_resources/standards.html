@@ -9,23 +9,70 @@ title: Learning Technology Standards
 active: true
 datatable: standards
 ---
-<p>Industry standards serve two purposes:</p>
-<ol>
-    <li><strong>Interoperability standards</strong> - allow multiple systems to work together without needing custom-built interfaces.</li>
-    <li><strong>Quality standards</strong> - set a bar against which to evaluate organisations and their processes.</li>
-</ol>
+<p>As industries mature, they develop standard ways of operating. These serve to increase adoption, reduce duplication of effort and to reduce vendor lock-in.</p>
+<p>You can categorise standards by their purpose and how they developed:</p>
+
+
+
+<h2>Purpose</h2>
+<div class="grid">
+    <div>   
+        <h3>Interoperability</h3>
+        <p>Interoperability standards allow multiple systems to work together without needing custom-built interfaces.</p>
+    </div>
+    <div> 
+        <h3>Quality</h3>
+        <p>Quality standards set a bar against which to evaluate organisations and their processes.</p>
+    </div>
+</div>
+
+<h2>Development route</h2>
+<div class="grid">
+<div>
+    <h3>Organic</h3>
+    
+    <p>Organic standards usually happen when an organisation or an individual defines a way of doing something, and talk about it. As more people adopt that approach, conventions gradually becomes more formalised and documented.</p>
+    
+    <p>Often these types of standards never quite get to the point of "official" ratification. As more people use them, and more organisations expect them to be used, they can become de facto standards.</p>
+</div>
+
+<div>
+    <h3>Formal standards</h3>
+    
+    <p>Formal standards follow a structured development process, usually facilitated by a standards organisation like IEEE, 1EdTech or ISO.</p>
+    <p>They rely on working groups and committees, with formal processes to draft, receive comments and approve the standards.</p>
+    <p>Sometimes organic standards will be adopted by a standards organisation, should there be sufficient demand.</p>
+</div>
+</div>
+
+<h2>List of available standards</h2>
+<aside>
+    <div class="container" style="max-width: 961px;"><img src="{{ site.baseurl }}/assets/img/infrastructure.png" alt="Flow chart that illustrates the relationship between: identity provider, face-to-face events, communities of practice, courses, knowledge base, assessment and certification, operational systems and analytics.">
+    <p class="centred"><small><em>Typical learning technology ecosystem</em></small></p></div>
+</aside>
 
 <p>For inclusion in the list below, the standard must play some part in a learning technology ecosystem, such as the one illustrated.</p>
 
-<div class="container" style="max-width: 961px;"><img src="{{ site.baseurl }}/assets/img/infrastructure.png" alt="Flow chart that illustrates the relationship between: identity provider, face-to-face events, communities of practice, courses, knowledge base, assessment and certification, operational systems and analytics."></div>
+<p>The list is organised into the following types:</p>
 
-<h2>List of available standards</h2>
+{% assign types_list = site.standards | map: 'type' | uniq %}
+
+<ul>
+    {%- for type in types_list -%}
+    <li>{{ type | capitalize }}</li>
+    {%- endfor -%}
+</ul>
+
+<p>Use the search to filter for specific words.</p>
+
+
 <table id="standards" class="order-column">
 <thead>
     <th>Standard</th>
     <th>Also known as</th>
     <th>Type</th>
     <th>Purpose</th>
+    <th>Route</th>
     <th>Status</th>
     <th>Last updated</th>
     
@@ -37,6 +84,7 @@ datatable: standards
     <td>{{ standard.aka }}</td>
     <td>{{ standard.type | capitalize }}</td>
     <td>{{ standard.purpose }}</td>
+    <td>{{ standard.route | capitalize }}</td>
     <td>{{ standard.status }}</td>
     <td>{{ standard.last_updated }}</td>
     

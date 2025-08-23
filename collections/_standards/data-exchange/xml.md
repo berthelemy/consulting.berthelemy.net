@@ -2,9 +2,10 @@
 title: XML
 aka: eXtensible Markup Language
 standard_id: XML
-type: data transmission
+type: data exchange
 last_updated: 2008
 status: W3C recommendation (ie. Active standard)
+route: formal
 purpose: "XML files provide a way to transfer complex, related data between systems."
 strengths:
     - Self-describing - completely flexible

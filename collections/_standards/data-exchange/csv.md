@@ -2,9 +2,10 @@
 title: CSV
 aka: Comma Separated Variables
 standard_id: RFC4180
-type: data transmission
+type: data exchange
 last_updated: 2005
 status: Information memo
+route: Organic > formal
 purpose: "CSV files provide a way to transfer simple tabular data between systems, for example between <strong>operations</strong> and <strong>analytics</strong>"
 strengths:
     - Simple structure

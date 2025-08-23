@@ -5,6 +5,7 @@ standard_id: SCORM 2004
 type: learning content
 last_updated: 2006
 status: ADL specification
+route: formal
 purpose: SCORM 2004 is an evolution of SCORM 1.2, enabling advanced elearning sequencing and detailed tracking.
 strengths:
     - Advanced sequencing and navigation - enabling pre-requisites and adaptive pathways
