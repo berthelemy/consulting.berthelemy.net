@@ -2,7 +2,7 @@
 title: QTI
 aka: Question and Test Interoperability
 standard_id: QTI 3.0
-type: learning content
+type: content
 status: IMS specification
 route: formal
 purpose: "To facilitate the exchange and storage of assessment content"

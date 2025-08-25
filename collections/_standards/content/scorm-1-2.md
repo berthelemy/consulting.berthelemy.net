@@ -2,7 +2,7 @@
 title: SCORM 1.2
 aka: Shareable Content Object Reference Model 1.2
 standard_id: SCORM 1.2
-type: learning content
+type: content
 last_updated: 2001
 status: ADL specification
 route: formal

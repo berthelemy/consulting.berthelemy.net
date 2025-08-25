@@ -2,7 +2,7 @@
 title: SCORM 2004
 aka: Shareable Content Object Reference Model 2004
 standard_id: SCORM 2004
-type: learning content
+type: content
 last_updated: 2006
 status: ADL specification
 route: formal

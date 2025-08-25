@@ -2,7 +2,7 @@
 title: cmi5
 aka: 
 standard_id: cmi5
-type: learning content
+type: content
 last_updated: 2016
 status: ADL specification
 route: formal

@@ -2,7 +2,7 @@
 title: LTI
 aka: Learning Tools Interoperability
 standard_id: LTI 1.3
-type: learning content
+type: content
 last_updated: 2019
 status: IMS Specification (ie. Active standard)
 route: formal
