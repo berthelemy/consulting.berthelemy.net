@@ -2,7 +2,7 @@
 title: JSON
 aka: JavaScript Object Notation
 standard_id: ISO 21778
-type: data exchange
+type: generic data exchange
 last_updated: 2017
 status: Active standard
 route: formal

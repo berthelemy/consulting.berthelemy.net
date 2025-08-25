@@ -2,7 +2,7 @@
 title: XML
 aka: eXtensible Markup Language
 standard_id: XML
-type: data exchange
+type: generic data exchange
 last_updated: 2008
 status: W3C recommendation (ie. Active standard)
 route: formal

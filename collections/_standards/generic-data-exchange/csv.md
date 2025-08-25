@@ -2,7 +2,7 @@
 title: CSV
 aka: Comma Separated Variables
 standard_id: RFC4180
-type: data exchange
+type: generic data exchange
 last_updated: 2005
 status: Information memo
 route: Organic > formal

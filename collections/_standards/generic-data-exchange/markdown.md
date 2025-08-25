@@ -2,7 +2,7 @@
 title: Markdown
 aka: 
 standard_id: Markdown
-type: data exchange
+type: generic data exchange
 last_updated: 2025
 status: Widely used convention
 route: organic

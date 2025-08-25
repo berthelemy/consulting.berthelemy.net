@@ -2,7 +2,7 @@
 title: xAPI
 aka: eXperience API
 standard_id: IEEE 9274.1.1-2023
-type: data exchange
+type: generic data exchange
 status: Active standard
 last_updated: 2023
 route: formal
