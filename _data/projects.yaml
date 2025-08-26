@@ -1,0 +1,71 @@
+- organisation: IWCF
+  year: 2025
+  problem: The Board required independent advice regarding approaches to robust certification processes
+  description: Desktop research, interviews, workshops and a board presentation identifying best practice and options for future development
+  outcome: Improved product competitiveness and value
+  quote: |
+
+  reference:
+  published: false
+
+- organisation: East West Seeds Knowledge Transfer
+  year: 2025
+  problem: Having done several highly labour-intensive pilots, EWS KT now wanted to scale up their abilities to give farmers certificates for their training.
+  description: Created user stories for an integrated system using existing bespoke and off-the-shelf technologies
+  outcome: Scalable assessment delivery approach that will work in low-connectivity environments
+  quote: |
+
+  reference: 
+  published: false
+
+- organisation: CABI - Bioscience inter-governmental organization
+  year: 2025
+  problem: Needed a skills framework to underpin new training products and services
+  description: Created a skills framework and associated website for evidence synthesis
+  outcome: A powerful and flexible marketing tool, also providing a common language for discussing skills in this sector.
+  quote: |
+
+  reference: Caroline Read - Digital Learning Manager - CABI
+  published: false
+
+- organisation: COLEAD - agriculture training not-for-profit
+  year: 2025
+  problem: It was difficult to extract meaningful data from their global Moodle platform
+  description: Created a custom data dashboard for their Moodle platform, using the Evidence data analytics tool to create annotated reports with interactive visualisations.
+  outcome: Improved data visibility and reporting capabilities.
+  quote: |
+
+  reference: 
+  published: false
+
+- organisation: Hamilton Brookes
+  year: 2024
+  problem: The existing bespoke content delivery platform needed to adapt to changing market conditions
+  description: Created a roadmap and user stories for future enhancements to the platform.
+  outcome: Improved alignment between business goals and technology capabilities.
+  quote: |
+
+  reference: Eylan Ezekiel - CEO - Hamilton Brookes
+  published: false
+
+- organisation: Cadmore Media
+  year: 2024
+  logo: Cadmore-Media-Header-Logo.svg
+  problem: Expanding into a new market sector - professional development
+  description: Provided market support and technical expertise to help expand their existing media delivery platform's capabilities into professional development.
+  outcome: Identified key areas for improvement and developed a prioritized action plan.
+  quote: |
+    Mark's expertise in elearning systems and standards is exceptional. He assisted Cadmore Media in benchmarking our video platform against traditional Learning Management Systems, conducting thorough market research, and adapting our technology for professional development. Organized, knowledgeable, and dependable — he's been an invaluable consultant, and we'd work with him again in a heartbeat!
+  reference: Violaine Iglesias - CEO - Cadmore Media
+  published: true
+
+- organisation: MIX Diversity
+  year: 2024
+  logo: mix-logo.svg
+  problem: The company needed a learning content delivery platform suitable for both small and enterprise clients
+  description: Provided market research, procurement and implementation support for a new learning management system and a separate content delivery platform.
+  outcome: Scalable approach to content delivery and user management.
+  quote: |
+    Mark is a hugely experienced, knowledgeable and well connected professional in the learning technology space. He is also a highly decent human being and fun to work with. We have already recommended him to other companies and know we will likely call on him again when the need arises.
+  reference: Hayley Barnard - CEO - MIX Diversity
+  published: true
