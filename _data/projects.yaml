@@ -29,27 +29,34 @@
   reference: Caroline Read - Digital Learning Manager - CABI
   published: false
 
-- organisation: COLEAD - agriculture training not-for-profit
+- organisation: COLEAD
+  org-desc: Non-profit network of companies, professional organizations, and experts dedicated to inclusive and sustainable agriculture
   year: 2025
+  logo: colead_logo.jpg
   problem: It was difficult to extract meaningful data from their global Moodle platform
   description: Created a custom data dashboard for their Moodle platform, using the Evidence data analytics tool to create annotated reports with interactive visualisations.
   outcome: Improved data visibility and reporting capabilities.
   quote: |
+    Before working with Mark, it was very difficult for us to extract meaningful data from our global Moodle platform. He created a custom data dashboard, leveraging the Evidence data analytics tool to deliver annotated reports with interactive visualisations. This greatly improved our data visibility and reporting capabilities.
 
-  reference: 
-  published: false
+    Working with Mark was extremely smooth. He was attentive to our requests and needs, always solution-oriented, and meticulous about meeting deadlines. We highly valued his professionalism and commitment throughout the project.
+  reference: Laura Wauters - Training Manager - COLEAD
+  published: true
 
 - organisation: Hamilton Brookes
+  org-desc: Educational publisher working with over 2000 primary schools in the UK and globally.
   year: 2024
+  logo: hamilton-brookes-logo.png
   problem: The existing bespoke content delivery platform needed to adapt to changing market conditions
   description: Created a roadmap and user stories for future enhancements to the platform.
   outcome: Improved alignment between business goals and technology capabilities.
   quote: |
-
+    Mark is a rare find in the world of elearning and edtech. Not only is he an adept in systems and processes, platforms and operability standards, user-design and testing - Mark also brings deep knowledge and experience as an educator, leader, and learner to every project. One of the things I love about working with Mark is hearing how he is constantly learning, experimenting and sharing with others. Not only does he bring a A-Game to the work he does with clients - but we come away reinvigorated and fresher for having his input. I recommend Mark unreservedly.
   reference: Eylan Ezekiel - CEO - Hamilton Brookes
-  published: false
+  published: true
 
 - organisation: Cadmore Media
+  org-desc: A video technology company specialising in media delivery platforms for learning and professional development.
   year: 2024
   logo: Cadmore-Media-Header-Logo.svg
   problem: Expanding into a new market sector - professional development
@@ -61,6 +68,7 @@
   published: true
 
 - organisation: MIX Diversity
+  org-desc: Diversity and inclusion training provider and consultancy.
   year: 2024
   logo: mix-logo.svg
   problem: The company needed a learning content delivery platform suitable for both small and enterprise clients
