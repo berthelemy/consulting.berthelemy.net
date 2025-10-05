@@ -41,7 +41,7 @@ layout: simple_default
   <div>
 {%- endif -%}
   
-  <p><a href="/articles/{{ tag[0] }}">{{ tag[0] }}</a> ({{ tag[1] | size }})</p>
+  <p><a href="/articles/{{ tag[0] | slugify }}">{{ tag[0] }}</a> ({{ tag[1] | size }})</p>
   
 
 {% assign count = count | plus: 1 %}
