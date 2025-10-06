@@ -21,7 +21,7 @@ If schools, colleges, universities and workplace L&amp;D departments choose to r
 
 ## Cross-fertilisation between academia and corporate
 
-Wyver Solutions has already been involved in collaborations between academic institutions and corporate learning specialists. we are expecting and hoping to see many more of these.
+Wyver Solutions has already been involved in collaborations between academic institutions and corporate learning specialists. We are expecting and hoping to see many more of these.
 
 Of course, it&#8217;s possible that future collaborations may simply take the form of compliance training delivered via lecture capture systems&#8230; But my hope is that I'll end up with the best parts of both sectors &#8211; delivering high-quality online, scenario-based content combined with active facilitation and deep thinking.
 
