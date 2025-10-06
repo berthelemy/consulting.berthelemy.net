@@ -62,7 +62,7 @@ The results of this analysis should help to create a list of challenges that nee
 
 >   * new staff expect to have information at the fingertips &#8211; when they need it, regardless of location
 >   * staff cannot find what they need on my intranet, and are using Google to search for job support information on the council website
->   * I need to demonstrate that I are making most cost-effective use of the online and face-to-face environments in delivering my programmes
+>   * I need to demonstrate that we are making most cost-effective use of the online and face-to-face environments in delivering my programmes
 
 ### How will I address those challenges?
 

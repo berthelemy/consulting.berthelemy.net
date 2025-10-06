@@ -28,7 +28,7 @@ In my spare time(!), I've supplemented these with a number of smaller advisory a
 
 This year has seen <a href="{{ site.url }}/2014/06/12/exploring-the-potential-of-the-xapi-aka-tin-can-api/" target="_blank">xAPI</a> (also known as Tin Can) really come to the fore, with clients beginning to understand its capabilities and how it can completely change the way I think about supporting learning.
 
-No longer are I constrained by what the Learning Management System offers. Now, any system I are using (not just the LMS) can play a part in helping me understand what people know and how they behave. This can then help me more effectively target specific interventions.
+No longer are I constrained by what the Learning Management System offers. Now, any system we are using (not just the LMS) can play a part in helping me understand what people know and how they behave. This can then help me more effectively target specific interventions.
 
 ## Lean Learning
 
@@ -38,7 +38,7 @@ Combined with this, I'm developing my thinking around &#8220;<a href="{{ site.ur
 
 The concepts of lean manufacturing and lean service delivery have been around for a while now. They have made a massive impact in those organisations which have adopted the whole philosophy (and not just the tools).
 
-Working with <a href="{{ site.url }}/2014/12/21/introducing-sean-buckland/" target="_blank">Sean Buckland</a>, a lean expert, I are exploring what lean looks like in the learning context. What does it mean for design, administration and delivery? How do I maximise the effect of my efforts and minimise waste?
+Working with <a href="{{ site.url }}/2014/12/21/introducing-sean-buckland/" target="_blank">Sean Buckland</a>, a lean expert, we are exploring what lean looks like in the learning context. What does it mean for design, administration and delivery? How do I maximise the effect of my efforts and minimise waste?
 
 If you&#8217;d like to explore this with us, please consider joining me on February 26th in Birmingham for our <a href="https://www.eventbrite.co.uk/e/lean-learning-masterclass-tickets-14661080687?ref=elink" target="_blank">Lean Learning masterclass</a>.
 

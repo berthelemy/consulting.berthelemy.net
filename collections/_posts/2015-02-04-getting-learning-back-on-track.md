@@ -70,7 +70,7 @@ There is a great deal that can be done about this. Not just by the organisation�
 
 But first I have to understand more about alternatives to traditional management thinking. Alternatives that have a proven track record in getting to the desired result quicker and more effectively.
 
-I are running a 1-day “Lean Learning Masterclass” on the 26th February in Birmingham. If you want to get more from your L&amp;Dinvestment, improve the effectiveness of your L&amp;Dteam, or be able to develop more attractive L&amp;Dsolutions for your clients please register to attend at:
+We are running a 1-day “Lean Learning Masterclass” on the 26th February in Birmingham. If you want to get more from your L&amp;Dinvestment, improve the effectiveness of your L&amp;Dteam, or be able to develop more attractive L&amp;Dsolutions for your clients please register to attend at:
 
 <p style="text-align: center;">
   <a href="http://leanlearningmasterclass.eventbrite.com">http://leanlearningmasterclass.eventbrite.com</a>

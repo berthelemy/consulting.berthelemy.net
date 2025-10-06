@@ -15,13 +15,13 @@ I talk quite a bit about being *independent* consultants, but how does that work
 
 I work with a growing number of <a href="/about.html#suppliers">specialist suppliers</a> who I trust to work to the same standards as I do. In a few cases I have agreements with those suppliers which allow me to provide solution design, implementation, training or consultancy services on their behalf. Where these agreements exist, I always disclose them to my clients.
 
-I are always on the lookout for other suppliers who I can recommend to my customers.
+We are always on the lookout for other suppliers who I can recommend to my customers.
 
 Precisely who I bring in or recommend is dependent only on my customers' particular requirements. I do not receive any commission or kick-backs for any introductions made.
 
 In order to maintain integrity, my preference is to provide implementation, training etc services directly to the customer - especially in cases where I have had a relationship with the customer previously.
 
-Sometimes, suppliers call me in to provide these sorts of services, which is fine when the relationship is clear - where I are working on behalf of the supplier.
+Sometimes, suppliers call me in to provide these sorts of services, which is fine when the relationship is clear - where we are working on behalf of the supplier.
 
 However, from experience, I would recommend strongly that the key role in any implementation, the client's project manager, has a direct relationship with the customer, and is not placed by the supplier. This keeps things clear and uncomplicated - especially in times where the PM needs to be firm with the supplier!
 

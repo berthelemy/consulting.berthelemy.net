@@ -16,7 +16,7 @@ There was a great buzz in the place, with some of the great minds in learning an
 
   * If I can now collect data about everything that a person is doing, what about privacy?
   * Who owns this data?
-  * If many implementation of xAPI are going to be bespoke and unique where does that place it as a &#8220;standard&#8221;?
+  * If many implementation of xAPWe are going to be bespoke and unique where does that place it as a &#8220;standard&#8221;?
   * How do you know what data to collect?
   * Is xAPI ever going to break out of the L&amp;Dbubble and start to be used by operational systems?
 

@@ -1,7 +1,7 @@
 ---
 title: 'Highlighted charity: Boaz Trust'
 author: Wyver Solutions Admin
-excerpt: "I are showcasing the work of Boaz Trust, one of my supported charities. Take a few minutes to watch the video. It's hard not to be moved by the personal stories of the people they are helping."
+excerpt: "We are showcasing the work of Boaz Trust, one of my supported charities. Take a few minutes to watch the video. It's hard not to be moved by the personal stories of the people they are helping."
 layout: post
 permalink: /2015/03/23/highlighted-charity-boaz-trust/
 tags:

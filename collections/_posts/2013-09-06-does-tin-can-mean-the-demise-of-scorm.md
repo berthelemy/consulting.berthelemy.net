@@ -25,7 +25,7 @@ It’s creating quite a buzz in the learning and development community, with man
 
 So much so, that the question: “Does it do Tin Can?” is starting to appear in general conversations about learning systems. This reminds me of when “Are you SCORM compliant?” started to become a standard requirement in the early 2000’s – regardless of whether SCORM was actually relevant, useful or necessary for a particular context.
 
-In this article I are going to look at three key questions and examine whether the Experience API really is the answer to all my problems, or whether it might just bring different ones!
+In this article we are going to look at three key questions and examine whether the Experience API really is the answer to all my problems, or whether it might just bring different ones!
 
   1. What will the Experience API enable me to do?
   2. Does this mean the end of SCORM?
