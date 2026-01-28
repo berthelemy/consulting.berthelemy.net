@@ -8,17 +8,26 @@ hero-image: /assets/img/page-images/P8210015.JPG
 hero-image-alt: Mountains
 hero-text: Resources
 ---
-<div class="grid">
+
+{%- assign count = 0 -%}
 {% for resource in site.resources %}
+{%- if count == 0 -%}<div class="grid">{%- endif -%}
     <div>
         <article>
             <header>
-                <h2>{{ resource.title }}</h2>
+                <h2><a href="{{ resource.url }}">{{ resource.title }}</a></h2>
             </header>
             <p>{{ resource.excerpt }}</p>
-            <p class="centred"><a href="{{ resource.url }}"><button>View {{ resource.type }}</button></a></p>
         </article>
     </div>
+{%- if count == 1 -%}</div>{%- assign count = 0 -%}
+{%- else -%}
+{%- assign count = 1 -%}
+{%- endif -%}
+
 {% endfor %}
 
-</div>
+<p>&nbsp;</p>
+<p class="centred"><a href="/contact"><button class="secondary">Get in touch</button></a></p>
+
+

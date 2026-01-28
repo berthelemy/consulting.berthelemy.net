@@ -1,0 +1,38 @@
+---
+title: Recent projects
+display-title: false
+active: true
+layout: simple_default
+permalink: /projects
+hero-image: /assets/img/page-images/P8210015.JPG
+hero-image-alt: Mountains
+hero-text: Recent projects
+---
+
+{%- for project in site.data.projects -%}
+{%- if project.published == true -%}
+<article>
+    
+    <h3>{{ project.organisation }}</h3>
+    <img src="/assets/img/client-logos/{{ project.logo }}" alt="{{ project.organisation }} logo" style="float: right; max-width: 25vw; margin: 0 0.5rem 1rem 2rem;"/>
+    <p>{{ project.org-desc }}</p>
+    <p><strong>Problem:</strong> {{ project.problem }}</p>
+    <p><strong>Project:</strong> {{ project.description }}</p>
+    <p><strong>Outcome:</strong> {{ project.outcome }}</p>
+    <blockquote>
+        <p>{{ project.quote }}</p>
+        <footer>
+            <cite>{{ project.reference }}</cite>
+        </footer>
+    </blockquote>
+</article>
+{%- endif -%}
+
+{%- endfor -%}
+
+<p class="centred"><a href="/contact"><button class="secondary">Get in touch</button></a></p>
+
+
+
+
+
