@@ -1,0 +1,9 @@
+id,question,weight
+1,"This software will give us a core competitive advantage",-1
+2,"A 70-80% fit already exists in the market",1
+3,"The cost of a bought solution is considerably more than the cost of building, maintaining, and supporting self-built software over the next five years",-1
+4,"You are capable of building and maintaining software that meets the relevant security, regulatory and legal requirements (eg. data protection)",-1
+5,"Your requirements are complex",1
+6,"You understand the needs of your users, and can clearly document those needs for the developers or AI",-1
+7,"You are prepared to keep the software updated as security risks are identified",1
+8,"You can find people with the skills who are willing to manage the infrastructure required to run the software",-1

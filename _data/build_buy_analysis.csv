@@ -1,0 +1,4 @@
+lower,upper,text
+-12,-6,"You are probably safe to build your own software, but come back here if your situation changes."
+-5,5,"You're in that tricky place where it's not obvious which route to go down. You might want to try building a proof of concept at the same time as looking for possible commercial or open-source solutions. Get in touch if you need some help doing either of these."
+6,12,"It's probably best if you find some existing software that does what you need. Get in touch if you need help to define your requirements and search for possible solutions."

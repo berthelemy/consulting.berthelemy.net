@@ -1,0 +1,121 @@
+---
+category: Technology
+type: solution
+layout: resource
+excerpt: |
+    A tool to help you decide whether to build or buy
+
+title: Build vs buy
+active: true
+datatable:
+---
+<div class="container my-5" id="likert-app">
+  <p>Whether to build or buy software depends on several factors. Use this questionnaire to help decide which route to take.</p>
+  <p>No data is stored on our servers. It is entirely between you and your browser.</p>
+
+  <form id="likert-form">
+    <div id="questions-container"></div>
+
+    <button type="submit" class="btn btn-primary mt-3">
+      Get analysis
+    </button>
+  </form>
+
+  <div id="result" class="alert alert-info mt-4 d-none"></div>
+</div>
+
+<script>
+  const QUESTIONS = {{ site.data.build_buy_questions | jsonify }};
+  const ANALYSIS = {{ site.data.build_buy_analysis | jsonify }};
+
+document.addEventListener('DOMContentLoaded', () => {
+  const questionsContainer = document.getElementById('questions-container');
+  const form = document.getElementById('likert-form');
+  const resultDiv = document.getElementById('result');
+
+  const likertOptions = [
+    { value: -2, label: 'Strongly disagree' },
+    { value: -1, label: 'Disagree' },
+    { value: 1, label: 'Agree' },
+    { value: 2, label: 'Strongly agree' },
+    { value: 0, label: 'Don\'t know' }
+  ];
+
+  // Build questions from CSV data
+  QUESTIONS.forEach((qObj, index) => {
+    const qId = `q${index}`;
+    const qText = qObj.question;
+    const weight = Number(qObj.weight) || 1; // default to 1 if missing
+
+    const card = document.createElement('div');
+    card.className = 'card mb-3';
+
+    card.innerHTML = `
+      <article>
+        <header class="card-text fw-semibold">
+          ${qText}
+          <!--<span class="text-muted small">(weight: ${weight})</span>-->
+        </header>
+        
+          ${likertOptions.map(opt => `
+            
+              <div class="form-check">
+                <input class="form-check-input" type="radio"
+                       name="${qId}" id="${qId}_${opt.value}"
+                       value="${opt.value}" data-weight="${weight}" required>
+                <label class="form-check-label" for="${qId}_${opt.value}">
+                  ${opt.label}
+                </label>
+              </div>
+            
+          `).join('')}
+        
+      </article>
+    `;
+
+    questionsContainer.appendChild(card);
+  });
+
+  function findAdvice(score) {
+    for (const row of ANALYSIS) {
+      const lower = Number(row.lower);
+      const upper = Number(row.upper);
+      if (score >= lower && score <= upper) {
+        return row.text;
+      }
+    }
+    return 'No matching recommendation for this score.';
+  }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    let total = 0;
+    let answeredCount = 0;
+
+    QUESTIONS.forEach((_, index) => {
+      const qId = `q${index}`;
+      const checked = form.querySelector(`input[name="${qId}"]:checked`);
+      if (checked) {
+        const likertValue = Number(checked.value);
+        const weight = Number(checked.dataset.weight) || 1;
+        total += likertValue * weight;
+        answeredCount += 1;
+        console.log(qId,likertValue*weight,total);
+      }
+    });
+
+    if (answeredCount !== QUESTIONS.length) {
+      alert('Please answer all questions.');
+      return;
+    }
+
+    const advice = findAdvice(total);
+    resultDiv.classList.remove('d-none', 'alert-danger');
+    resultDiv.classList.add('alert-info');
+    resultDiv.textContent = `Weighted score: ${total} — ${advice}`;
+  });
+});
+
+
+</script>
