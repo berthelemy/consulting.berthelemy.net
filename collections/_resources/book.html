@@ -8,13 +8,117 @@ img-alt:
 img-credit: 
 img-url:
 excerpt: |
-    A free book describing a simple step-by-step process
+    A free book describing a simple step-by-step process to help you choose the right software for your organisation.
 ---
-
+<aside>
+    <img class="book-cover" src="/assets/img/page-images/book-covers/how-to-buy-software-cover-400.svg.png" alt="How to buy software book cover with line drawing of two people talking by a laptop">
+</aside>
 <p>You need new software for your organisation?</p>
 <p>Worried about whether you'll choose the right solution?</p>
 <p>Follow this step-by-step guide to reduce the risk of choosing a dud.</p>
-<p><a href="https://leanpub.com/howtobuysoftware" target="_blank"><img class="book-cover" src="/assets/img/page-images/book-covers/how-to-buy-software-cover-400.svg.png" alt="How to buy software book cover with line drawing of two people talking by a laptop"></a></p>
+<p>The book is available on LeanPub. Choose the zero price option for a free download.</p>
+<p>There's also a short game to help you think about the steps.</p>
+<a href="https://leanpub.com/howtobuysoftware" target="_blank"><button>Read the book</button></a>
+
+<style>
+   /* Modal Reset */
+dialog {
+  width: 90%;
+  height: 90%;
+  padding: 0;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden; /* Prevents scrollbars on the dialog itself */
+}
+
+.modal-body {
+  position: relative; /* Anchor for the absolute buttons */
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+/* The Overlay Container */
+.controls-overlay {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10; /* Ensure buttons stay above the iframe */
+  display: flex;
+  gap: 8px;
+}
+
+/* Button Styling */
+.controls-overlay button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  backdrop-filter: blur(4px); /* Modern frosted glass effect */
+  transition: background 0.2s;
+}
+
+.controls-overlay button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* Fullscreen tweaks */
+:fullscreen .controls-overlay {
+  top: 20px;
+  right: 20px;
+}
+</style>
+
+<button id="openModal">Play the game</button>
+
+<dialog id="modal">
+  <div class="modal-body" id="modalContent">
+    <div class="controls-overlay">
+      <button id="toggleFullscreen" title="Toggle Fullscreen">⛶</button>
+      <button id="closeModal" title="Close">✕</button>
+    </div>
+    
+    <iframe 
+      id="myIframe" 
+      src="https://berthelemy.github.io/how-to-buy-software/"
+      allowfullscreen>
+    </iframe>
+  </div>
+</dialog>
 
 
+<script>
+   const modal = document.getElementById('modal');
+const openBtn = document.getElementById('openModal');
+const closeBtn = document.getElementById('closeModal');
+const fullscreenBtn = document.getElementById('toggleFullscreen');
+const modalContent = document.getElementById('modalContent');
+
+openBtn.onclick = () => modal.showModal();
+closeBtn.onclick = () => modal.close();
+
+fullscreenBtn.onclick = () => {
+  if (!document.fullscreenElement) {
+    modalContent.requestFullscreen().catch(err => {
+      alert(`Error: ${err.message}`);
+    });
+  } else {
+    document.exitFullscreen();
+  }
+};
+
+// Close on backdrop click
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) modal.close();
+});
+</script>
 
