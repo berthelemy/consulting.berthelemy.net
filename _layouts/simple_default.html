@@ -81,8 +81,9 @@
             
                      
             {{ content }}
-           
-            
+            {%- if page.hide_signup != true -%}
+            {%- include brevo-form.html -%}
+            {%- endif -%}
             <!--{ %- include zoho-form.html -% }-->
         </main>      
         <footer class="container">
