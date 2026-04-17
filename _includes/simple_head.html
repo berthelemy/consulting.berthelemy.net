@@ -70,4 +70,27 @@
 
         {%- endif -%}
 
+        <!-- JSON LD -->
+         <script type="application/ld+json">
+        {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author }}",
+  "jobTitle": "Strategic learning technology advisor",
+  "description": "{{ site.description }}",
+  "knowsAbout": [
+    "Corporate Strategy",
+    "Software Development",
+    "IT Infrastructure",
+    "Instructional Design",
+    "Learning Design",
+    "Learning Technology",
+    "Moodle",
+    "Open source",
+    "Digital Transformation"
+  ],
+  "url": "{{ site.url }}"
+}
+</script>
+
     </head>
