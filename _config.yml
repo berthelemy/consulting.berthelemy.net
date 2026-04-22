@@ -32,6 +32,9 @@ collections:
     output: true
     sort_by: title
     permalink: /:collection/:path
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
 
 levels-order:
  - Novice
