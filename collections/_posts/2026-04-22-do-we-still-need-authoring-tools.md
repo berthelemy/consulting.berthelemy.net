@@ -29,7 +29,7 @@ You can see the result on this demo site: [https://berthelemy.github.io/html-ele
 
 If you want to go behind the scenes, you can check out the [Github repository](https://github.com/berthelemy/html-elearning-sample){:target="_blank" rel="noopener"} where I have documented the process and shared the code. The final SCORM package is in the dist/ folder. You can try it in your own LMS or on SCORM Cloud.
 
-The learning is simple: I wanted to create a module to teach people the imperfect tense in French. The agent was able to understand the topic and create content that was relevant and engaging for learners. That would probably be the only thing I would suggest needed more input from me. I'd left the instructions quite open - just referring it to the topic and the CEFR standards for level A2.
+The learning design is simple: I wanted to create a module to teach people the imperfect tense in French. The agent was able to understand the topic and create content that was relevant and engaging for learners. That would probably be the only thing I would suggest needed more input from me. I'd left the instructions quite open - just referring it to the topic and the CEFR standards for level A2.
 
 One of the great benefits of this approach is that the code produced by the AI agent is clean and well-structured. It follows best practices for web development and is easy to understand and modify if needed. This is a significant advantage over some traditional authoring tools, which can produce bloated and hard-to-maintain code.
 
