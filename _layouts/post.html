@@ -8,17 +8,20 @@ layout: simple_default
   </ul>
 </nav>
 {%- if page.img -%}
-<aside>
+{%- if page.imgdisplay == "aside" -%}<aside>{%- endif -%}
+  <figure>
   <img src="/post-images/{{ page.img }}" alt="{{ page.imgalt }}">
   {%- if page.imgcredit -%}
   {%- if page.imgurl -%}
-  <p><small>Image credit: <a href="{{ page.imgurl }}" target="_blank">{{ page.imgcredit }}</a></small></p>
+  <figcaption><small>Image credit: <a href="{{ page.imgurl }}" target="_blank">{{ page.imgcredit }}</a></small></figcaption>
   {%- else -%}
-  <p><small>Image credit: {{ page.imgcredit }}</small></p>
+  <figcaption><small>Image credit: {{ page.imgcredit }}</small></figcaption>
   {%- endif -%}
   {%- endif -%}
-</aside>
+  </figure>
+{%- if page.imgdisplay == "aside" -%}</aside>{%- endif -%}
 {%- endif -%}
+
 {{ content }}
 
 <hr />
