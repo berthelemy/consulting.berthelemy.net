@@ -41,6 +41,14 @@ Most knowledge management strategies currently are based on Word documents, PDFs
 
 That will probably be simple text files, often formatted (for human readability) using Markdown (see [The Markdown Guide](https://www.markdownguide.org/){:target="_blank" rel="noopener"}).
 
+## AI agents are the glue
+
+AI agents and chatbots will be the glue that holds this new learning architecture together. They will be responsible for accessing the raw materials, understanding the context of the learner's needs, and combining the relevant content to produce the desired output.
+
+## The role of the learning designer
+
+In this new learning architecture, the role of the learning designer will shift from being a course creator to being a content curator and architect. They will need to have a deep understanding of the raw materials, as well as the needs of the learners, in order to train the agents to deliver effective learning experiences.
+
 ## Summary
 
 In this new atomic model of learning, the focus is on creating small, reusable pieces of content that can be easily combined and repurposed to create personalized learning experiences.
