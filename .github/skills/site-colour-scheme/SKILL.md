@@ -28,12 +28,12 @@ These are the canonical design tokens for this site, sourced from `assets/sass/l
 | `fg-light` | `rgba(255,255,255,0.35)` | Muted / secondary text |
 | `border` | `rgba(255,255,255,0.15)` | Dividers and borders |
 | `border-bg` | `rgba(255,255,255,0.05)` | Subtle background tint |
-| `accent1` | `#5e42a6` | Primary interactive colour |
-| `accent1-alt` | `darken(#5e42a6, 10)` ≈ `#4a3382` | Hover/active state for accent1 |
-| `accent2` | `#5052b5` | Secondary interactive colour |
-| `accent2-alt` | `darken(#5052b5, 10)` ≈ `#3c3e91` | Hover/active state for accent2 |
-| `accent3` | `#b74e91` | Highlight / call-to-action colour |
-| `accent3-alt` | `darken(#b74e91, 10)` ≈ `#93366e` | Hover/active state for accent3 |
+| `accent1` | `#1e7574` | Primary interactive colour |
+| `accent1-alt` | `darken(#1e7574, 10)` ≈ `#165857` | Hover/active state for accent1 |
+| `accent2` | `#2b8f8e` | Secondary interactive colour |
+| `accent2-alt` | `darken(#2b8f8e, 10)` ≈ `#1f7372` | Hover/active state for accent2 |
+| `accent3` | `#1e7574` | Highlight / call-to-action colour |
+| `accent3-alt` | `darken(#1e7574, 10)` ≈ `#165857` | Hover/active state for accent3 |
 | Logo text | `#77228f` | Logo foreground |
 | Logo hover | `#a752bf` | Logo hover state |
 | Wrapper style1/1-alt | `#333` | Content section background |
@@ -61,12 +61,12 @@ Declare tokens as CSS custom properties on `:root` so Bootstrap utilities and cu
   --color-fg-light:   rgba(255, 255, 255, 0.35);
   --color-border:     rgba(255, 255, 255, 0.15);
   --color-border-bg:  rgba(255, 255, 255, 0.05);
-  --color-accent1:    #5e42a6;
-  --color-accent1-alt:#4a3382;
-  --color-accent2:    #5052b5;
-  --color-accent2-alt:#3c3e91;
-  --color-accent3:    #b74e91;
-  --color-accent3-alt:#93366e;
+  --color-accent1:    #1e7574;
+  --color-accent1-alt:#165857;
+  --color-accent2:    #2b8f8e;
+  --color-accent2-alt:#1f7372;
+  --color-accent3:    #1e7574;
+  --color-accent3-alt:#165857;
 }
 ```
 
@@ -81,8 +81,8 @@ Decision points:
 - Use `var(--color-accent3)` for calls-to-action and highlights.
 - Map Bootstrap 5 theme variables to site tokens in SCSS where applicable:
   ```scss
-  $primary:   #5e42a6;
-  $secondary: #5052b5;
+  $primary:   #1e7574;
+  $secondary: #2b8f8e;
   $body-bg:   #312450;
   $body-color: rgba(255,255,255,0.55);
   ```

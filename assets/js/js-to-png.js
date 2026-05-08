@@ -30,7 +30,7 @@ function wrapText(ctx,text,x,y,maxWidth,lineHeight){
 var width = 1200;
 var height = 627;
 var fontSize = 90;
-var rectColor = '#5052b5';
+var rectColor = '#1E7574';
 var textColor = '#fff';
 var lineHeight = 1.15;
 //var text = "All the world is a stage, and all the people merely players";

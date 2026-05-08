@@ -15,10 +15,10 @@
   --color-fg-light:    #666666;
   --color-border:      #dee2e6;
   --color-border-bg:   #f1f3f5;
-  --color-accent1:     #5e42a6;
-  --color-accent1-alt: #4a3382;
-  --color-accent2:     #5052b5;
-  --color-accent2-alt: #3c3e91;
+  --color-accent1:     #1e7574;
+  --color-accent1-alt: #165857;
+  --color-accent2:     #2b8f8e;
+  --color-accent2-alt: #1f7372;
   --color-accent3:     #1e7574;
   --color-accent3-alt: #165857;
 }
@@ -30,9 +30,9 @@
 /* Map brand colours onto Bootstrap semantic tokens */
 :root {
   --bs-primary:        var(--color-accent1);
-  --bs-primary-rgb:    94, 66, 166;
+  --bs-primary-rgb:    30, 117, 116;
   --bs-secondary:      var(--color-accent2);
-  --bs-secondary-rgb:  80, 82, 181;
+  --bs-secondary-rgb:  43, 143, 142;
   --bs-link-color:     var(--color-accent1);
   --bs-link-hover-color: var(--color-accent1-alt);
 
@@ -289,6 +289,17 @@ blockquote p::after {
   content: "";
   position: absolute;
   inset: 0;
+}
+
+.card {
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1.1rem rgba(0, 0, 0, 0.12);
+  border-color: var(--color-accent1);
 }
 
 .card-title a:hover {
