@@ -11,16 +11,16 @@ front-page: true
 layout: simple_default
 permalink: /articles
 ---
-<blockquote>
-  <p>Mark brings a wealth of technical knowledge married with deep expertise in learning and development. He asks great questions but participates in helping you to find the answers rather than just sitting on the sidelines. I wouldn't hesitate to work with him again.</p>
-        
-        <footer>
-          <cite>Owen Ferguson - Chief Product Officer - Mindtools</cite>
-        </footer>
-      
-      </blockquote>
+<figure class="mb-5">
+  <blockquote class="blockquote">
+    <p>Mark brings a wealth of technical knowledge married with deep expertise in learning and development. He asks great questions but participates in helping you to find the answers rather than just sitting on the sidelines. I wouldn't hesitate to work with him again.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite>Owen Ferguson - Chief Product Officer - Mindtools</cite>
+  </figcaption>
+</figure>
 
-<div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+<div class="row row-cols-1 row-cols-md-3 g-5 mb-4">
 {%- for post in site.posts limit: 9 -%}
 <div class="col">
   <article class="card h-100">

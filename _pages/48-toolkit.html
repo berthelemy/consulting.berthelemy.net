@@ -13,29 +13,20 @@ imgalt:
 front-page: true
 ---
 {%- assign count = 0 -%}
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
 {% for tool in site.toolkit %}
-{%- if count == 0 -%}
-<div class="grid">
-    {%- endif -%} 
-
-    <div>
-        <article class="tool">
-            <header><h2><a href="{{ tool.url }}">{{ tool.title }}</a></h2></header>
-            <p class="category-tag">{{ tool.category }}</p>
-            <p>{{ tool.description }}</p>
-            <div><img src="/assets/img/page-images/{{ tool.img }}" alt="{{ tool.img-alt }}" /></div>
+    <div class="col">
+        <article class="card h-100 tool">
+            <img src="/assets/img/page-images/{{ tool.img }}" alt="{{ tool.img-alt }}" class="card-img-top">
+            <div class="card-body">
+                <h2 class="card-title h5"><a href="{{ tool.url }}" class="stretched-link">{{ tool.title }}</a></h2>
+                <p class="text-muted small mb-2">{{ tool.category }}</p>
+                <p class="card-text">{{ tool.description }}</p>
+            </div>
         </article>
     </div>
-
-    {%- assign count = count | plus:1 -%}
-    {%- if count == 3 -%}
-    {%- assign count = 0 -%}
-    </div>
-    {%- endif -%}
-    {%- endfor -%}
-    {%- if count == 1 or count == 2 -%}    
-    </div>
-    {%- endif -%}
+{%- endfor -%}
+</div>
 <!--
 <div class="button-group text-center">
     <div class="filter" role="group">
