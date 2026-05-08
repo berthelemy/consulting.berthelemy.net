@@ -1,33 +1,15 @@
-{%- assign count = 0 -%}
 {%- assign expertiseOrdered = site.expertise | sort:"order" %}
+<div class="row row-cols-1 row-cols-md-2 g-4">
 {%- for expertise in expertiseOrdered -%}
 {%- if expertise.published != false -%}
-{%- if count == 0 -%}
-<div class="grid">
-{%- endif -%}
-
-    <div>
-        <article class="expertise">
-            <!--<header>
-            
-            <img src="/assets/img/page-images/{{ expertise.img }}" alt="{{ expertise.img-alt }}">
-            <p class="img-credit">Image credit:&nbsp;
-                {%- if expertise.img-credit-url -%}<a href="{{ expertise.img-credit-url }}" target="_blank">{{ expertise.img-credit }}</a>
-                {%- else -%}
-                {{ expertise.img-credit }}
-                {%- endif -%}
-            </p>
-            </header>-->
-            <h3><a href="{{ expertise.url }}">{{ expertise.title }}</a></h3>
-            <p class="description">{{ expertise.excerpt }}</p>
-        </article>
+<div class="col">
+  <article class="card h-100">
+    <div class="card-body">
+      <h3 class="card-title h5"><a href="{{ expertise.url }}">{{ expertise.title }}</a></h3>
+      <p class="card-text">{{ expertise.excerpt }}</p>
     </div>
-
-{%- assign count = count | plus: 1 -%}
-{%- if count == 2 -%}
-</div><!-- end grid container -->
-{%- assign count = 0 -%}
-{%- endif -%}
+  </article>
+</div>
 {%- endif -%}
 {%- endfor -%}
 </div>

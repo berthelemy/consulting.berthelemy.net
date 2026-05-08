@@ -2,56 +2,38 @@
 layout: simple_default
 ---
 <nav aria-label="breadcrumb">
-  <ul>
-    <li><a href="/resources">Resources</a></li>
-    <li><a href="/resources/standards">Standards</a></li>
-    <li>{{ page.title }}</li>
-  </ul>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/resources">Resources</a></li>
+    <li class="breadcrumb-item"><a href="/resources/standards">Standards</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
 </nav>
 
-    <aside class="floating-menu">
-    <h2>Related standards</h2>
-      <nav>
-    <ul>
-      {%- assign standards = site.standards | where: "type", page.type | sort: "title" -%}
-      {%- assign number_standards = standards | size -%}
-      {%- if number_standards > 1 -%}
-      {%- for standard in standards -%}
-      {%- if page.url != standard.url -%}
-      <li><a href="{{ site.baseurl }}{{ standard.url }}">{{ standard.title }}</a></li>
-      {%- endif -%}
-      {%- endfor -%}
-      {%- else -%}
-      <li>No related standards</li>
-      {%- endif -%}
-    </ul>
-    </nav>
-    </aside>
-    <p>{{ page.title }} is {% if page.type == 'interoperability' %} an {% else %} a {% endif %} {{ page.type }}
-      standard{% if page.aka %}, also known as: <strong>{{ page.aka }}</strong>.{% else %}. {% endif %}</p>
+<div class="row g-4">
+  <div class="col-12 col-md-9">
 
-    <p>The <a href="{{ page.standard_url }}" target="_blank">{{ page.title }} documentation</a> is managed by {{
-      page.owner }}, and was last updated in {{ page.last_updated }}.</p>
+    <p>{{ page.title }} is {% if page.type == 'interoperability' %}an{% else %}a{% endif %} {{ page.type }}
+      standard{% if page.aka %}, also known as: <strong>{{ page.aka }}</strong>.{% else %}.{% endif %}</p>
+
+    <p>The <a href="{{ page.standard_url }}" target="_blank">{{ page.title }} documentation</a> is managed by
+      {{ page.owner }}, and was last updated in {{ page.last_updated }}.</p>
 
     {{ content }}
 
     {%- if page.type == 'interoperability' -%}
-
     <p>{{ page.purpose }}</p>
-
     {%- endif -%}
 
-    <div class="grid">
-      <div>
+    <div class="row g-4 mt-2">
+      <div class="col-12 col-sm-6">
         <h2>Strengths</h2>
-
         <ul>
           {%- for strength in page.strengths -%}
           <li>{{ strength }}</li>
           {%- endfor -%}
         </ul>
       </div>
-      <div>
+      <div class="col-12 col-sm-6">
         <h2>Limitations</h2>
         <ul>
           {%- for limitation in page.limitations -%}
@@ -61,11 +43,31 @@ layout: simple_default
       </div>
     </div>
 
-    <div class="centred">
-      <a role="button" href="{{ page.standard_url }}" target="_blank">More information on the {{ page.title }}
-        standard</a>
+    <div class="text-center mt-3">
+      <a class="btn btn-primary" href="{{ page.standard_url }}" target="_blank">More information on the {{ page.title }} standard</a>
     </div>
-  
-  
-    
-  
+
+  </div>
+  <aside class="col-12 col-md-3" aria-label="Related standards">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title h5">Related standards</h2>
+        <nav aria-label="Related standards navigation">
+          <ul class="list-unstyled">
+            {%- assign standards = site.standards | where: "type", page.type | sort: "title" -%}
+            {%- assign number_standards = standards | size -%}
+            {%- if number_standards > 1 -%}
+            {%- for standard in standards -%}
+            {%- if page.url != standard.url -%}
+            <li><a href="{{ site.baseurl }}{{ standard.url }}">{{ standard.title }}</a></li>
+            {%- endif -%}
+            {%- endfor -%}
+            {%- else -%}
+            <li>No related standards</li>
+            {%- endif -%}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </aside>
+</div>

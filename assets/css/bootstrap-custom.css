@@ -1,0 +1,499 @@
+/*
+ * bootstrap-custom.css
+ * Brand overrides for Bootstrap 5 — consulting.berthelemy.net
+ * Maps the site colour palette to Bootstrap CSS custom properties.
+ */
+
+/* ============================================================
+   1. BRAND COLOUR TOKENS
+   ============================================================ */
+:root {
+  --color-bg:          #ffffff;
+  --color-bg-alt:      #f8f9fa;
+  --color-fg:          #333333;
+  --color-fg-bold:     #212529;
+  --color-fg-light:    #666666;
+  --color-border:      #dee2e6;
+  --color-border-bg:   #f1f3f5;
+  --color-accent1:     #5e42a6;
+  --color-accent1-alt: #4a3382;
+  --color-accent2:     #5052b5;
+  --color-accent2-alt: #3c3e91;
+  --color-accent3:     #b74e91;
+  --color-accent3-alt: #93366e;
+}
+
+/* ============================================================
+   2. BOOTSTRAP 5 OVERRIDES
+   ============================================================ */
+
+/* Map brand colours onto Bootstrap semantic tokens */
+:root {
+  --bs-primary:        var(--color-accent1);
+  --bs-primary-rgb:    94, 66, 166;
+  --bs-secondary:      var(--color-accent2);
+  --bs-secondary-rgb:  80, 82, 181;
+  --bs-link-color:     var(--color-accent1);
+  --bs-link-hover-color: var(--color-accent1-alt);
+
+  /* Page chrome */
+  --bs-body-bg:        var(--color-bg);
+  --bs-body-color:     var(--color-fg);
+  --bs-heading-color:  var(--color-fg-bold);
+  --bs-border-color:   var(--color-border);
+
+  /* Navbar */
+  --bs-navbar-bg:      var(--color-bg-alt);
+  --bs-navbar-color:   var(--color-fg-bold);
+
+  /* Font */
+  --bs-body-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bs-body-font-size:   1rem;
+  --bs-body-line-height: 1.6;
+}
+
+/* ============================================================
+   3. GLOBAL LAYOUT
+   ============================================================ */
+
+html {
+  scroll-padding-top: 4.5rem; /* compensate for fixed navbar height */
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+/* ============================================================
+   4. NAVBAR
+   ============================================================ */
+
+.navbar {
+  background-color: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.navbar .nav-link {
+  color: var(--color-fg-bold);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: var(--color-accent3);
+}
+
+.navbar-toggler {
+  border-color: var(--color-border);
+}
+
+.navbar-toggler-icon {
+  /* icon naturally dark on light background */
+}
+
+/* ============================================================
+   5. PAGE HEADER
+   ============================================================ */
+
+header#main-header {
+  background: linear-gradient(90deg, var(--color-accent1) 0%, var(--color-accent2) 50%, var(--color-accent1) 100%);
+  padding: 1rem;
+  color: var(--color-fg-bold);
+}
+
+header#main-header h1 {
+  color: var(--color-fg-bold);
+  margin-bottom: 0;
+}
+
+header#main-header.headerHero {
+  background: none;
+  padding: 0;
+}
+
+/* Hero image section */
+.hero-image {
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 1;
+}
+
+.hero-text h1 {
+  padding: 1rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+  color: var(--color-fg-bold);
+}
+
+/* ============================================================
+   6. MAIN CONTENT
+   ============================================================ */
+
+main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+a {
+  color: var(--color-accent1);
+}
+
+a:hover {
+  color: var(--color-accent1-alt);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-fg-bold);
+}
+
+/* ============================================================
+   7. ASIDE / SIDEBAR
+   ============================================================ */
+
+aside:not(.floating-menu):not(.textbox):not(footer aside):not(.list) {
+  float: right;
+  width: 33%;
+  margin: 0 0 1rem 1.5rem;
+}
+
+aside img {
+  object-fit: contain;
+}
+
+aside.textbox {
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  width: 50%;
+  margin: 0.4rem 0 1rem 1.5rem;
+  background-color: var(--color-accent1);
+  color: #fff;
+  padding: 1rem;
+  float: right;
+}
+
+aside.textbox p,
+aside.textbox h3,
+aside.textbox a,
+aside.textbox ul {
+  color: #fff;
+}
+
+aside.textbox a {
+  text-decoration: underline;
+}
+
+aside.floating-menu {
+  padding-left: 1rem;
+}
+
+aside.floating-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside.floating-menu ul li {
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+footer aside,
+aside.list {
+  float: none;
+  width: auto;
+  margin: 0;
+}
+
+/* ============================================================
+   8. BLOCKQUOTE
+   ============================================================ */
+
+blockquote {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  border-left: 4px solid var(--color-accent1);
+  padding-left: 1rem;
+  color: var(--color-fg-light);
+}
+
+blockquote div.quote {
+  float: left;
+  margin-right: 1rem;
+}
+
+blockquote div.quotetext {
+  display: block;
+  overflow: hidden;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote p::before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  margin-right: 3px;
+  color: var(--color-fg-light);
+}
+
+blockquote p::after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  margin-left: 3px;
+  color: var(--color-fg-light);
+}
+
+/* ============================================================
+   9. CARDS
+   ============================================================ */
+
+.card {
+  background-color: var(--color-bg-alt);
+  border-color: var(--color-border);
+  color: var(--color-fg);
+  height: 100%;
+}
+
+.card-title a {
+  color: var(--color-fg-bold);
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  color: var(--color-accent3);
+}
+
+/* ============================================================
+   10. BUTTONS
+   ============================================================ */
+
+.btn-primary {
+  --bs-btn-bg:           var(--color-accent1);
+  --bs-btn-border-color: var(--color-accent1);
+  --bs-btn-hover-bg:     var(--color-accent1-alt);
+  --bs-btn-hover-border-color: var(--color-accent1-alt);
+  --bs-btn-color:        #fff;
+  --bs-btn-hover-color:  #fff;
+}
+
+.btn-secondary {
+  --bs-btn-bg:           var(--color-accent2);
+  --bs-btn-border-color: var(--color-accent2);
+  --bs-btn-hover-bg:     var(--color-accent2-alt);
+  --bs-btn-hover-border-color: var(--color-accent2-alt);
+  --bs-btn-color:        #fff;
+  --bs-btn-hover-color:  #fff;
+}
+
+.btn-accent {
+  --bs-btn-bg:           var(--color-accent3);
+  --bs-btn-border-color: var(--color-accent3);
+  --bs-btn-hover-bg:     var(--color-accent3-alt);
+  --bs-btn-hover-border-color: var(--color-accent3-alt);
+  --bs-btn-color:        #fff;
+  --bs-btn-hover-color:  #fff;
+}
+
+/* ============================================================
+   11. BREADCRUMB
+   ============================================================ */
+
+.breadcrumb {
+  background: transparent;
+  padding: 0.5rem 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--color-fg-light);
+}
+
+.breadcrumb-item a {
+  color: var(--color-accent1);
+}
+
+.breadcrumb-item.active {
+  color: var(--color-fg-light);
+}
+
+/* ============================================================
+   12. FOOTER
+   ============================================================ */
+
+footer {
+  border-top: 1px solid var(--color-border);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: var(--color-fg-light);
+}
+
+footer h2 {
+  font-size: 1rem;
+  color: var(--color-fg-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+footer a {
+  color: var(--color-fg);
+}
+
+footer a:hover {
+  color: var(--color-accent3);
+}
+
+.text-center-footer {
+  text-align: center;
+}
+
+/* ============================================================
+   13. ARTICLE / POST IMAGES
+   ============================================================ */
+
+article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+p.img-credit {
+  font-size: 0.7rem;
+  color: var(--color-fg-light);
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.banner {
+  margin: 0;
+  max-height: 20vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* ============================================================
+   14. YOUTUBE EMBED
+   ============================================================ */
+
+.youtube-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.youtube-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ============================================================
+   15. EXPERTISE CARDS
+   ============================================================ */
+
+article.expertise {
+  height: 97%;
+}
+
+/* ============================================================
+   16. CTA
+   ============================================================ */
+
+#cta {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ============================================================
+   17. BOOK COVER
+   ============================================================ */
+
+.book-cover {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.book-cover img {
+  border: 1px solid #000;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.book-cover a {
+  display: block;
+}
+
+/* ============================================================
+   18. DATATABLES DARK THEME COMPATIBILITY
+   ============================================================ */
+
+table.dataTable thead th,
+table.dataTable tbody td {
+  color: var(--color-fg);
+  background-color: var(--color-bg-alt);
+}
+
+/* ============================================================
+   19. MISCELLANEOUS UTILITIES
+   ============================================================ */
+
+.clear {
+  clear: both;
+}
+
+.centred {
+  text-align: center;
+}
+
+.tag-link {
+  display: inline-block;
+  background-color: var(--color-accent1);
+  color: #fff;
+  padding: 0.2em 0.5em;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  margin: 0.1rem;
+}
+
+/* ============================================================
+   20. DETAILS / SUMMARY
+   ============================================================ */
+
+details summary h2,
+details summary h3 {
+  display: inline;
+}

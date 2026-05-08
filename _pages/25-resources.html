@@ -12,24 +12,18 @@ hero-text: Resources
 ---
 {%- include brevo-cta.html -%}
 
-{%- assign count = 0 -%}
+<div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
 {% for resource in site.resources %}
-{%- if count == 0 -%}<div class="grid">{%- endif -%}
-    <div>
-        <article>
-            <header>
-                <h2><a href="{{ resource.url }}">{{ resource.title }}</a></h2>
-            </header>
-            <p>{{ resource.excerpt }}</p>
-        </article>
+<div class="col">
+  <article class="card h-100">
+    <div class="card-body">
+      <h2 class="card-title h5"><a href="{{ resource.url }}">{{ resource.title }}</a></h2>
+      <p class="card-text">{{ resource.excerpt }}</p>
     </div>
-{%- if count == 1 -%}</div>{%- assign count = 0 -%}
-{%- else -%}
-{%- assign count = 1 -%}
-{%- endif -%}
-
+  </article>
+</div>
 {% endfor %}
-{%- if count == 1 -%}</div>{%- endif -%}
+</div>
 
 <p class="centred"><a href="/contact"><button class="secondary">Get in touch</button></a></p>
 

@@ -1,18 +1,33 @@
-<div class="features">
 {% for service in site.data.services %}
-  <section id="{{ service.id }}">
-    <span class="icon solid major {{ service.icon }}"></span>
-    <h4>{{ service.title }}</h4>
+<section class="mb-5" id="{{ service.id }}">
+  <h3>{{ service.title }}</h3>
+  {% if service.subservices %}
+  <div class="accordion" id="accordion-{{ service.id }}">
     {% for subservice in service.subservices %}
-      <div class="accordion">{{ subservice.title }}</div>
-      <div class="panel">
-        <h5>Outcomes</h5>
-        <p>{{ subservice.outcomes }}</p>
-        <h5>Approach</h5>
-        <p>{{ subservice.approach }}</p>
+    {% assign subservice_id = service.id | append: '-' | append: forloop.index %}
+    <div class="accordion-item">
+      <h4 class="accordion-header" id="heading-{{ subservice_id }}">
+        <button class="accordion-button collapsed" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse-{{ subservice_id }}"
+          aria-expanded="false"
+          aria-controls="collapse-{{ subservice_id }}">
+          {{ subservice.title }}
+        </button>
+      </h4>
+      <div id="collapse-{{ subservice_id }}" class="accordion-collapse collapse"
+        aria-labelledby="heading-{{ subservice_id }}"
+        data-bs-parent="#accordion-{{ service.id }}">
+        <div class="accordion-body">
+          <h5>Outcomes</h5>
+          <p>{{ subservice.outcomes }}</p>
+          <h5>Approach</h5>
+          <p>{{ subservice.approach }}</p>
+        </div>
       </div>
+    </div>
     {% endfor %}
-  </section>
+  </div>
+  {% endif %}
+</section>
 {% endfor %}
-</div>
-<div>&nbsp;</div>

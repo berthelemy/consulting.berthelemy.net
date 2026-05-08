@@ -1,13 +1,15 @@
-<div class="row">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
 {% for website in site.data.websites %}
 {% if website.status == 'active' %}
-<div class="col-4 col-12-xsmall col-6-small">
-<h3><a href="{{ website.url }}" target="_blank">{{ website.name }}</a></h3>
-<p>{{ website.description }}</p>
-<p>Tools used: {{ website.tools }}</p>
-
+<div class="col">
+  <div class="card h-100">
+    <div class="card-body">
+      <h3 class="card-title h5"><a href="{{ website.url }}" target="_blank">{{ website.name }}</a></h3>
+      <p class="card-text">{{ website.description }}</p>
+      <p class="card-text"><small>Tools used: {{ website.tools }}</small></p>
+    </div>
   </div>
-  {% endif %}
-  {% endfor %}
-  </div>
-  <div>&nbsp;</div>
+</div>
+{% endif %}
+{% endfor %}
+</div>

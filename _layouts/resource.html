@@ -2,20 +2,15 @@
 layout: simple_default
 ---
 <nav aria-label="breadcrumb">
-  <ul>
-    <li><a href="/resources">Resources</a></li>
-    <li>{{ page.title }}</li>
-  </ul>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/resources">Resources</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
 </nav>
 
 {%- include brevo-cta.html -%}
-             
-            
-                     
-            {{ content }}
 
-            <hr />
-            <p class="centred">If you'd like to discuss this resource, or how I can help you, <a href="/contact">get in touch</a>.</p>
-              
-           
-            
+{{ content }}
+
+<hr>
+<p class="text-center">If you'd like to discuss this resource, or how I can help you, <a href="/contact">get in touch</a>.</p>

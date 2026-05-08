@@ -2,53 +2,43 @@
 layout: simple_default
 ---
 <nav aria-label="breadcrumb">
-    <ul>
-      <li><a href="/toolkit">Toolkit</a></li>
-      <li>{{ page.category }}</li>
-      <li>{{ page.title }}</li>
-    </ul>
-  </nav>
-<div class="grid">
-    <div>
-        <h2>Summary</h2>
-        <p>{{ page.description }}</p>
-    </div>
-    
-        <div>
-        <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.img-alt }}" />
-        <p><small>Image credit: <a href="{{ page.img-url }}" target="_blank">{{ page.img-credit }}</a></small></p>
-        </div>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/toolkit">Toolkit</a></li>
+    <li class="breadcrumb-item"><a href="/toolkit#{{ page.category | slugify }}">{{ page.category }}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+
+<div class="row g-4 mb-3">
+  <div class="col-12 col-md-8">
+    <h2>Summary</h2>
+    <p>{{ page.description }}</p>
+  </div>
+  <div class="col-12 col-md-4">
+    <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.img-alt }}" class="img-fluid">
+    <p><small>Image credit: <a href="{{ page.img-url }}" target="_blank">{{ page.img-credit }}</a></small></p>
+  </div>
 </div>
+
 <hr>
 {{ content }}
 
 <hr>
 
-{%- assign toolcat = site.toolkit | where: "category",page.category -%}
+{%- assign toolcat = site.toolkit | where: "category", page.category -%}
 {%- if toolcat.size >= 2 -%}
 <h3>Related tools</h3>
-{%- endif -%}
 <ul>
 {%- for tool in site.toolkit -%}
 {%- if tool.category == page.category -%}
 {%- if tool.url != page.url -%}
-
 <li><a href="{{ tool.url }}">{{ tool.title }}</a></li>
-
 {%- endif -%}
 {%- endif -%}
 {%- endfor -%}
 </ul>
-
-
+{%- endif -%}
 
 <hr>
 
 {% include cta.html %}
-
-<!--{%- if page.previous.url -%}
-    <div>Previous tool: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div>
-{%- endif -%}
-{%- if page.next.url -%}
-        <div>Next tool: <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></div>
-{%- endif -%}-->

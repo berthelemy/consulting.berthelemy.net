@@ -17,37 +17,35 @@ layout: simple_default
 permalink: /contact
 
 ---
-<div class="grid">
-  <div><article><p>Please note that, by getting in touch, I assume that you are happy with my <a href="{{ site.url }}/privacy">Privacy Policy.</a></p>
-    <form action="https://submit-form.com/LX9tsjlHC">
-      
-      <input
-      type="hidden"
-      name="_redirect"
-      value="https://consulting.berthelemy.net/contact/thanks"
-    />
-    <input type="hidden" name="_append" value="false" />
-      <fieldset>
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Name" required="" />
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Email" required="" />
-      <label for="message">Message</label>
-      <textarea
-        id="message"
-        name="message"
-        placeholder="Message"
-        required=""
-      ></textarea>
-    </fieldset>
-    <div class="g-recaptcha" data-sitekey="6LdYPIUqAAAAAKBVAhf2FnqDcURtFtVK9Dm_rDeY"></div>  
-      <button type="submit">Send</button>
-    </form>
-</article>
-</div>
-  <div>
+<div class="row g-4">
+  <div class="col-12 col-md-8">
     <article>
-      <header><h2>Contact details</h2></header>
+      <p>Please note that, by getting in touch, I assume that you are happy with my <a href="{{ site.url }}/privacy">Privacy Policy.</a></p>
+      <form action="https://submit-form.com/LX9tsjlHC">
+        <input type="hidden" name="_redirect" value="https://consulting.berthelemy.net/contact/thanks" />
+        <input type="hidden" name="_append" value="false" />
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5" required></textarea>
+        </div>
+        <div class="mb-3">
+          <div class="g-recaptcha" data-sitekey="6LdYPIUqAAAAAKBVAhf2FnqDcURtFtVK9Dm_rDeY"></div>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </article>
+  </div>
+  <div class="col-12 col-md-4">
+    <article>
+      <header><h2 class="h5">Contact details</h2></header>
      
       
   <p>Mark Berthelemy</p>

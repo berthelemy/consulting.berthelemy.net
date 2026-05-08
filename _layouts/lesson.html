@@ -1,60 +1,68 @@
 ---
 layout: simple_default
 ---
-<aside>
-    <h3>Level:</h3>
-    <p>{{ page.level }}</p>
-</aside>
+<div class="row g-4">
+  <div class="col-12 col-md-9">
 
-{{ content }}
+    {{ content }}
 
-<hr>
+    <hr>
 
-<p>To receive feedback and ask questions, join my coaching programme.</p>
+    <p>To receive feedback and ask questions, join my coaching programme.</p>
 
-<hr>
-<h3>Related lessons</h3>
+    <hr>
+    <h3>Related lessons</h3>
 
-<h4>In this category: {{ page.category }}</h4>
+    <h4>In this category: {{ page.category }}</h4>
 
-{%- for level in site.levels-order -%}
-<h5>Level: {{ level }}</h5>
-<ul>
-{%- for lesson in site.lessons -%}
-{%- if lesson.category == page.category -%}
-{%- if lesson.url != page.url -%}
-{%- if lesson.level == level -%}
-<li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
-{%- endif -%}
-{%- endif -%}
-{%- endif -%}
-{%- endfor -%}
-</ul>
-{%- endfor -%}
-
-
-<h4>At this level: {{ page.level }}</h4>
-
-{%- assign lessons-by-category = site.lessons | group_by: "category" -%}
-{%- for category in lessons-by-category -%}
-<h5>Category: {{ category.name }}</h5>
-<ul>
-    {%- for lesson in category.items -%}
+    {%- for level in site.levels-order -%}
+    <h5>Level: {{ level }}</h5>
+    <ul>
+    {%- for lesson in site.lessons -%}
+    {%- if lesson.category == page.category -%}
     {%- if lesson.url != page.url -%}
-    {%- if lesson.level == page.level -%}
+    {%- if lesson.level == level -%}
     <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
+    {%- endif -%}
     {%- endif -%}
     {%- endif -%}
     {%- endfor -%}
     </ul>
     {%- endfor -%}
 
+    <h4>At this level: {{ page.level }}</h4>
 
+    {%- assign lessons-by-category = site.lessons | group_by: "category" -%}
+    {%- for category in lessons-by-category -%}
+    <h5>Category: {{ category.name }}</h5>
+    <ul>
+      {%- for lesson in category.items -%}
+      {%- if lesson.url != page.url -%}
+      {%- if lesson.level == page.level -%}
+      <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
+      {%- endif -%}
+      {%- endif -%}
+      {%- endfor -%}
+    </ul>
+    {%- endfor -%}
 
-<hr>
-{%- if page.previous.url -%}
-    <div>Previous lesson: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div>
-{%- endif -%}
-{%- if page.next.url -%}
-        <div>Next lesson: <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></div>
-{%- endif -%}
+    <hr>
+    <nav aria-label="Lesson navigation" class="d-flex justify-content-between">
+      {%- if page.previous.url -%}
+      <a class="btn btn-outline-secondary btn-sm" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+      {%- else -%}<span></span>{%- endif -%}
+      {%- if page.next.url -%}
+      <a class="btn btn-outline-secondary btn-sm" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+      {%- endif -%}
+    </nav>
+
+  </div>
+  <aside class="col-12 col-md-3" aria-label="Lesson details">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title h5">Level</h3>
+        <p class="card-text">{{ page.level }}</p>
+      </div>
+    </div>
+  </aside>
+</div>

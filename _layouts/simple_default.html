@@ -1,99 +1,42 @@
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
 <html lang="en">
     {% include simple_head.html %}
     <body>
-      {% if page.hide-banner != true %}
-      <!--<div id="banner" class="container">
-        <div id="banner-content">
-          <p><a href="/strategy-workshop">Unlock your organisation's potential with a strategy workshop</a></p>
-        </div>
-      </div>-->
-      {% endif %}
-        
-            {% include simple_nav.html %}
 
-                 
+        {% include simple_nav.html %}
+
         {%- if page.hero-image -%}
-        {%- assign headerHero = "headerHero" -%}
-        {%- endif -%}
-        
-        
-        <header id="main-header" class="container {{ headerHero }}">
-
-            {%- if page.hero-image -%}
+        <header id="main-header" class="headerHero">
             <div class="hero-image">
                 <img src="{{ page.hero-image }}" alt="{{ page.hero-image-alt }}">
                 {%- if page.hero-text -%}
                 <div class="hero-text">
-                  <div class="grid">
-                    <div>
-                      
+                    <div class="container">
                         <h1>{{ page.hero-text }}</h1>
-                      
                     </div>
-                    <div>
-                      
-                      
-                   
-                    </div>
-              
-                  </div>
                 </div>
-                <!-- end of hero text -->
                 {%- endif -%}
-              </div><!-- end of hero image -->
-    
-            {%- else -%}
-
-            <h1>{{ page.title }}</h1>
-           <!-- {%- if page.img -%}
-            {%- if page.imgcredit -%}
-                {%- if page.imgurl -%}
-                    <p><small>Image credit: <a href="{{ page.imgurl }}" target="_blank">{{ page.imgcredit }}</a></small></p>
-                {%- else -%}
-                    <p><small>Image credit: {{ page.imgcredit }}</small></p>
-                {%- endif -%}
-            {%- endif -%}   -->
-            <!--<img src="{{ page.img }}" alt="People in a workshop">-->
-            
-            <!--{%- endif -%}-->
-
-            {%- endif -%}
-            
+            </div>
         </header>
-       
-         
-        
-   
+        {%- else -%}
+        <header id="main-header">
+            <div class="container">
+                <h1>{{ page.title }}</h1>
+            </div>
+        </header>
+        {%- endif -%}
 
-            
-        <main class="container">
-            <!--<nav aria-label="breadcrumb">
-                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li>Design</li>
-                </ul>
-              </nav>-->
-
-             
-            
-                     
+        <main class="container py-4">
             {{ content }}
             {%- if page.hide_signup != true -%}
             {%- include brevo-form.html -%}
             {%- endif -%}
-            <!--{ %- include zoho-form.html -% }-->
-        </main>      
+        </main>
+
         <footer class="container">
-            
             {% include simple_footer.html %}
-            
         </footer>
-    
-        
-        
+
         {% include scripts.html %}
 
     </body>
