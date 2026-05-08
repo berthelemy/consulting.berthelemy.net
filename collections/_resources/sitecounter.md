@@ -11,7 +11,10 @@ excerpt: |
     A self-hosted, privacy-friendly website tracker. It lets an administrator register websites, install a small tracking snippet, and review visit and unique visitor trends.
 ---
 SiteCounter is a self-hosted, privacy-friendly website tracker. It lets an administrator register websites, install a small tracking snippet, and review visit and unique visitor trends.
-![SiteCounter screenshot](/assets/img/page-images/resources/sitecounter-safe-en.png)
+
+<p class="text-center my-4">
+    <img src="/assets/img/page-images/resources/sitecounter-safe-en.png" alt="SiteCounter screenshot" class="resource-screenshot img-fluid rounded border">
+</p>
 
 ## Features
 

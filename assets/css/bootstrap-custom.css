@@ -19,8 +19,8 @@
   --color-accent1-alt: #4a3382;
   --color-accent2:     #5052b5;
   --color-accent2-alt: #3c3e91;
-  --color-accent3:     #b74e91;
-  --color-accent3-alt: #93366e;
+  --color-accent3:     #1e7574;
+  --color-accent3-alt: #165857;
 }
 
 /* ============================================================
@@ -276,11 +276,19 @@ blockquote p::after {
   border-color: var(--color-border);
   color: var(--color-fg);
   height: 100%;
+  position: relative;
 }
 
 .card-title a {
   color: var(--color-fg-bold);
   text-decoration: none;
+}
+
+/* Make cards clickable when they contain a linked card title. */
+.card .card-title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
 }
 
 .card-title a:hover {
@@ -455,6 +463,12 @@ article.expertise {
 
 .book-cover a {
   display: block;
+}
+
+.resource-screenshot {
+  max-width: 720px;
+  width: 100%;
+  height: auto;
 }
 
 /* ============================================================
