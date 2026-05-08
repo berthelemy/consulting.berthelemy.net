@@ -11,30 +11,45 @@ hero-image-alt: Person working on a laptop
 hero-text: Recent projects
 ---
 
-{%- include brevo-cta.html -%}
-
 {%- for project in site.data.projects -%}
 {%- if project.published == true -%}
-<article>
-    
-    <h3>{{ project.organisation }}</h3>
-    <img src="/assets/img/client-logos/{{ project.logo }}" alt="{{ project.organisation }} logo" style="float: right; max-width: 25vw; margin: 0 0.5rem 1rem 2rem;"/>
-    <p>{{ project.org-desc }}</p>
-    <p><strong>Problem:</strong> {{ project.problem }}</p>
-    <p><strong>Project:</strong> {{ project.description }}</p>
-    <p><strong>Outcome:</strong> {{ project.outcome }}</p>
-    <blockquote>
-        <p>{{ project.quote }}</p>
-        <footer>
-            <cite>{{ project.reference }}</cite>
-        </footer>
-    </blockquote>
+<article class="mb-5">
+    <h2>{{ project.organisation }}</h2>
+    <div class="row align-items-start">
+        <div class="col-12 col-md-9">
+            
+            {%- if project.logo -%}
+            <img src="/assets/img/client-logos/{{ project.logo }}" alt="{{ project.organisation }} logo" class="img-fluid d-md-none my-3" style="max-width: 10rem;">
+            {%- endif -%}
+            {%- if project.org-desc -%}
+            <p>{{ project.org-desc }}</p>
+            {%- endif -%}
+            <p><strong>Problem:</strong> {{ project.problem }}</p>
+            <p><strong>Project:</strong> {{ project.description }}</p>
+            <p><strong>Outcome:</strong> {{ project.outcome }}</p>
+            {%- if project.quote and project.quote != "" -%}
+            <figure>
+                <blockquote class="blockquote">
+                    <p>{{ project.quote }}</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    <cite>{{ project.reference }}</cite>
+                </figcaption>
+            </figure>
+            {%- endif -%}
+        </div>
+        {%- if project.logo -%}
+        <div class="col-md-3 d-none d-md-block">
+            <img src="/assets/img/client-logos/{{ project.logo }}" alt="{{ project.organisation }} logo" class="img-fluid">
+        </div>
+        {%- endif -%}
+    </div>
 </article>
 {%- endif -%}
 
 {%- endfor -%}
 
-<p class="centred"><a href="/contact"><button class="secondary">Get in touch</button></a></p>
+<p class="text-center"><a href="/contact" class="btn btn-secondary">Get in touch</a></p>
 
 
 
