@@ -21,4 +21,4 @@ SiteCounter is a self-hosted, privacy-friendly website tracker. It lets an admin
 - Cookie consent built-in
 - Reporting dashboard with unique visitors, total visits, top pages, bottom pages, and timeline chart
 
-<p class="centred"><a href="https://github.com/berthelemy/sitecounter" target="_blank"><button>Download from Github</button></a></p>
+<p class="text-center"><a href="https://github.com/berthelemy/sitecounter" target="_blank" class="btn btn-primary">Download from Github</a></p>

@@ -44,22 +44,10 @@ permalink: /articles
 {% assign count = 0 %}
 {% assign halfcount = tagnumber | divided_by: 2 | plus: 1 %}
 
-<div class="grid">
+<div class="row row-cols-2 row-cols-md-4 g-2">
 {%- for tag in tags -%}
-{%- if count == 0 -%}
-  <div>
-{%- endif -%}
-  
-  <p><a href="/articles/{{ tag[0] | slugify }}">{{ tag[0] }}</a> ({{ tag[1] | size }})</p>
-  
-
-{% assign count = count | plus: 1 %}
-{%- if count == halfcount -%}
-  </div>
-  {% assign count = 0 %}
-{%- endif -%}
+<div class="col">
+  <a href="/articles/{{ tag[0] | slugify }}">{{ tag[0] }}</a> ({{ tag[1] | size }})
+</div>
 {%- endfor -%}
-{%- if count != 0 -%}
-  </div>
-{%- endif -%}
 </div>
