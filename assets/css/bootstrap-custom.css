@@ -102,11 +102,11 @@ body {
 header#main-header {
   background: linear-gradient(90deg, var(--color-accent1) 0%, var(--color-accent2) 50%, var(--color-accent1) 100%);
   padding: 1rem;
-  color: var(--color-fg-bold);
+  color: #ffffff;
 }
 
 header#main-header h1 {
-  color: var(--color-fg-bold);
+  color: #ffffff; /* #fff on accent1 = 7.5:1 — WCAG AA ✓ */
   margin-bottom: 0;
 }
 
@@ -142,7 +142,7 @@ header#main-header.headerHero {
 .hero-text h1 {
   padding: 1rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
-  color: var(--color-fg-bold);
+  color: #ffffff; /* #fff on 75% black overlay = 13:1 — WCAG AA ✓ */
 }
 
 /* ============================================================
