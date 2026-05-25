@@ -10,8 +10,8 @@ tableRowgroup: 1
 permalink: /2026/05/24/ld-new-role
 img: 2026/05/elearning-detour.png
 imgalt: A horizontal line (marked as Organisational Knowledge) with a detour branch (marked as Courses)
-imgcredit: Mark Berthelemy
-imgurl:
+imgcredit: Mark Berthelemy/Pixabay
+imgurl: https://pixabay.com/photos/books-library-bookshelf-knowledge-6912138/
 tags:
   - Informal learning
   - Solution design
