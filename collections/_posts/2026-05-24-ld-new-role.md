@@ -1,7 +1,7 @@
 ---
 title: 'What is the role for L&D in an AI-supported world?'
 author: Mark Berthelemy
-excerpt: Was elearning as we know it, just a temporary detour?
+excerpt: Was elearning as we know it just a temporary detour?
 layout: post
 datatable: false
 tablePagination: false
