@@ -9,6 +9,7 @@ img-credit: Pixabay
 img-url: https://pixabay.com/en/keyboard-type-computer-computing-498396/
 excerpt: |
     A quick check to see if your materials will work for your audience
+icon: bi-card-checklist
 ---
 The goal of creating materials on the web is communication. The checklist below provides a test to see if your materials will communicate effectively.
 

@@ -1,8 +1,8 @@
 - name: Home
   url: /
   button-include: false
-- name: Consulting framework
-  url: /framework
+- name: Consulting packages
+  url: /packages
   button-include: true
 - name: Recent projects
   url: /projects

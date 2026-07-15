@@ -9,6 +9,7 @@ img-credit: Mark Berthelemy
 img-url: 
 excerpt: |
     An open-source kit to help you design and publish your own human and AI-readable skills framework
+icon: bi-puzzle
 ---
 
 <figure class="float-md-end ms-md-4 mb-4 col-12 col-md-4">
