@@ -1,7 +1,7 @@
 
     <head>
         <title>{{ site.title }} | {{ page.title }}</title>
-        <meta name="description" content="{{ site.long-description }}">
+        <meta name="description" content="{{ site.description }}">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -21,7 +21,7 @@
   <meta property="og:url" content="{{ page.url }}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
-  <meta property="og:description" content="{{ site.long-description }}">
+  <meta property="og:description" content="{{ site.description }}">
   {% if page.hero-image %}
   <meta property="og:image" content="https://mark.berthelemy.net/{{ page.hero-image }}">
   {% else %}
@@ -33,7 +33,7 @@
   <meta property="twitter:domain" content="{{ site.domain }}">
   <meta property="twitter:url" content="{{ page.url }}">
   <meta name="twitter:title" content="{{ site.title }} | {{ page.title }}">
-  <meta name="twitter:description" content="{{ site.long-description }}">
+  <meta name="twitter:description" content="{{ site.description }}">
   {% if page.hero-image %}
   <meta property="twitter:image" content="https://mark.berthelemy.net/{{ page.hero-image }}">
   {% else %}

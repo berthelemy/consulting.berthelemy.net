@@ -1,7 +1,7 @@
 
     <head>
         <title>{{ page.title }} | {{ site.title }}</title>
-        <meta name="description" content="{{ site.long-description }}">
+        <meta name="description" content="{{ site.description }}">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
@@ -13,7 +13,7 @@
   {%- if page.excerpt -%}
   <meta property="og:description" content="{{ page.excerpt }}">
   {%- else -%}
-  <meta property="og:description" content="{{ site.long-description }}">
+  <meta property="og:description" content="{{ site.description }}">
   {%- endif -%}
   {%- if page.img -%}
   <meta property="og:image" content="{{ site.url }}/post-images/{{ page.img }}">
@@ -31,7 +31,7 @@
   {%- if page.excerpt -%}
   <meta name="twitter:description" content="{{ page.excerpt }}">
   {%- else -%}
-  <meta name="twitter:description" content="{{ site.long-description }}">
+  <meta name="twitter:description" content="{{ site.description }}">
   {%- endif -%}
   {%- if page.img -%}
   <meta name="twitter:image" content="{{ site.url }}/post-images/{{ page.img }}">
