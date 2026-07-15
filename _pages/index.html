@@ -13,42 +13,127 @@ imgcredit:
 imgurl: 
 permalink: /
 ---
-<p class="lead">I help knowledge-intensive organisations make confident decisions about technology.</p>
+<div class="container my-5 max-width-lg" style="max-width: 900px;">
+  
+  <!-- Hero / Intro Statement -->
+  <header class="text-center py-5 px-4 mb-5 bg-light rounded-3 border-bottom">
+    <p class="lead fs-3 fw-semibold text-dark mb-0">
+      I help knowledge-intensive organisations make confident decisions about technology.
+    </p>
+  </header>
 
-<h2>Philosophy</h2>
+  <!-- Philosophy Section -->
+  <section class="row py-4 align-items-center">
+    <div class="col-md-4">
+      <h2 class="text-primary fw-bold text-uppercase tracking-wide fs-5 mb-3 mb-md-0">Philosophy</h2>
+    </div>
+    <div class="col-md-8 border-start border-4 border-primary">
+      
+          <p>Technology should never be the starting point.</p>
+          <p>Good technology decisions begin with understanding the organisation, its people, its processes, and the problems it is trying to solve.</p>
+      <p class="fs-5 text-primary">
+        I don't create dependency. <span class="text-dark fw-semibold">I leave behind better thinking.</span>
+      </p>
+    </div>
+  </section>
 
-<ul>
-<li>Technology should never be the starting point.</li>
-<li>Good technology decisions begin with understanding the organisation, its people, its processes and the problems it is trying to solve.</li>
-<li>I don't create dependency. I leave behind better thinking.</li>
-</ul>
+  <hr class="my-5 text-muted opacity-25">
 
-<h2>Principles</h2>
+  <!-- Principles Section -->
+  <section class="py-4">
+    <h2 class="text-center fw-bold mb-5">Principles</h2>
+    
+    <div class="row g-4">
+      <!-- Left Column of Principles -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-start mb-4">
+          <span class="badge bg-primary text-white rounded-circle p-2 me-3">✓</span>
+          <div>
+            <h5 class="fw-semibold mb-1">I start with the problem, not the technology</h5>
+          </div>
+        </div>
+        <div class="d-flex align-items-start mb-4">
+          <span class="badge bg-primary text-white rounded-circle p-2 me-3">✓</span>
+          <div>
+            <h5 class="fw-semibold mb-1">I seek evidence before proposing solutions</h5>
+          </div>
+        </div>
+        <div class="d-flex align-items-start mb-4">
+          <span class="badge bg-primary text-white rounded-circle p-2 me-3">✓</span>
+          <div>
+            <h5 class="fw-semibold mb-1">I challenge assumptions respectfully</h5>
+          </div>
+        </div>
+        <div class="d-flex align-items-start">
+          <span class="badge bg-primary text-white rounded-circle p-2 me-3">✓</span>
+          <div>
+            <h5 class="fw-semibold mb-1">I consider people, processes, and technology together</h5>
+          </div>
+        </div>
+      </div>
 
-<ul>
-  <li>I start with the problem, not the technology</li>
-  <li>I seek evidence before proposing solutions</li>
-  <li>I challenge assumptions respectfully</li>
-  <li>I consider people, processes and technology together</li>
-  <li>I present options, not predetermined answers</li>
-  <li>I build confidence through clarity</li>
-  <li>I leave organisations more capable than when I arrived</li>
-  <li>I am independent</li>
-</ul>
+      <!-- Right Column of Principles -->
+      <div class="col-md-6">
+        <div class="d-flex align-items-start mb-4">
+          <span class="badge bg-primary text-white rounded-circle p-2 me-3">✓</span>
+          <div>
+            <h5 class="fw-semibold mb-1">I present options, not predetermined answers</h5>
+          </div>
+        </div>
+        <div class="d-flex align-items-start mb-4">
+          <span class="badge bg-primary text-white rounded-circle p-2 me-3">✓</span>
+          <div>
+            <h5 class="fw-semibold mb-1">I build confidence through clarity</h5>
+          </div>
+        </div>
+        <div class="d-flex align-items-start mb-4">
+          <span class="badge bg-primary text-white rounded-circle p-2 me-3">✓</span>
+          <div>
+            <h5 class="fw-semibold mb-1">I leave organisations more capable than when I arrived</h5>
+          </div>
+        </div>
+        <div class="d-flex align-items-start">
+          <span class="badge bg-primary text-white rounded-circle p-2 me-3">✓</span>
+          <div>
+            <h5 class="fw-semibold mb-1">I am completely independent</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h2>About me</h2>
+  <hr class="my-5 text-muted opacity-25">
 
-<p>I've worked across public, private and third-sector organisations for over 30 years - at the intersections of learning, technology, knowledge and business.</p>
+  <!-- About Me Section -->
+  <section class="row py-4 align-items-center">
+    <div class="col-md-3 text-center mb-4 mb-md-0">
+      <!-- A stylish visual counter to anchor the 30-year stat -->
+      <div class="d-inline-flex flex-column align-items-center justify-content-center bg-primary text-white rounded-circle fs-1 fw-bold" style="width: 120px; height: 120px;">
+        30+ <span class="fs-6 fw-normal d-block" style="margin-top: -5px;">Years</span>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <h2 class="fw-bold mb-3">About Me</h2>
+      <p class="fs-5 text-secondarylh-base">
+        I've worked across public, private, and third-sector organisations for over 30 years — operating at the  intersections of <strong>learning, technology, knowledge, and business</strong>.
+      </p>
+    </div>
+  </section>
 
-<div class="row mb-4">
+</div>
+
+
+<div class="row g-4 mb-5">
   {% for item in site.data.menu %}
   {% if item.button-include %}
-  <div class="col-md-3 mb-sm-3">
-    <div class="card h-100">
-      <div class="card-body text-center">
-      <a href="{{ item.url }}" class="stretched-link">{{ item.name }}</a>
+  <div class="col-md-3">
+    <div class="card h-100 border border-primary border-2 shadow-sm custom-hover-card">
+      <div class="card-body text-center d-flex flex-column justify-content-between p-2">
+        <a href="{{ item.url }}" class="stretched-link text-decoration-none text-primary w-100 mt-auto fs-6">
+          {{ item.name }}
+        </a>
       </div>
-  </div>
+    </div>
   </div>
   {% endif %}
   {% endfor %}
@@ -86,5 +171,7 @@ permalink: /
         </div>
 
 
-
+<div id="cta" class="text-center my-4">
+  <a href="/articles" class="btn btn-white border border-primary border-2 text-primary fs-6">More articles</a>
+</div>
 
