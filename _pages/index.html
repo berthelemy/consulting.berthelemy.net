@@ -13,15 +13,15 @@ imgcredit:
 imgurl: 
 permalink: /
 ---
-<p class="lead">I help knowledge-intensive organisations make confident decisions about technology by understanding their problems, gathering evidence, challenging assumptions and developing practical strategies for change.</p>
+<p class="lead">I help knowledge-intensive organisations make confident decisions about technology.</p>
 
 <h2>Philosophy</h2>
 
-<p>Technology should never be the starting point.</p>
-
-<p>Good technology decisions begin with understanding the organisation, its people, its processes and the problems it is trying to solve.</p>
-
-<p>I don't create dependency. I leave behind better thinking.</p>
+<ul>
+<li>Technology should never be the starting point.</li>
+<li>Good technology decisions begin with understanding the organisation, its people, its processes and the problems it is trying to solve.</li>
+<li>I don't create dependency. I leave behind better thinking.</li>
+</ul>
 
 <h2>Principles</h2>
 
@@ -38,8 +38,22 @@ permalink: /
 
 <h2>About me</h2>
 
-<p>I have over 30 years experience at the intersections of learning, technology and business. From this background, I help organisations make confident decisions about technology.</p>
-<div class="text-center d-grid gap-2 col-4 mx-auto my-3"><a href="https://www.linkedin.com/in/markberthelemy" target="_blank" class="text-white btn btn-primary" type="button">LinkedIn profile</a></div>
+<p>I've worked across public, private and third-sector organisations for over 30 years - at the intersections of learning, technology, knowledge and business.</p>
+
+<div class="row mb-5">
+  {% for item in site.data.menu %}
+  {% if item.button-include %}
+  <div class="col-md-3 mb-sm-3">
+    <div class="card h-100">
+      <div class="card-body text-center">
+      <a href="{{ item.url }}" class="stretched-link">{{ item.name }}</a>
+      </div>
+  </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+
 
 <!--<figure>
     <blockquote class="blockquote">

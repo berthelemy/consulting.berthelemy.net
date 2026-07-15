@@ -1,0 +1,18 @@
+- name: Home
+  url: /
+  button-include: false
+- name: Consulting framework
+  url: /framework
+  button-include: true
+- name: Recent projects
+  url: /projects
+  button-include: true
+- name: Resources
+  url: /resources
+  button-include: true
+- name: Articles
+  url: /articles
+  button-include: true
+- name: Contact
+  url: /contact
+  button-include: false
