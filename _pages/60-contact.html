@@ -18,45 +18,108 @@ permalink: /contact
 
 ---
 <div class="row g-4 mb-5">
-  <div class="col-12 col-md-8">
-    <article>
-      <p>Please note that, by getting in touch, I assume that you are happy with my <a href="{{ site.url }}/privacy">Privacy Policy.</a></p>
-      <form action="https://submit-form.com/LX9tsjlHC">
-        <input type="hidden" name="_redirect" value="https://consulting.berthelemy.net/contact/thanks" />
-        <input type="hidden" name="_append" value="false" />
-        <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5" required></textarea>
-        </div>
-        <div class="mb-3">
-          <div class="g-recaptcha" data-sitekey="6LdYPIUqAAAAAKBVAhf2FnqDcURtFtVK9Dm_rDeY"></div>
-        </div>
-        <button type="submit" class="btn btn-primary">Send</button>
-      </form>
-    </article>
+  <!-- Left Side: Form Container -->
+  <div class="col-12 col-lg-8">
+    <div class="card h-100 border-0 shadow-sm p-4 p-md-5 bg-white rounded-4">
+      <article>
+        <h2 class="h3 mb-4 fw-bold text-dark">Send a Message</h2>
+        
+        <form action="https://submit-form.com/LX9tsjlHC">
+          <input type="hidden" name="_redirect" value="https://consulting.berthelemy.net/contact/thanks" />
+          <input type="hidden" name="_append" value="false" />
+          
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="name" class="form-label fw-semibold small text-secondary">Your Name</label>
+              <input type="text" class="form-control form-control-lg rounded-3 fs-6" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            
+            <div class="col-md-6 mb-3">
+              <label for="email" class="form-label fw-semibold small text-secondary">Your Email</label>
+              <input type="email" class="form-control form-control-lg rounded-3 fs-6" id="email" name="email" placeholder="name@example.com" required />
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <label for="message" class="form-label fw-semibold small text-secondary">Message</label>
+            <textarea class="form-control form-control-lg rounded-3 fs-6" id="message" name="message" placeholder="How can I help you?" rows="5" required></textarea>
+          </div>
+
+          <!-- Recaptcha Container -->
+          <div class="mb-4">
+            <div class="g-recaptcha" data-sitekey="6LdYPIUqAAAAAKBVAhf2FnqDcURtFtVK9Dm_rDeY"></div>
+          </div>
+
+          <!-- Privacy Policy note anchored to the actions -->
+          <p class="small text-muted mb-4">
+            <i class="bi bi-shield-lock me-1"></i> By getting in touch, I assume you agree to my <a href="{{ site.url }}/privacy" class="text-decoration-underline link-secondary">Privacy Policy</a>.
+          </p>
+
+          <button type="submit" class="btn btn-primary btn-lg px-5 py-2.5 rounded-3 fw-bold">
+            Send Message <i class="bi bi-send ms-2"></i>
+          </button>
+        </form>
+      </article>
+    </div>
   </div>
-  <div class="col-12 col-md-4">
-    <article>
-      <header><h2 class="h5">Contact details</h2></header>
-     
-      
-  <p>Mark Berthelemy</p>
-  <p>Email: <a href="mailto:mark@berthelemy.net">mark@berthelemy.net</a></p>
-  <p>Phone: <a href="tel:+33 (0)6 62 64 66 57">+33 (0)6 62 64 66 57</a></p>
-  <p>Address: 14 Bourgeal, 56560 GUISCRIFF, France</p>
-  <div id="cta" class="text-center my-4">
-  <a href="#" class="btn btn-accent" data-cal-link="markberthelemy/25-minute-call" data-cal-namespace="25-minute-call" data-cal-config='{"layout":"month_view"}'>View my calendar to book a call</a>
-</div>
-  
-  
-</article>
-</div>
+
+  <!-- Right Side: Contact Details & Scheduler -->
+  <div class="col-12 col-lg-4">
+    <div class="card h-100 border-0 shadow-sm p-4 bg-white rounded-4 d-flex flex-column justify-content-between">
+      <article class="h-100 d-flex flex-column justify-content-between">
+        <div>
+          <header>
+            <h2 class="h4 mb-4 fw-bold text-dark">Contact Details</h2>
+          </header>
+          
+          <!-- Profile Quick Info -->
+          <div class="mb-4">
+            <h3 class="h5 fw-bold text-primary mb-1">Mark Berthelemy</h3>
+            <span class="text-muted small">Consulting Services</span>
+          </div>
+
+          <!-- Contact items with icons -->
+          <div class="d-flex align-items-start mb-3">
+            <div class="bg-light text-primary rounded-3 p-2 me-3">
+              <i class="bi bi-envelope fs-5"></i>
+            </div>
+            <div>
+              <span class="text-muted d-block small">Email me</span>
+              <a href="mailto:mark@berthelemy.net" class="text-decoration-none fw-semibold text-dark">mark@berthelemy.net</a>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start mb-3">
+            <div class="bg-light text-primary rounded-3 p-2 me-3">
+              <i class="bi bi-telephone fs-5"></i>
+            </div>
+            <div>
+              <span class="text-muted d-block small">Call me</span>
+              <a href="tel:+330662646657" class="text-decoration-none fw-semibold text-dark">+33 (0)6 62 64 66 57</a>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start mb-4">
+            <div class="bg-light text-primary rounded-3 p-2 me-3">
+              <i class="bi bi-geo-alt fs-5"></i>
+            </div>
+            <div>
+              <span class="text-muted d-block small">Location</span>
+              <span class="fw-semibold text-dark">14 Bourgeal, 56560 GUISCRIFF, France</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Highlighted Calendar CTA Card -->
+        <div class="p-3 bg-light rounded-4 border border-1 border-light text-center mt-auto">
+          <i class="bi bi-calendar-event text-primary fs-3 mb-2 d-block"></i>
+          <h4 class="h6 fw-bold mb-2">Need a dedicated session?</h4>
+          <p class="small text-muted mb-3">Skip the email chain and schedule a direct meeting on my calendar.</p>
+          <a href="#" class="btn btn-accent w-100 py-2 rounded-3 fw-bold" data-cal-link="markberthelemy/25-minute-call" data-cal-namespace="25-minute-call" data-cal-config='{"layout":"month_view"}'>
+            Book a 25-Min Call
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
 </div>
