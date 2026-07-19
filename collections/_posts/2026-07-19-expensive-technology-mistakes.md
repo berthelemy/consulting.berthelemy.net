@@ -130,3 +130,5 @@ Before you start your next technology procurement, perhaps ask yourself one simp
 **Do we understand our problem as well as we're trying to understand the market?**
 
 The answer to that question might indicate whether you're ready to find a solution, or whether you need to do some more thinking first.
+
+[Editor's note: This article was structured with the aid of AI, based on original ideas provided by the author]
