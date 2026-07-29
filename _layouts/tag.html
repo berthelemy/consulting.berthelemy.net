@@ -21,10 +21,10 @@ layout: simple_default
 {%- endfor -%}
 </div>
 
-<h2>Categories</h2>
+<h2>Other categories</h2>
 
 {% assign tags = site.tags | sort %}
-<div class="row row-cols-2 row-cols-md-4 g-2">
+<div class="row row-cols-2 row-cols-md-4 g-2 mb-4">
 {%- for tag in tags -%}
 <div class="col">
   <a href="/articles/{{ tag[0] | slugify }}">{{ tag[0] }}</a> ({{ tag[1] | size }})
